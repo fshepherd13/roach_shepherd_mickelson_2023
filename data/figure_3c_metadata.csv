@@ -1,0 +1,325 @@
+path,round,week,cell_origin,treatment,cell_type,replicate,HA_or_NP,moi
+../data/round_7_influenza_fluorescence_intensity/Lonza_basal_HA_A.csv,7,3,nhbe,Lonza,Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_basal_HA_B.csv,7,3,nhbe,Lonza,Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_basal_HA_C.csv,7,3,nhbe,Lonza,Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_basal_HA_A.csv,7,3,nhbe,PC_IL13_low,Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_basal_HA_B.csv,7,3,nhbe,PC_IL13_low,Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_basal_HA_C.csv,7,3,nhbe,PC_IL13_low,Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_basal_HA_A.csv,7,3,nhbe,PC_IL13_high,Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_basal_HA_B.csv,7,3,nhbe,PC_IL13_high,Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_basal_HA_C.csv,7,3,nhbe,PC_IL13_high,Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_basal_HA_A.csv,7,3,nhbe,PC_DAPT,Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_basal_HA_B.csv,7,3,nhbe,PC_DAPT,Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_basal_HA_C.csv,7,3,nhbe,PC_DAPT,Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_basal_HA_A.csv,7,3,nhbe,Pneumacult,Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_basal_HA_B.csv,7,3,nhbe,Pneumacult,Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_basal_HA_C.csv,7,3,nhbe,Pneumacult,Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD271pos_ciliated_HA_A.csv,7,3,nhbe,Lonza,CD271+ Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD271pos_ciliated_HA_B.csv,7,3,nhbe,Lonza,CD271+ Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD271pos_ciliated_HA_C.csv,7,3,nhbe,Lonza,CD271+ Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD271pos_ciliated_HA_A.csv,7,3,nhbe,PC_IL13_low,CD271+ Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD271pos_ciliated_HA_B.csv,7,3,nhbe,PC_IL13_low,CD271+ Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD271pos_ciliated_HA_C.csv,7,3,nhbe,PC_IL13_low,CD271+ Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD271pos_ciliated_HA_A.csv,7,3,nhbe,PC_IL13_high,CD271+ Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD271pos_ciliated_HA_B.csv,7,3,nhbe,PC_IL13_high,CD271+ Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD271pos_ciliated_HA_C.csv,7,3,nhbe,PC_IL13_high,CD271+ Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD271pos_ciliated_HA_A.csv,7,3,nhbe,PC_DAPT,CD271+ Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD271pos_ciliated_HA_B.csv,7,3,nhbe,PC_DAPT,CD271+ Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD271pos_ciliated_HA_C.csv,7,3,nhbe,PC_DAPT,CD271+ Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD271pos_ciliated_HA_A.csv,7,3,nhbe,Pneumacult,CD271+ Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD271pos_ciliated_HA_B.csv,7,3,nhbe,Pneumacult,CD271+ Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD271pos_ciliated_HA_C.csv,7,3,nhbe,Pneumacult,CD271+ Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_basal_HA_A.csv,7,3,nhbe,Lonza,CD66c+ Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_basal_HA_B.csv,7,3,nhbe,Lonza,CD66c+ Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_basal_HA_C.csv,7,3,nhbe,Lonza,CD66c+ Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_basal_HA_A.csv,7,3,nhbe,PC_IL13_low,CD66c+ Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_basal_HA_B.csv,7,3,nhbe,PC_IL13_low,CD66c+ Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_basal_HA_C.csv,7,3,nhbe,PC_IL13_low,CD66c+ Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_basal_HA_A.csv,7,3,nhbe,PC_IL13_high,CD66c+ Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_basal_HA_B.csv,7,3,nhbe,PC_IL13_high,CD66c+ Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_basal_HA_C.csv,7,3,nhbe,PC_IL13_high,CD66c+ Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_basal_HA_A.csv,7,3,nhbe,PC_DAPT,CD66c+ Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_basal_HA_B.csv,7,3,nhbe,PC_DAPT,CD66c+ Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_basal_HA_C.csv,7,3,nhbe,PC_DAPT,CD66c+ Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_basal_HA_A.csv,7,3,nhbe,Pneumacult,CD66c+ Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_basal_HA_B.csv,7,3,nhbe,Pneumacult,CD66c+ Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_basal_HA_C.csv,7,3,nhbe,Pneumacult,CD66c+ Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_other_HA_A.csv,7,3,nhbe,Lonza,CD66c+ Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_other_HA_B.csv,7,3,nhbe,Lonza,CD66c+ Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_other_HA_C.csv,7,3,nhbe,Lonza,CD66c+ Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_other_HA_A.csv,7,3,nhbe,PC_IL13_low,CD66c+ Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_other_HA_B.csv,7,3,nhbe,PC_IL13_low,CD66c+ Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_other_HA_C.csv,7,3,nhbe,PC_IL13_low,CD66c+ Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_other_HA_A.csv,7,3,nhbe,PC_IL13_high,CD66c+ Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_other_HA_B.csv,7,3,nhbe,PC_IL13_high,CD66c+ Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_other_HA_C.csv,7,3,nhbe,PC_IL13_high,CD66c+ Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_other_HA_C.csv,7,3,nhbe,PC_DAPT,CD66c+ Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_other_HA_A.csv,7,3,nhbe,PC_DAPT,CD66c+ Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_other_HA_B.csv,7,3,nhbe,PC_DAPT,CD66c+ Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_other_HA_A.csv,7,3,nhbe,Pneumacult,CD66c+ Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_other_HA_B.csv,7,3,nhbe,Pneumacult,CD66c+ Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_other_HA_C.csv,7,3,nhbe,Pneumacult,CD66c+ Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cneg_other_HA_A.csv,7,3,nhbe,Lonza,CD66c- Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cneg_other_HA_B.csv,7,3,nhbe,Lonza,CD66c- Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cneg_other_HA_C.csv,7,3,nhbe,Lonza,CD66c- Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cneg_other_HA_A.csv,7,3,nhbe,PC_IL13_low,CD66c- Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cneg_other_HA_B.csv,7,3,nhbe,PC_IL13_low,CD66c- Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cneg_other_HA_C.csv,7,3,nhbe,PC_IL13_low,CD66c- Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cneg_other_HA_A.csv,7,3,nhbe,PC_IL13_high,CD66c- Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cneg_other_HA_B.csv,7,3,nhbe,PC_IL13_high,CD66c- Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cneg_other_HA_C.csv,7,3,nhbe,PC_IL13_high,CD66c- Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cneg_other_HA_A.csv,7,3,nhbe,PC_DAPT,CD66c- Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cneg_other_HA_B.csv,7,3,nhbe,PC_DAPT,CD66c- Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cneg_other_HA_C.csv,7,3,nhbe,PC_DAPT,CD66c- Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cneg_other_HA_A.csv,7,3,nhbe,Pneumacult,CD66c- Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cneg_other_HA_B.csv,7,3,nhbe,Pneumacult,CD66c- Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cneg_other_HA_C.csv,7,3,nhbe,Pneumacult,CD66c- Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_ciliated_HA_A.csv,7,3,nhbe,Lonza,Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_ciliated_HA_B.csv,7,3,nhbe,Lonza,Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_ciliated_HA_C.csv,7,3,nhbe,Lonza,Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_ciliated_HA_A.csv,7,3,nhbe,PC_IL13_low,Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_ciliated_HA_B.csv,7,3,nhbe,PC_IL13_low,Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_ciliated_HA_C.csv,7,3,nhbe,PC_IL13_low,Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_ciliated_HA_A.csv,7,3,nhbe,PC_IL13_high,Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_ciliated_HA_B.csv,7,3,nhbe,PC_IL13_high,Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_ciliated_HA_C.csv,7,3,nhbe,PC_IL13_high,Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_ciliated_HA_C.csv,7,3,nhbe,PC_DAPT,Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_ciliated_HA_A.csv,7,3,nhbe,PC_DAPT,Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_ciliated_HA_B.csv,7,3,nhbe,PC_DAPT,Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_ciliated_HA_A.csv,7,3,nhbe,Pneumacult,Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_ciliated_HA_B.csv,7,3,nhbe,Pneumacult,Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_ciliated_HA_C.csv,7,3,nhbe,Pneumacult,Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_goblet_HA_A.csv,7,3,nhbe,Lonza,Goblet,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_goblet_HA_B.csv,7,3,nhbe,Lonza,Goblet,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_goblet_HA_C.csv,7,3,nhbe,Lonza,Goblet,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_goblet_HA_A.csv,7,3,nhbe,PC_IL13_low,Goblet,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_goblet_HA_B.csv,7,3,nhbe,PC_IL13_low,Goblet,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_goblet_HA_C.csv,7,3,nhbe,PC_IL13_low,Goblet,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_goblet_HA_A.csv,7,3,nhbe,PC_IL13_high,Goblet,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_goblet_HA_B.csv,7,3,nhbe,PC_IL13_high,Goblet,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_goblet_HA_C.csv,7,3,nhbe,PC_IL13_high,Goblet,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_goblet_HA_A.csv,7,3,nhbe,PC_DAPT,Goblet,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_goblet_HA_B.csv,7,3,nhbe,PC_DAPT,Goblet,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_goblet_HA_C.csv,7,3,nhbe,PC_DAPT,Goblet,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_goblet_HA_A.csv,7,3,nhbe,Pneumacult,Goblet,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_goblet_HA_B.csv,7,3,nhbe,Pneumacult,Goblet,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_goblet_HA_C.csv,7,3,nhbe,Pneumacult,Goblet,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_secretory_HA_A.csv,7,3,nhbe,Lonza,Secretory,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_secretory_HA_B.csv,7,3,nhbe,Lonza,Secretory,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_secretory_HA_C.csv,7,3,nhbe,Lonza,Secretory,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_secretory_HA_A.csv,7,3,nhbe,PC_IL13_low,Secretory,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_secretory_HA_B.csv,7,3,nhbe,PC_IL13_low,Secretory,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_secretory_HA_C.csv,7,3,nhbe,PC_IL13_low,Secretory,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_secretory_HA_A.csv,7,3,nhbe,PC_IL13_high,Secretory,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_secretory_HA_B.csv,7,3,nhbe,PC_IL13_high,Secretory,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_secretory_HA_C.csv,7,3,nhbe,PC_IL13_high,Secretory,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_secretory_HA_A.csv,7,3,nhbe,PC_DAPT,Secretory,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_secretory_HA_B.csv,7,3,nhbe,PC_DAPT,Secretory,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_secretory_HA_C.csv,7,3,nhbe,PC_DAPT,Secretory,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_secretory_HA_A.csv,7,3,nhbe,Pneumacult,Secretory,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_secretory_HA_B.csv,7,3,nhbe,Pneumacult,Secretory,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_secretory_HA_C.csv,7,3,nhbe,Pneumacult,Secretory,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_triple_negative_HA_A.csv,7,3,nhbe,Lonza,Triple Negative,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_triple_negative_HA_B.csv,7,3,nhbe,Lonza,Triple Negative,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_triple_negative_HA_C.csv,7,3,nhbe,Lonza,Triple Negative,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_triple_negative_HA_A.csv,7,3,nhbe,PC_IL13_low,Triple Negative,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_triple_negative_HA_B.csv,7,3,nhbe,PC_IL13_low,Triple Negative,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_triple_negative_HA_C.csv,7,3,nhbe,PC_IL13_low,Triple Negative,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_triple_negative_HA_A.csv,7,3,nhbe,PC_IL13_high,Triple Negative,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_triple_negative_HA_B.csv,7,3,nhbe,PC_IL13_high,Triple Negative,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_triple_negative_HA_C.csv,7,3,nhbe,PC_IL13_high,Triple Negative,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_triple_negative_HA_A.csv,7,3,nhbe,PC_DAPT,Triple Negative,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_triple_negative_HA_B.csv,7,3,nhbe,PC_DAPT,Triple Negative,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_triple_negative_HA_C.csv,7,3,nhbe,PC_DAPT,Triple Negative,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_triple_negative_HA_A.csv,7,3,nhbe,Pneumacult,Triple Negative,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_triple_negative_HA_B.csv,7,3,nhbe,Pneumacult,Triple Negative,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_triple_negative_HA_C.csv,7,3,nhbe,Pneumacult,Triple Negative,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_basal_NP_A.csv,7,3,nhbe,Lonza,Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_basal_NP_B.csv,7,3,nhbe,Lonza,Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_basal_NP_C.csv,7,3,nhbe,Lonza,Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_basal_NP_A.csv,7,3,nhbe,PC_IL13_low,Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Il13_low_basal_NP_B.csv,7,3,nhbe,PC_IL13_low,Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_basal_NP_C.csv,7,3,nhbe,PC_IL13_low,Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_basal_NP_A.csv,7,3,nhbe,PC_IL13_high,Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_basal_NP_B.csv,7,3,nhbe,PC_IL13_high,Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_basal_NP_C.csv,7,3,nhbe,PC_IL13_high,Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_basal_NP_A.csv,7,3,nhbe,PC_DAPT,Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_basal_NP_B.csv,7,3,nhbe,PC_DAPT,Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_basal_NP_C.csv,7,3,nhbe,PC_DAPT,Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_basal_NP_A.csv,7,3,nhbe,Pneumacult,Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_basal_NP_B.csv,7,3,nhbe,Pneumacult,Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_basal_NP_C.csv,7,3,nhbe,Pneumacult,Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD271pos_ciliated_NP_A.csv,7,3,nhbe,Lonza,CD271+ Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD271pos_ciliated_NP_B.csv,7,3,nhbe,Lonza,CD271+ Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD271pos_ciliated_NP_C.csv,7,3,nhbe,Lonza,CD271+ Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD271pos_ciliated_NP_A.csv,7,3,nhbe,PC_IL13_low,CD271+ Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD271pos_ciliated_NP_B.csv,7,3,nhbe,PC_IL13_low,CD271+ Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD271pos_ciliated_NP_C.csv,7,3,nhbe,PC_IL13_low,CD271+ Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD271pos_ciliated_NP_A.csv,7,3,nhbe,PC_IL13_high,CD271+ Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD271pos_ciliated_NP_B.csv,7,3,nhbe,PC_IL13_high,CD271+ Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD271pos_ciliated_NP_C.csv,7,3,nhbe,PC_IL13_high,CD271+ Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD271pos_ciliated_NP_A.csv,7,3,nhbe,PC_DAPT,CD271+ Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD271pos_ciliated_NP_B.csv,7,3,nhbe,PC_DAPT,CD271+ Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD271pos_ciliated_NP_C.csv,7,3,nhbe,PC_DAPT,CD271+ Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD271pos_ciliated_NP_A.csv,7,3,nhbe,Pneumacult,CD271+ Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD271pos_ciliated_NP_B.csv,7,3,nhbe,Pneumacult,CD271+ Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD271pos_ciliated_NP_C.csv,7,3,nhbe,Pneumacult,CD271+ Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_basal_NP_A.csv,7,3,nhbe,Lonza,CD66c+ Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_basal_NP_B.csv,7,3,nhbe,Lonza,CD66c+ Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_basal_NP_C.csv,7,3,nhbe,Lonza,CD66c+ Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_basal_NP_A.csv,7,3,nhbe,PC_IL13_low,CD66c+ Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_basal_NP_B.csv,7,3,nhbe,PC_IL13_low,CD66c+ Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_basal_NP_C.csv,7,3,nhbe,PC_IL13_low,CD66c+ Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Il13_high_CD66cpos_basal_NP_A.csv,7,3,nhbe,PC_IL13_high,CD66c+ Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_basal_NP_B.csv,7,3,nhbe,PC_IL13_high,CD66c+ Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_basal_NP_C.csv,7,3,nhbe,PC_IL13_high,CD66c+ Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_basal_NP_A.csv,7,3,nhbe,PC_DAPT,CD66c+ Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_basal_NP_B.csv,7,3,nhbe,PC_DAPT,CD66c+ Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_basal_NP_C.csv,7,3,nhbe,PC_DAPT,CD66c+ Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_basal_NP_A.csv,7,3,nhbe,Pneumacult,CD66c+ Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_basal_NP_B.csv,7,3,nhbe,Pneumacult,CD66c+ Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_basal_NP_C.csv,7,3,nhbe,Pneumacult,CD66c+ Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_other_NP_A.csv,7,3,nhbe,Lonza,CD66c+ Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_other_NP_B.csv,7,3,nhbe,Lonza,CD66c+ Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cpos_other_NP_C.csv,7,3,nhbe,Lonza,CD66c+ Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_other_NP_A.csv,7,3,nhbe,PC_IL13_low,CD66c+ Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_other_NP_B.csv,7,3,nhbe,PC_IL13_low,CD66c+ Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cpos_other_NP_C.csv,7,3,nhbe,PC_IL13_low,CD66c+ Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_other_NP_A.csv,7,3,nhbe,PC_IL13_high,CD66c+ Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_other_NP_B.csv,7,3,nhbe,PC_IL13_high,CD66c+ Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cpos_other_NP_C.csv,7,3,nhbe,PC_IL13_high,CD66c+ Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_other_NP_A.csv,7,3,nhbe,PC_DAPT,CD66c+ Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_other_NP_B.csv,7,3,nhbe,PC_DAPT,CD66c+ Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cpos_other_NP_C.csv,7,3,nhbe,PC_DAPT,CD66c+ Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_other_NP_A.csv,7,3,nhbe,Pneumacult,CD66c+ Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_other_NP_B.csv,7,3,nhbe,Pneumacult,CD66c+ Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cpos_other_NP_C.csv,7,3,nhbe,Pneumacult,CD66c+ Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cneg_other_NP_A.csv,7,3,nhbe,Lonza,CD66c- Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cneg_other_NP_B.csv,7,3,nhbe,Lonza,CD66c- Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_CD66cneg_other_NP_C.csv,7,3,nhbe,Lonza,CD66c- Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cneg_other_NP_A.csv,7,3,nhbe,PC_IL13_low,CD66c- Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cneg_other_NP_B.csv,7,3,nhbe,PC_IL13_low,CD66c- Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_CD66cneg_other_NP_C.csv,7,3,nhbe,PC_IL13_low,CD66c- Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cneg_other_NP_A.csv,7,3,nhbe,PC_IL13_high,CD66c- Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cneg_other_NP_B.csv,7,3,nhbe,PC_IL13_high,CD66c- Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_CD66cneg_other_NP_C.csv,7,3,nhbe,PC_IL13_high,CD66c- Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cneg_other_NP_A.csv,7,3,nhbe,PC_DAPT,CD66c- Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cneg_other_NP_B.csv,7,3,nhbe,PC_DAPT,CD66c- Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_CD66cneg_other_NP_C.csv,7,3,nhbe,PC_DAPT,CD66c- Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cneg_other_NP_A.csv,7,3,nhbe,Pneumacult,CD66c- Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cneg_other_NP_B.csv,7,3,nhbe,Pneumacult,CD66c- Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_CD66cneg_other_NP_C.csv,7,3,nhbe,Pneumacult,CD66c- Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_ciliated_NP_A.csv,7,3,nhbe,Lonza,Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_ciliated_NP_B.csv,7,3,nhbe,Lonza,Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_ciliated_NP_C.csv,7,3,nhbe,Lonza,Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_ciliated_NP_A.csv,7,3,nhbe,PC_IL13_low,Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_ciliated_NP_B.csv,7,3,nhbe,PC_IL13_low,Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_ciliated_NP_C.csv,7,3,nhbe,PC_IL13_low,Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_ciliated_NP_A.csv,7,3,nhbe,PC_IL13_high,Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_ciliated_NP_B.csv,7,3,nhbe,PC_IL13_high,Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_ciliated_NP_C.csv,7,3,nhbe,PC_IL13_high,Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_ciliated_NP_A.csv,7,3,nhbe,PC_DAPT,Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_ciliated_NP_B.csv,7,3,nhbe,PC_DAPT,Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_ciliated_NP_C.csv,7,3,nhbe,PC_DAPT,Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_ciliated_NP_A.csv,7,3,nhbe,Pneumacult,Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_ciliated_NP_B.csv,7,3,nhbe,Pneumacult,Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_ciliated_NP_C.csv,7,3,nhbe,Pneumacult,Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_goblet_NP_A.csv,7,3,nhbe,Lonza,Goblet,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_goblet_NP_B.csv,7,3,nhbe,Lonza,Goblet,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_goblet_NP_C.csv,7,3,nhbe,Lonza,Goblet,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_goblet_NP_A.csv,7,3,nhbe,PC_IL13_low,Goblet,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_goblet_NP_B.csv,7,3,nhbe,PC_IL13_low,Goblet,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_goblet_NP_C.csv,7,3,nhbe,PC_IL13_low,Goblet,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_goblet_NP_A.csv,7,3,nhbe,PC_IL13_high,Goblet,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_goblet_NP_B.csv,7,3,nhbe,PC_IL13_high,Goblet,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_goblet_NP_C.csv,7,3,nhbe,PC_IL13_high,Goblet,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_goblet_NP_A.csv,7,3,nhbe,PC_DAPT,Goblet,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_goblet_NP_B.csv,7,3,nhbe,PC_DAPT,Goblet,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_goblet_NP_C.csv,7,3,nhbe,PC_DAPT,Goblet,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_goblet_NP_A.csv,7,3,nhbe,Pneumacult,Goblet,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_goblet_NP_B.csv,7,3,nhbe,Pneumacult,Goblet,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_goblet_NP_C.csv,7,3,nhbe,Pneumacult,Goblet,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_secretory_NP_A.csv,7,3,nhbe,Lonza,Secretory,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_secretory_NP_B.csv,7,3,nhbe,Lonza,Secretory,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_secretory_NP_C.csv,7,3,nhbe,Lonza,Secretory,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_secretory_NP_A.csv,7,3,nhbe,PC_IL13_low,Secretory,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_secretory_NP_B.csv,7,3,nhbe,PC_IL13_low,Secretory,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_secretory_NP_C.csv,7,3,nhbe,PC_IL13_low,Secretory,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_secretory_NP_A.csv,7,3,nhbe,PC_IL13_high,Secretory,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_secretory_NP_B.csv,7,3,nhbe,PC_IL13_high,Secretory,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_secretory_NP_C.csv,7,3,nhbe,PC_IL13_high,Secretory,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_secretory_NP_A.csv,7,3,nhbe,PC_DAPT,Secretory,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_secretory_NP_B.csv,7,3,nhbe,PC_DAPT,Secretory,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_secretory_NP_C.csv,7,3,nhbe,PC_DAPT,Secretory,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_secretory_NP_A.csv,7,3,nhbe,Pneumacult,Secretory,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_secretory_NP_B.csv,7,3,nhbe,Pneumacult,Secretory,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_secretory_NP_C.csv,7,3,nhbe,Pneumacult,Secretory,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_triple_negative_NP_A.csv,7,3,nhbe,Lonza,Triple Negative,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_triple_negative_NP_B.csv,7,3,nhbe,Lonza,Triple Negative,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Lonza_triple_negative_NP_C.csv,7,3,nhbe,Lonza,Triple Negative,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_triple_negative_NP_A.csv,7,3,nhbe,PC_IL13_low,Triple Negative,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_triple_negative_NP_B.csv,7,3,nhbe,PC_IL13_low,Triple Negative,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_low_triple_negative_NP_C.csv,7,3,nhbe,PC_IL13_low,Triple Negative,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_triple_negative_NP_A.csv,7,3,nhbe,PC_IL13_high,Triple Negative,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_triple_negative_NP_B.csv,7,3,nhbe,PC_IL13_high,Triple Negative,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/IL13_high_triple_negative_NP_C.csv,7,3,nhbe,PC_IL13_high,Triple Negative,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_triple_negative_NP_A.csv,7,3,nhbe,PC_DAPT,Triple Negative,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_triple_negative_NP_B.csv,7,3,nhbe,PC_DAPT,Triple Negative,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/DAPT_triple_negative_NP_C.csv,7,3,nhbe,PC_DAPT,Triple Negative,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_triple_negative_NP_A.csv,7,3,nhbe,Pneumacult,Triple Negative,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_triple_negative_NP_B.csv,7,3,nhbe,Pneumacult,Triple Negative,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/Pneumacult_triple_negative_NP_C.csv,7,3,nhbe,Pneumacult,Triple Negative,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_basal_HA_A.csv,7,3,nhne,Pneumacult,Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_basal_HA_B.csv,7,3,nhne,Pneumacult,Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_basal_HA_C.csv,7,3,nhne,Pneumacult,Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD271pos_ciliated_HA_A.csv,7,3,nhne,Pneumacult,CD271+ Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD271pos_ciliated_HA_B.csv,7,3,nhne,Pneumacult,CD271+ Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD271pos_ciliated_HA_C.csv,7,3,nhne,Pneumacult,CD271+ Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_basal_HA_A.csv,7,3,nhne,Pneumacult,CD66c+ Basal,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_basal_HA_B.csv,7,3,nhne,Pneumacult,CD66c+ Basal,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_basal_HA_C.csv,7,3,nhne,Pneumacult,CD66c+ Basal,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_other_HA_A.csv,7,3,nhne,Pneumacult,CD66c+ Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_other_HA_B.csv,7,3,nhne,Pneumacult,CD66c+ Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_other_HA_C.csv,7,3,nhne,Pneumacult,CD66c+ Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cneg_other_HA_A.csv,7,3,nhne,Pneumacult,CD66c- Other,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cneg_other_HA_B.csv,7,3,nhne,Pneumacult,CD66c- Other,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cneg_other_HA_C.csv,7,3,nhne,Pneumacult,CD66c- Other,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_ciliated_HA_A.csv,7,3,nhne,Pneumacult,Ciliated,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_ciliated_HA_B.csv,7,3,nhne,Pneumacult,Ciliated,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_ciliated_HA_C.csv,7,3,nhne,Pneumacult,Ciliated,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_goblet_HA_A.csv,7,3,nhne,Pneumacult,Goblet,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_goblet_HA_B.csv,7,3,nhne,Pneumacult,Goblet,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_goblet_HA_C.csv,7,3,nhne,Pneumacult,Goblet,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_secretory_HA_A.csv,7,3,nhne,Pneumacult,Secretory,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_secretory_HA_B.csv,7,3,nhne,Pneumacult,Secretory,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_secretory_HA_C.csv,7,3,nhne,Pneumacult,Secretory,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_triple_negative_HA_A.csv,7,3,nhne,Pneumacult,Triple Negative,1,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_triple_negative_HA_B.csv,7,3,nhne,Pneumacult,Triple Negative,2,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_triple_negative_HA_C.csv,7,3,nhne,Pneumacult,Triple Negative,3,HA,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_basal_NP_A.csv,7,3,nhne,Pneumacult,Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_basal_NP_B.csv,7,3,nhne,Pneumacult,Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_basal_NP_C.csv,7,3,nhne,Pneumacult,Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD271pos_ciliated_NP_A.csv,7,3,nhne,Pneumacult,CD271+ Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD271pos_ciliated_NP_B.csv,7,3,nhne,Pneumacult,CD271+ Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD271pos_ciliated_NP_C.csv,7,3,nhne,Pneumacult,CD271+ Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_basal_NP_A.csv,7,3,nhne,Pneumacult,CD66c+ Basal,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_basal_NP_B.csv,7,3,nhne,Pneumacult,CD66c+ Basal,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_basal_NP_C.csv,7,3,nhne,Pneumacult,CD66c+ Basal,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_other_NP_A.csv,7,3,nhne,Pneumacult,CD66c+ Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_other_NP_B.csv,7,3,nhne,Pneumacult,CD66c+ Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cpos_other_NP_C.csv,7,3,nhne,Pneumacult,CD66c+ Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cneg_other_NP_A.csv,7,3,nhne,Pneumacult,CD66c- Other,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cneg_other_NP_B.csv,7,3,nhne,Pneumacult,CD66c- Other,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_CD66cneg_other_NP_C.csv,7,3,nhne,Pneumacult,CD66c- Other,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_ciliated_NP_A.csv,7,3,nhne,Pneumacult,Ciliated,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_ciliated_NP_B.csv,7,3,nhne,Pneumacult,Ciliated,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_ciliated_NP_C.csv,7,3,nhne,Pneumacult,Ciliated,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_goblet_NP_A.csv,7,3,nhne,Pneumacult,Goblet,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_goblet_NP_B.csv,7,3,nhne,Pneumacult,Goblet,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_goblet_NP_C.csv,7,3,nhne,Pneumacult,Goblet,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_secretory_NP_A.csv,7,3,nhne,Pneumacult,Secretory,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_secretory_NP_B.csv,7,3,nhne,Pneumacult,Secretory,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_secretory_NP_C.csv,7,3,nhne,Pneumacult,Secretory,3,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_triple_negative_NP_A.csv,7,3,nhne,Pneumacult,Triple Negative,1,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_triple_negative_NP_B.csv,7,3,nhne,Pneumacult,Triple Negative,2,NP,0.5
+../data/round_7_influenza_fluorescence_intensity/NHNE_triple_negative_NP_C.csv,7,3,nhne,Pneumacult,Triple Negative,3,NP,0.5

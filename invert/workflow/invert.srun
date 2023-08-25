@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -J INVERT_JF291_12Jul22
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=3-00:00:00
+#SBATCH -M agate
+#SBATCH --mem=400GB
+#SBATCH -p langlois-node1
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=sheph085@umn.edu
+
+source activate snakemake
+snakemake --cores 1 --unlock
+snakemake --cores 100 --rerun-incomplete --use-conda

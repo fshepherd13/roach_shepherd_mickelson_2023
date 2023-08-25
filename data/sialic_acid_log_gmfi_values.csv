@@ -1,0 +1,59 @@
+cell_type,sialic_acid_type,gMFI
+ciliated,a2_6,4.811695626
+ciliated,a2_6,4.806139257
+ciliated,a2_6,4.761047839
+secretory,a2_6,4.405721915
+secretory,a2_6,4.331751125
+secretory,a2_6,4.295611077
+basal,a2_6,4.545801757
+basal,a2_6,4.485309645
+basal,a2_6,4.42894429
+triple negative,a2_6,4.348849823
+triple negative,a2_6,4.244499779
+triple negative,a2_6,4.221414238
+CD66c+ other,a2_6,4.568729599
+CD66c+ other,a2_6,4.513284205
+CD66c+ other,a2_6,4.449725175
+CD66c- other,a2_6,4.352780468
+CD66c- other,a2_6,4.301312195
+CD66c- other,a2_6,4.262261193
+goblet,a2_6,4.658831486
+goblet,a2_6,4.818740406
+goblet,a2_6,4.596959772
+CD271+ ciliated,a2_6,5.074721383
+CD271+ ciliated,a2_6,5.070314987
+CD271+ ciliated,a2_6,5.006286297
+CD66c+ basal,a2_6,4.855276804
+CD66c+ basal,a2_6,4.803081384
+CD66c+ basal,a2_6,4.728288836
+A549,a2_6,4.428102383
+A549,a2_6,4.42342611
+ciliated,a2_3,4.153814864
+ciliated,a2_3,4.130301597
+ciliated,a2_3,4.142796036
+secretory,a2_3,3.826334006
+secretory,a2_3,3.837272703
+secretory,a2_3,3.853576544
+basal,a2_3,3.924795996
+basal,a2_3,3.918868743
+basal,a2_3,3.969462508
+triple negative,a2_3,3.883945195
+triple negative,a2_3,3.837146344
+triple negative,a2_3,3.858356705
+CD66c+ other,a2_3,3.871981354
+CD66c+ other,a2_3,3.876737297
+CD66c+ other,a2_3,3.84509804
+CD66c- other,a2_3,3.795880017
+CD66c- other,a2_3,3.789721694
+CD66c- other,a2_3,3.796018969
+goblet,a2_3,3.903415586
+goblet,a2_3,3.927113612
+goblet,a2_3,3.808210973
+CD271+ ciliated,a2_3,4.329845166
+CD271+ ciliated,a2_3,4.30952371
+CD271+ ciliated,a2_3,4.340007618
+CD66c+ basal,a2_3,4.078239254
+CD66c+ basal,a2_3,4.061866972
+CD66c+ basal,a2_3,4.088384186
+A549,a2_3,4.402948829
+A549,a2_3,4.364851052

@@ -1,0 +1,1612 @@
+round,week,moi,infection,cell_origin,condition,replicate,cell_type,frequency_of_alive
+3,3,0.5,uninfected,nhbe,pneumacult,1,Ciliated,31.9
+3,3,0.5,uninfected,nhbe,pneumacult,1,Secretory,11.7
+3,3,0.5,uninfected,nhbe,pneumacult,1,Basal,36.2
+3,3,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.65
+3,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,7.97
+3,3,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,5.76
+3,3,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.1
+3,3,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.26
+3,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,1.8
+3,3,0.5,uninfected,nhbe,pneumacult,2,Ciliated,25.1
+3,3,0.5,uninfected,nhbe,pneumacult,2,Secretory,12.7
+3,3,0.5,uninfected,nhbe,pneumacult,2,Basal,39.8
+3,3,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.84
+3,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,7.52
+3,3,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,8.11
+3,3,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.09
+3,3,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.19
+3,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,1.55
+3,3,0.5,uninfected,nhbe,il13_low,1,Ciliated,22.5
+3,3,0.5,uninfected,nhbe,il13_low,1,Secretory,24.9
+3,3,0.5,uninfected,nhbe,il13_low,1,Basal,14.4
+3,3,0.5,uninfected,nhbe,il13_low,1,Triple Negative,0.84
+3,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Other,16.5
+3,3,0.5,uninfected,nhbe,il13_low,1,CD66c- Other,9.64
+3,3,0.5,uninfected,nhbe,il13_low,1,Goblet,1.52
+3,3,0.5,uninfected,nhbe,il13_low,1,CD271+ Ciliated,0.57
+3,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Basal,2.02
+3,3,0.5,uninfected,nhbe,il13_low,2,Ciliated,27.1
+3,3,0.5,uninfected,nhbe,il13_low,2,Secretory,26
+3,3,0.5,uninfected,nhbe,il13_low,2,Basal,11
+3,3,0.5,uninfected,nhbe,il13_low,2,Triple Negative,2.74
+3,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Other,10.2
+3,3,0.5,uninfected,nhbe,il13_low,2,CD66c- Other,13.7
+3,3,0.5,uninfected,nhbe,il13_low,2,Goblet,0.77
+3,3,0.5,uninfected,nhbe,il13_low,2,CD271+ Ciliated,0.48
+3,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Basal,1.05
+3,3,0.5,uninfected,nhbe,il13_high,1,Ciliated,20.8
+3,3,0.5,uninfected,nhbe,il13_high,1,Secretory,39
+3,3,0.5,uninfected,nhbe,il13_high,1,Basal,8.79
+3,3,0.5,uninfected,nhbe,il13_high,1,Triple Negative,3.52
+3,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Other,11.6
+3,3,0.5,uninfected,nhbe,il13_high,1,CD66c- Other,5.48
+3,3,0.5,uninfected,nhbe,il13_high,1,Goblet,2.55
+3,3,0.5,uninfected,nhbe,il13_high,1,CD271+ Ciliated,0.26
+3,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Basal,0.58
+3,3,0.5,uninfected,nhbe,il13_high,2,Ciliated,23.5
+3,3,0.5,uninfected,nhbe,il13_high,2,Secretory,33.6
+3,3,0.5,uninfected,nhbe,il13_high,2,Basal,10.8
+3,3,0.5,uninfected,nhbe,il13_high,2,Triple Negative,3.57
+3,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Other,11.4
+3,3,0.5,uninfected,nhbe,il13_high,2,CD66c- Other,6.25
+3,3,0.5,uninfected,nhbe,il13_high,2,Goblet,2.42
+3,3,0.5,uninfected,nhbe,il13_high,2,CD271+ Ciliated,0.34
+3,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Basal,0.72
+4,3,0.5,uninfected,nhbe,pneumacult,1,Ciliated,13.6
+4,3,0.5,uninfected,nhbe,pneumacult,1,Secretory,11
+4,3,0.5,uninfected,nhbe,pneumacult,1,Basal,35.4
+4,3,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.72
+4,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,11.5
+4,3,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,18.2
+4,3,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.48
+4,3,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.31
+4,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,1.04
+4,3,0.5,uninfected,nhbe,pneumacult,2,Ciliated,13.5
+4,3,0.5,uninfected,nhbe,pneumacult,2,Secretory,11.3
+4,3,0.5,uninfected,nhbe,pneumacult,2,Basal,36.8
+4,3,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.64
+4,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,10
+4,3,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,18.8
+4,3,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.39
+4,3,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.3
+4,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,0.98
+4,3,0.5,uninfected,nhbe,pneumacult,3,Ciliated,12.5
+4,3,0.5,uninfected,nhbe,pneumacult,3,Secretory,11.5
+4,3,0.5,uninfected,nhbe,pneumacult,3,Basal,35.8
+4,3,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.48
+4,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,12.1
+4,3,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,18.7
+4,3,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.43
+4,3,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.35
+4,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,0.94
+4,3,0.5,uninfected,nhbe,pneumacult,4,Ciliated,13.5
+4,3,0.5,uninfected,nhbe,pneumacult,4,Secretory,12.8
+4,3,0.5,uninfected,nhbe,pneumacult,4,Basal,32
+4,3,0.5,uninfected,nhbe,pneumacult,4,Triple Negative,0.45
+4,3,0.5,uninfected,nhbe,pneumacult,4,CD66c+ Other,12.8
+4,3,0.5,uninfected,nhbe,pneumacult,4,CD66c- Other,19.4
+4,3,0.5,uninfected,nhbe,pneumacult,4,Goblet,0.55
+4,3,0.5,uninfected,nhbe,pneumacult,4,CD271+ Ciliated,0.22
+4,3,0.5,uninfected,nhbe,pneumacult,4,CD66c+ Basal,1
+4,3,0.5,uninfected,nhbe,il13_low,1,Ciliated,13.4
+4,3,0.5,uninfected,nhbe,il13_low,1,Secretory,23
+4,3,0.5,uninfected,nhbe,il13_low,1,Basal,10
+4,3,0.5,uninfected,nhbe,il13_low,1,Triple Negative,5.6
+4,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Other,6.29
+4,3,0.5,uninfected,nhbe,il13_low,1,CD66c- Other,28.8
+4,3,0.5,uninfected,nhbe,il13_low,1,Goblet,1.44
+4,3,0.5,uninfected,nhbe,il13_low,1,CD271+ Ciliated,0.11
+4,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Basal,0.5
+4,3,0.5,uninfected,nhbe,il13_low,2,Ciliated,15
+4,3,0.5,uninfected,nhbe,il13_low,2,Secretory,19.5
+4,3,0.5,uninfected,nhbe,il13_low,2,Basal,14.2
+4,3,0.5,uninfected,nhbe,il13_low,2,Triple Negative,4.97
+4,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Other,7.25
+4,3,0.5,uninfected,nhbe,il13_low,2,CD66c- Other,27
+4,3,0.5,uninfected,nhbe,il13_low,2,Goblet,2.18
+4,3,0.5,uninfected,nhbe,il13_low,2,CD271+ Ciliated,0.24
+4,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Basal,0.66
+4,3,0.5,uninfected,nhbe,il13_low,3,Ciliated,12.3
+4,3,0.5,uninfected,nhbe,il13_low,3,Secretory,15.3
+4,3,0.5,uninfected,nhbe,il13_low,3,Basal,16.7
+4,3,0.5,uninfected,nhbe,il13_low,3,Triple Negative,1.92
+4,3,0.5,uninfected,nhbe,il13_low,3,CD66c+ Other,12.2
+4,3,0.5,uninfected,nhbe,il13_low,3,CD66c- Other,27.4
+4,3,0.5,uninfected,nhbe,il13_low,3,Goblet,2.58
+4,3,0.5,uninfected,nhbe,il13_low,3,CD271+ Ciliated,0.18
+4,3,0.5,uninfected,nhbe,il13_low,3,CD66c+ Basal,1.28
+4,3,0.5,uninfected,nhbe,il13_high,1,Ciliated,9.59
+4,3,0.5,uninfected,nhbe,il13_high,1,Secretory,18.9
+4,3,0.5,uninfected,nhbe,il13_high,1,Basal,17.1
+4,3,0.5,uninfected,nhbe,il13_high,1,Triple Negative,9.44
+4,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Other,13.3
+4,3,0.5,uninfected,nhbe,il13_high,1,CD66c- Other,12.4
+4,3,0.5,uninfected,nhbe,il13_high,1,Goblet,7.51
+4,3,0.5,uninfected,nhbe,il13_high,1,CD271+ Ciliated,0.14
+4,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Basal,1.25
+4,3,0.5,uninfected,nhbe,il13_high,2,Ciliated,12.3
+4,3,0.5,uninfected,nhbe,il13_high,2,Secretory,18.9
+4,3,0.5,uninfected,nhbe,il13_high,2,Basal,15.8
+4,3,0.5,uninfected,nhbe,il13_high,2,Triple Negative,11.5
+4,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Other,9.8
+4,3,0.5,uninfected,nhbe,il13_high,2,CD66c- Other,13.1
+4,3,0.5,uninfected,nhbe,il13_high,2,Goblet,9.54
+4,3,0.5,uninfected,nhbe,il13_high,2,CD271+ Ciliated,0.02
+4,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Basal,0.61
+4,3,0.5,uninfected,nhbe,il13_high,3,Ciliated,10.8
+4,3,0.5,uninfected,nhbe,il13_high,3,Secretory,20.9
+4,3,0.5,uninfected,nhbe,il13_high,3,Basal,16.6
+4,3,0.5,uninfected,nhbe,il13_high,3,Triple Negative,9.15
+4,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Other,8.48
+4,3,0.5,uninfected,nhbe,il13_high,3,CD66c- Other,17.4
+4,3,0.5,uninfected,nhbe,il13_high,3,Goblet,6.06
+4,3,0.5,uninfected,nhbe,il13_high,3,CD271+ Ciliated,0
+4,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Basal,0.4
+4,3,0.5,uninfected,nhbe,il13_high,4,Ciliated,12.8
+4,3,0.5,uninfected,nhbe,il13_high,4,Secretory,18.5
+4,3,0.5,uninfected,nhbe,il13_high,4,Basal,18.3
+4,3,0.5,uninfected,nhbe,il13_high,4,Triple Negative,8.82
+4,3,0.5,uninfected,nhbe,il13_high,4,CD66c+ Other,11.6
+4,3,0.5,uninfected,nhbe,il13_high,4,CD66c- Other,10.4
+4,3,0.5,uninfected,nhbe,il13_high,4,Goblet,7.55
+4,3,0.5,uninfected,nhbe,il13_high,4,CD271+ Ciliated,0.05
+4,3,0.5,uninfected,nhbe,il13_high,4,CD66c+ Basal,1.73
+5,3,0.5,uninfected,nhbe,pneumacult,1,Ciliated,9.43
+5,3,0.5,uninfected,nhbe,pneumacult,1,Secretory,9.75
+5,3,0.5,uninfected,nhbe,pneumacult,1,Basal,60.3
+5,3,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.58
+5,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,4.81
+5,3,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,10.3
+5,3,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.02
+5,3,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.22
+5,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,0.59
+5,3,0.5,uninfected,nhbe,pneumacult,2,Ciliated,5.3
+5,3,0.5,uninfected,nhbe,pneumacult,2,Secretory,4.76
+5,3,0.5,uninfected,nhbe,pneumacult,2,Basal,68.5
+5,3,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.29
+5,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,2.86
+5,3,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,13.2
+5,3,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.01
+5,3,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.1
+5,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,0.31
+5,3,0.5,uninfected,nhbe,pneumacult,3,Ciliated,8.95
+5,3,0.5,uninfected,nhbe,pneumacult,3,Secretory,11.1
+5,3,0.5,uninfected,nhbe,pneumacult,3,Basal,53.8
+5,3,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.45
+5,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,4.91
+5,3,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,15.2
+5,3,0.5,uninfected,nhbe,pneumacult,3,Goblet,0
+5,3,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.18
+5,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,0.28
+5,3,0.5,uninfected,nhbe,il13_low,1,Ciliated,16.9
+5,3,0.5,uninfected,nhbe,il13_low,1,Secretory,20.2
+5,3,0.5,uninfected,nhbe,il13_low,1,Basal,24.1
+5,3,0.5,uninfected,nhbe,il13_low,1,Triple Negative,1.12
+5,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Other,4.66
+5,3,0.5,uninfected,nhbe,il13_low,1,CD66c- Other,22.9
+5,3,0.5,uninfected,nhbe,il13_low,1,Goblet,0.33
+5,3,0.5,uninfected,nhbe,il13_low,1,CD271+ Ciliated,0.34
+5,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Basal,0.55
+5,3,0.5,uninfected,nhbe,il13_low,2,Ciliated,19.3
+5,3,0.5,uninfected,nhbe,il13_low,2,Secretory,22.6
+5,3,0.5,uninfected,nhbe,il13_low,2,Basal,19.6
+5,3,0.5,uninfected,nhbe,il13_low,2,Triple Negative,1.02
+5,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Other,6.66
+5,3,0.5,uninfected,nhbe,il13_low,2,CD66c- Other,19.7
+5,3,0.5,uninfected,nhbe,il13_low,2,Goblet,0.4
+5,3,0.5,uninfected,nhbe,il13_low,2,CD271+ Ciliated,0.76
+5,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Basal,1.32
+5,3,0.5,uninfected,nhbe,il13_high,1,Ciliated,25.9
+5,3,0.5,uninfected,nhbe,il13_high,1,Secretory,36.8
+5,3,0.5,uninfected,nhbe,il13_high,1,Basal,3.62
+5,3,0.5,uninfected,nhbe,il13_high,1,Triple Negative,2.14
+5,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Other,7
+5,3,0.5,uninfected,nhbe,il13_high,1,CD66c- Other,10.6
+5,3,0.5,uninfected,nhbe,il13_high,1,Goblet,4.54
+5,3,0.5,uninfected,nhbe,il13_high,1,CD271+ Ciliated,0.23
+5,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Basal,0.43
+5,3,0.5,uninfected,nhbe,il13_high,2,Ciliated,5.56
+5,3,0.5,uninfected,nhbe,il13_high,2,Secretory,9.1
+5,3,0.5,uninfected,nhbe,il13_high,2,Basal,19
+5,3,0.5,uninfected,nhbe,il13_high,2,Triple Negative,2.57
+5,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Other,5.82
+5,3,0.5,uninfected,nhbe,il13_high,2,CD66c- Other,39.3
+5,3,0.5,uninfected,nhbe,il13_high,2,Goblet,3.7
+5,3,0.5,uninfected,nhbe,il13_high,2,CD271+ Ciliated,1.58
+5,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Basal,1.06
+5,3,0.5,uninfected,nhbe,il13_high,3,Ciliated,10.5
+5,3,0.5,uninfected,nhbe,il13_high,3,Secretory,21.4
+5,3,0.5,uninfected,nhbe,il13_high,3,Basal,11
+5,3,0.5,uninfected,nhbe,il13_high,3,Triple Negative,3.99
+5,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Other,5.57
+5,3,0.5,uninfected,nhbe,il13_high,3,CD66c- Other,31.6
+5,3,0.5,uninfected,nhbe,il13_high,3,Goblet,3.06
+5,3,0.5,uninfected,nhbe,il13_high,3,CD271+ Ciliated,0.83
+5,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Basal,0.73
+5,3,0.5,uninfected,nhbe,lonza,1,Ciliated,23.5
+5,3,0.5,uninfected,nhbe,lonza,1,Secretory,32.3
+5,3,0.5,uninfected,nhbe,lonza,1,Basal,20.1
+5,3,0.5,uninfected,nhbe,lonza,1,Triple Negative,1.3
+5,3,0.5,uninfected,nhbe,lonza,1,CD66c+ Other,8.13
+5,3,0.5,uninfected,nhbe,lonza,1,CD66c- Other,2.58
+5,3,0.5,uninfected,nhbe,lonza,1,Goblet,0.25
+5,3,0.5,uninfected,nhbe,lonza,1,CD271+ Ciliated,0.16
+5,3,0.5,uninfected,nhbe,lonza,1,CD66c+ Basal,4.03
+5,3,0.5,uninfected,nhbe,lonza,2,Ciliated,24.9
+5,3,0.5,uninfected,nhbe,lonza,2,Secretory,40
+5,3,0.5,uninfected,nhbe,lonza,2,Basal,12
+5,3,0.5,uninfected,nhbe,lonza,2,Triple Negative,1.01
+5,3,0.5,uninfected,nhbe,lonza,2,CD66c+ Other,9
+5,3,0.5,uninfected,nhbe,lonza,2,CD66c- Other,1.56
+5,3,0.5,uninfected,nhbe,lonza,2,Goblet,0.14
+5,3,0.5,uninfected,nhbe,lonza,2,CD271+ Ciliated,0.16
+5,3,0.5,uninfected,nhbe,lonza,2,CD66c+ Basal,3.1
+5,3,0.5,uninfected,nhbe,lonza,3,Ciliated,29.5
+5,3,0.5,uninfected,nhbe,lonza,3,Secretory,40.7
+5,3,0.5,uninfected,nhbe,lonza,3,Basal,8.19
+5,3,0.5,uninfected,nhbe,lonza,3,Triple Negative,1.07
+5,3,0.5,uninfected,nhbe,lonza,3,CD66c+ Other,7.99
+5,3,0.5,uninfected,nhbe,lonza,3,CD66c- Other,2.1
+5,3,0.5,uninfected,nhbe,lonza,3,Goblet,0.04
+5,3,0.5,uninfected,nhbe,lonza,3,CD271+ Ciliated,0.13
+5,3,0.5,uninfected,nhbe,lonza,3,CD66c+ Basal,2.23
+6,3,0.5,uninfected,nhbe,pneumacult,1,Ciliated,7.49
+6,3,0.5,uninfected,nhbe,pneumacult,1,Secretory,16.6
+6,3,0.5,uninfected,nhbe,pneumacult,1,Basal,29.3
+6,3,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.88
+6,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,17.5
+6,3,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,20.9
+6,3,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.01
+6,3,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.09
+6,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,0.19
+6,3,0.5,uninfected,nhbe,pneumacult,2,Ciliated,8.2
+6,3,0.5,uninfected,nhbe,pneumacult,2,Secretory,18.1
+6,3,0.5,uninfected,nhbe,pneumacult,2,Basal,30.5
+6,3,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.6
+6,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,17.5
+6,3,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,17.5
+6,3,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.07
+6,3,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.1
+6,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,0.23
+6,3,0.5,uninfected,nhbe,pneumacult,3,Ciliated,7.24
+6,3,0.5,uninfected,nhbe,pneumacult,3,Secretory,14.7
+6,3,0.5,uninfected,nhbe,pneumacult,3,Basal,35.8
+6,3,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.58
+6,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,17.4
+6,3,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,17.4
+6,3,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.02
+6,3,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.07
+6,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,0.32
+6,3,0.5,uninfected,nhbe,il13_low,1,Ciliated,5.88
+6,3,0.5,uninfected,nhbe,il13_low,1,Secretory,9.85
+6,3,0.5,uninfected,nhbe,il13_low,1,Basal,44
+6,3,0.5,uninfected,nhbe,il13_low,1,Triple Negative,1.13
+6,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Other,3.72
+6,3,0.5,uninfected,nhbe,il13_low,1,CD66c- Other,26.4
+6,3,0.5,uninfected,nhbe,il13_low,1,Goblet,0.17
+6,3,0.5,uninfected,nhbe,il13_low,1,CD271+ Ciliated,0.17
+6,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Basal,0.51
+6,3,0.5,uninfected,nhbe,il13_low,2,Ciliated,1.99
+6,3,0.5,uninfected,nhbe,il13_low,2,Secretory,3.8
+6,3,0.5,uninfected,nhbe,il13_low,2,Basal,61.3
+6,3,0.5,uninfected,nhbe,il13_low,2,Triple Negative,0.51
+6,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Other,2.49
+6,3,0.5,uninfected,nhbe,il13_low,2,CD66c- Other,22.1
+6,3,0.5,uninfected,nhbe,il13_low,2,Goblet,0.19
+6,3,0.5,uninfected,nhbe,il13_low,2,CD271+ Ciliated,0.17
+6,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Basal,0.46
+6,3,0.5,uninfected,nhbe,il13_low,3,Ciliated,6.55
+6,3,0.5,uninfected,nhbe,il13_low,3,Secretory,12.7
+6,3,0.5,uninfected,nhbe,il13_low,3,Basal,35.5
+6,3,0.5,uninfected,nhbe,il13_low,3,Triple Negative,1.49
+6,3,0.5,uninfected,nhbe,il13_low,3,CD66c+ Other,4.34
+6,3,0.5,uninfected,nhbe,il13_low,3,CD66c- Other,28.9
+6,3,0.5,uninfected,nhbe,il13_low,3,Goblet,0.28
+6,3,0.5,uninfected,nhbe,il13_low,3,CD271+ Ciliated,0.22
+6,3,0.5,uninfected,nhbe,il13_low,3,CD66c+ Basal,0.61
+6,3,0.5,uninfected,nhbe,il13_high,1,Ciliated,11.9
+6,3,0.5,uninfected,nhbe,il13_high,1,Secretory,17.7
+6,3,0.5,uninfected,nhbe,il13_high,1,Basal,24.4
+6,3,0.5,uninfected,nhbe,il13_high,1,Triple Negative,6.29
+6,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Other,4.4
+6,3,0.5,uninfected,nhbe,il13_high,1,CD66c- Other,26.1
+6,3,0.5,uninfected,nhbe,il13_high,1,Goblet,0.75
+6,3,0.5,uninfected,nhbe,il13_high,1,CD271+ Ciliated,0.2
+6,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Basal,0.54
+6,3,0.5,uninfected,nhbe,il13_high,2,Ciliated,11.2
+6,3,0.5,uninfected,nhbe,il13_high,2,Secretory,14.3
+6,3,0.5,uninfected,nhbe,il13_high,2,Basal,28.4
+6,3,0.5,uninfected,nhbe,il13_high,2,Triple Negative,5.26
+6,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Other,5.17
+6,3,0.5,uninfected,nhbe,il13_high,2,CD66c- Other,25.8
+6,3,0.5,uninfected,nhbe,il13_high,2,Goblet,0.87
+6,3,0.5,uninfected,nhbe,il13_high,2,CD271+ Ciliated,0.23
+6,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Basal,0.98
+6,3,0.5,uninfected,nhbe,il13_high,3,Ciliated,12.9
+6,3,0.5,uninfected,nhbe,il13_high,3,Secretory,12.3
+6,3,0.5,uninfected,nhbe,il13_high,3,Basal,28.2
+6,3,0.5,uninfected,nhbe,il13_high,3,Triple Negative,5.02
+6,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Other,4.48
+6,3,0.5,uninfected,nhbe,il13_high,3,CD66c- Other,28
+6,3,0.5,uninfected,nhbe,il13_high,3,Goblet,0.81
+6,3,0.5,uninfected,nhbe,il13_high,3,CD271+ Ciliated,0.1
+6,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Basal,0.55
+6,3,0.5,uninfected,nhbe,dapt,1,Ciliated,17.8
+6,3,0.5,uninfected,nhbe,dapt,1,Secretory,1.33
+6,3,0.5,uninfected,nhbe,dapt,1,Basal,76.2
+6,3,0.5,uninfected,nhbe,dapt,1,Triple Negative,0.64
+6,3,0.5,uninfected,nhbe,dapt,1,CD66c+ Other,0.92
+6,3,0.5,uninfected,nhbe,dapt,1,CD66c- Other,0.73
+6,3,0.5,uninfected,nhbe,dapt,1,Goblet,0.01
+6,3,0.5,uninfected,nhbe,dapt,1,CD271+ Ciliated,0.15
+6,3,0.5,uninfected,nhbe,dapt,1,CD66c+ Basal,0.94
+6,3,0.5,uninfected,nhbe,dapt,2,Ciliated,19.7
+6,3,0.5,uninfected,nhbe,dapt,2,Secretory,1.35
+6,3,0.5,uninfected,nhbe,dapt,2,Basal,74.6
+6,3,0.5,uninfected,nhbe,dapt,2,Triple Negative,0.53
+6,3,0.5,uninfected,nhbe,dapt,2,CD66c+ Other,0.8
+6,3,0.5,uninfected,nhbe,dapt,2,CD66c- Other,0.79
+6,3,0.5,uninfected,nhbe,dapt,2,Goblet,0.02
+6,3,0.5,uninfected,nhbe,dapt,2,CD271+ Ciliated,0.19
+6,3,0.5,uninfected,nhbe,dapt,2,CD66c+ Basal,0.95
+6,3,0.5,uninfected,nhbe,dapt,3,Ciliated,19.5
+6,3,0.5,uninfected,nhbe,dapt,3,Secretory,1.15
+6,3,0.5,uninfected,nhbe,dapt,3,Basal,75.4
+6,3,0.5,uninfected,nhbe,dapt,3,Triple Negative,0.47
+6,3,0.5,uninfected,nhbe,dapt,3,CD66c+ Other,0.71
+6,3,0.5,uninfected,nhbe,dapt,3,CD66c- Other,0.65
+6,3,0.5,uninfected,nhbe,dapt,3,Goblet,0.01
+6,3,0.5,uninfected,nhbe,dapt,3,CD271+ Ciliated,0.15
+6,3,0.5,uninfected,nhbe,dapt,3,CD66c+ Basal,0.92
+6,3,0.5,uninfected,nhne,pneumacult,1,Ciliated,27.4
+6,3,0.5,uninfected,nhne,pneumacult,1,Secretory,33.2
+6,3,0.5,uninfected,nhne,pneumacult,1,Basal,5.34
+6,3,0.5,uninfected,nhne,pneumacult,1,Triple Negative,1.74
+6,3,0.5,uninfected,nhne,pneumacult,1,CD66c+ Other,11.1
+6,3,0.5,uninfected,nhne,pneumacult,1,CD66c- Other,12.7
+6,3,0.5,uninfected,nhne,pneumacult,1,Goblet,0.07
+6,3,0.5,uninfected,nhne,pneumacult,1,CD271+ Ciliated,0.06
+6,3,0.5,uninfected,nhne,pneumacult,1,CD66c+ Basal,0.67
+6,3,0.5,uninfected,nhne,pneumacult,2,Ciliated,24.9
+6,3,0.5,uninfected,nhne,pneumacult,2,Secretory,38.5
+6,3,0.5,uninfected,nhne,pneumacult,2,Basal,2.92
+6,3,0.5,uninfected,nhne,pneumacult,2,Triple Negative,9.65
+6,3,0.5,uninfected,nhne,pneumacult,2,CD66c+ Other,6.56
+6,3,0.5,uninfected,nhne,pneumacult,2,CD66c- Other,9.06
+6,3,0.5,uninfected,nhne,pneumacult,2,Goblet,0.13
+6,3,0.5,uninfected,nhne,pneumacult,2,CD271+ Ciliated,0.08
+6,3,0.5,uninfected,nhne,pneumacult,2,CD66c+ Basal,0.33
+6,3,0.5,uninfected,nhne,pneumacult,3,Ciliated,24.3
+6,3,0.5,uninfected,nhne,pneumacult,3,Secretory,39.8
+6,3,0.5,uninfected,nhne,pneumacult,3,Basal,3.61
+6,3,0.5,uninfected,nhne,pneumacult,3,Triple Negative,8.93
+6,3,0.5,uninfected,nhne,pneumacult,3,CD66c+ Other,4.39
+6,3,0.5,uninfected,nhne,pneumacult,3,CD66c- Other,10.4
+6,3,0.5,uninfected,nhne,pneumacult,3,Goblet,0.15
+6,3,0.5,uninfected,nhne,pneumacult,3,CD271+ Ciliated,0.08
+6,3,0.5,uninfected,nhne,pneumacult,3,CD66c+ Basal,0.31
+6,3,0.5,uninfected,nhne,il13_low,1,Ciliated,5.71
+6,3,0.5,uninfected,nhne,il13_low,1,Secretory,50.5
+6,3,0.5,uninfected,nhne,il13_low,1,Basal,13.2
+6,3,0.5,uninfected,nhne,il13_low,1,Triple Negative,1.78
+6,3,0.5,uninfected,nhne,il13_low,1,CD66c+ Other,12.7
+6,3,0.5,uninfected,nhne,il13_low,1,CD66c- Other,5.95
+6,3,0.5,uninfected,nhne,il13_low,1,Goblet,0.12
+6,3,0.5,uninfected,nhne,il13_low,1,CD271+ Ciliated,0.03
+6,3,0.5,uninfected,nhne,il13_low,1,CD66c+ Basal,2.54
+6,3,0.5,uninfected,nhne,il13_low,2,Ciliated,5.48
+6,3,0.5,uninfected,nhne,il13_low,2,Secretory,47.5
+6,3,0.5,uninfected,nhne,il13_low,2,Basal,16
+6,3,0.5,uninfected,nhne,il13_low,2,Triple Negative,1.78
+6,3,0.5,uninfected,nhne,il13_low,2,CD66c+ Other,13
+6,3,0.5,uninfected,nhne,il13_low,2,CD66c- Other,6.95
+6,3,0.5,uninfected,nhne,il13_low,2,Goblet,0.25
+6,3,0.5,uninfected,nhne,il13_low,2,CD271+ Ciliated,0.04
+6,3,0.5,uninfected,nhne,il13_low,2,CD66c+ Basal,1.64
+6,3,0.5,uninfected,nhne,il13_low,3,Ciliated,6.91
+6,3,0.5,uninfected,nhne,il13_low,3,Secretory,48
+6,3,0.5,uninfected,nhne,il13_low,3,Basal,10.2
+6,3,0.5,uninfected,nhne,il13_low,3,Triple Negative,1.35
+6,3,0.5,uninfected,nhne,il13_low,3,CD66c+ Other,15.6
+6,3,0.5,uninfected,nhne,il13_low,3,CD66c- Other,9.33
+6,3,0.5,uninfected,nhne,il13_low,3,Goblet,0.05
+6,3,0.5,uninfected,nhne,il13_low,3,CD271+ Ciliated,0.03
+6,3,0.5,uninfected,nhne,il13_low,3,CD66c+ Basal,1.33
+6,3,0.5,uninfected,nhne,il13_high,1,Ciliated,0.9
+6,3,0.5,uninfected,nhne,il13_high,1,Secretory,29.9
+6,3,0.5,uninfected,nhne,il13_high,1,Basal,16.9
+6,3,0.5,uninfected,nhne,il13_high,1,Triple Negative,32.2
+6,3,0.5,uninfected,nhne,il13_high,1,CD66c+ Other,5.62
+6,3,0.5,uninfected,nhne,il13_high,1,CD66c- Other,7.75
+6,3,0.5,uninfected,nhne,il13_high,1,Goblet,0.1
+6,3,0.5,uninfected,nhne,il13_high,1,CD271+ Ciliated,0.01
+6,3,0.5,uninfected,nhne,il13_high,1,CD66c+ Basal,0.35
+6,3,0.5,uninfected,nhne,il13_high,2,Ciliated,2.05
+6,3,0.5,uninfected,nhne,il13_high,2,Secretory,37
+6,3,0.5,uninfected,nhne,il13_high,2,Basal,29.4
+6,3,0.5,uninfected,nhne,il13_high,2,Triple Negative,1.92
+6,3,0.5,uninfected,nhne,il13_high,2,CD66c+ Other,9.2
+6,3,0.5,uninfected,nhne,il13_high,2,CD66c- Other,11.5
+6,3,0.5,uninfected,nhne,il13_high,2,Goblet,0.05
+6,3,0.5,uninfected,nhne,il13_high,2,CD271+ Ciliated,0.03
+6,3,0.5,uninfected,nhne,il13_high,2,CD66c+ Basal,0.76
+6,3,0.5,uninfected,nhne,il13_high,3,Ciliated,1.65
+6,3,0.5,uninfected,nhne,il13_high,3,Secretory,23.1
+6,3,0.5,uninfected,nhne,il13_high,3,Basal,24.6
+6,3,0.5,uninfected,nhne,il13_high,3,Triple Negative,25.9
+6,3,0.5,uninfected,nhne,il13_high,3,CD66c+ Other,5.23
+6,3,0.5,uninfected,nhne,il13_high,3,CD66c- Other,11.7
+6,3,0.5,uninfected,nhne,il13_high,3,Goblet,0.05
+6,3,0.5,uninfected,nhne,il13_high,3,CD271+ Ciliated,0.03
+6,3,0.5,uninfected,nhne,il13_high,3,CD66c+ Basal,0.53
+6,3,0.5,uninfected,nhne,dapt,1,Ciliated,10.3
+6,3,0.5,uninfected,nhne,dapt,1,Secretory,3.36
+6,3,0.5,uninfected,nhne,dapt,1,Basal,80.4
+6,3,0.5,uninfected,nhne,dapt,1,Triple Negative,0.44
+6,3,0.5,uninfected,nhne,dapt,1,CD66c+ Other,0.81
+6,3,0.5,uninfected,nhne,dapt,1,CD66c- Other,0.5
+6,3,0.5,uninfected,nhne,dapt,1,Goblet,0.03
+6,3,0.5,uninfected,nhne,dapt,1,CD271+ Ciliated,0.42
+6,3,0.5,uninfected,nhne,dapt,1,CD66c+ Basal,1.84
+6,3,0.5,uninfected,nhne,dapt,2,Ciliated,14.9
+6,3,0.5,uninfected,nhne,dapt,2,Secretory,4.5
+6,3,0.5,uninfected,nhne,dapt,2,Basal,70.4
+6,3,0.5,uninfected,nhne,dapt,2,Triple Negative,3.02
+6,3,0.5,uninfected,nhne,dapt,2,CD66c+ Other,0.76
+6,3,0.5,uninfected,nhne,dapt,2,CD66c- Other,1.48
+6,3,0.5,uninfected,nhne,dapt,2,Goblet,0.07
+6,3,0.5,uninfected,nhne,dapt,2,CD271+ Ciliated,0.33
+6,3,0.5,uninfected,nhne,dapt,2,CD66c+ Basal,1.28
+6,3,0.5,uninfected,nhne,dapt,3,Ciliated,17.4
+6,3,0.5,uninfected,nhne,dapt,3,Secretory,3.23
+6,3,0.5,uninfected,nhne,dapt,3,Basal,74.3
+6,3,0.5,uninfected,nhne,dapt,3,Triple Negative,0.54
+6,3,0.5,uninfected,nhne,dapt,3,CD66c+ Other,0.64
+6,3,0.5,uninfected,nhne,dapt,3,CD66c- Other,0.78
+6,3,0.5,uninfected,nhne,dapt,3,Goblet,0.03
+6,3,0.5,uninfected,nhne,dapt,3,CD271+ Ciliated,0.42
+6,3,0.5,uninfected,nhne,dapt,3,CD66c+ Basal,1.28
+7,3,0.5,uninfected,nhbe,pneumacult,1,Ciliated,5.22
+7,3,0.5,uninfected,nhbe,pneumacult,1,Secretory,18.9
+7,3,0.5,uninfected,nhbe,pneumacult,1,Basal,15.6
+7,3,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,27.4
+7,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,11.7
+7,3,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,14
+7,3,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.04
+7,3,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.23
+7,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,0.61
+7,3,0.5,uninfected,nhbe,pneumacult,2,Ciliated,8.03
+7,3,0.5,uninfected,nhbe,pneumacult,2,Secretory,18.6
+7,3,0.5,uninfected,nhbe,pneumacult,2,Basal,23
+7,3,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,1.55
+7,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,20.9
+7,3,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,19.1
+7,3,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.04
+7,3,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.71
+7,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,0.8
+7,3,0.5,uninfected,nhbe,pneumacult,3,Ciliated,6.89
+7,3,0.5,uninfected,nhbe,pneumacult,3,Secretory,18
+7,3,0.5,uninfected,nhbe,pneumacult,3,Basal,26.3
+7,3,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,1.09
+7,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,21.7
+7,3,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,18
+7,3,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.03
+7,3,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.4
+7,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,0.91
+7,3,0.5,uninfected,nhbe,il13_low,1,Ciliated,8.49
+7,3,0.5,uninfected,nhbe,il13_low,1,Secretory,27.3
+7,3,0.5,uninfected,nhbe,il13_low,1,Basal,0.83
+7,3,0.5,uninfected,nhbe,il13_low,1,Triple Negative,53.9
+7,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Other,3.06
+7,3,0.5,uninfected,nhbe,il13_low,1,CD66c- Other,1.33
+7,3,0.5,uninfected,nhbe,il13_low,1,Goblet,0.83
+7,3,0.5,uninfected,nhbe,il13_low,1,CD271+ Ciliated,0.32
+7,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Basal,0.2
+7,3,0.5,uninfected,nhbe,il13_low,2,Ciliated,11
+7,3,0.5,uninfected,nhbe,il13_low,2,Secretory,28.6
+7,3,0.5,uninfected,nhbe,il13_low,2,Basal,3.18
+7,3,0.5,uninfected,nhbe,il13_low,2,Triple Negative,41.5
+7,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Other,4.98
+7,3,0.5,uninfected,nhbe,il13_low,2,CD66c- Other,3.88
+7,3,0.5,uninfected,nhbe,il13_low,2,Goblet,0.96
+7,3,0.5,uninfected,nhbe,il13_low,2,CD271+ Ciliated,0.39
+7,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Basal,0.29
+7,3,0.5,uninfected,nhbe,il13_low,3,Ciliated,16.6
+7,3,0.5,uninfected,nhbe,il13_low,3,Secretory,33
+7,3,0.5,uninfected,nhbe,il13_low,3,Basal,3.74
+7,3,0.5,uninfected,nhbe,il13_low,3,Triple Negative,23.9
+7,3,0.5,uninfected,nhbe,il13_low,3,CD66c+ Other,9.87
+7,3,0.5,uninfected,nhbe,il13_low,3,CD66c- Other,5.23
+7,3,0.5,uninfected,nhbe,il13_low,3,Goblet,1.12
+7,3,0.5,uninfected,nhbe,il13_low,3,CD271+ Ciliated,0.61
+7,3,0.5,uninfected,nhbe,il13_low,3,CD66c+ Basal,0.66
+7,3,0.5,uninfected,nhbe,il13_high,1,Ciliated,3.77
+7,3,0.5,uninfected,nhbe,il13_high,1,Secretory,19.8
+7,3,0.5,uninfected,nhbe,il13_high,1,Basal,1.39
+7,3,0.5,uninfected,nhbe,il13_high,1,Triple Negative,67.1
+7,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Other,0.98
+7,3,0.5,uninfected,nhbe,il13_high,1,CD66c- Other,0.74
+7,3,0.5,uninfected,nhbe,il13_high,1,Goblet,1.64
+7,3,0.5,uninfected,nhbe,il13_high,1,CD271+ Ciliated,0.08
+7,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Basal,0
+7,3,0.5,uninfected,nhbe,il13_high,2,Ciliated,3.45
+7,3,0.5,uninfected,nhbe,il13_high,2,Secretory,47.5
+7,3,0.5,uninfected,nhbe,il13_high,2,Basal,0.83
+7,3,0.5,uninfected,nhbe,il13_high,2,Triple Negative,43
+7,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Other,0.56
+7,3,0.5,uninfected,nhbe,il13_high,2,CD66c- Other,0.49
+7,3,0.5,uninfected,nhbe,il13_high,2,Goblet,1.26
+7,3,0.5,uninfected,nhbe,il13_high,2,CD271+ Ciliated,0.11
+7,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Basal,0.14
+7,3,0.5,uninfected,nhbe,dapt,1,Ciliated,40.8
+7,3,0.5,uninfected,nhbe,dapt,1,Secretory,0.52
+7,3,0.5,uninfected,nhbe,dapt,1,Basal,54
+7,3,0.5,uninfected,nhbe,dapt,1,Triple Negative,0.56
+7,3,0.5,uninfected,nhbe,dapt,1,CD66c+ Other,0.43
+7,3,0.5,uninfected,nhbe,dapt,1,CD66c- Other,0.4
+7,3,0.5,uninfected,nhbe,dapt,1,Goblet,0.03
+7,3,0.5,uninfected,nhbe,dapt,1,CD271+ Ciliated,0.51
+7,3,0.5,uninfected,nhbe,dapt,1,CD66c+ Basal,2.1
+7,3,0.5,uninfected,nhbe,dapt,2,Ciliated,45.4
+7,3,0.5,uninfected,nhbe,dapt,2,Secretory,0.53
+7,3,0.5,uninfected,nhbe,dapt,2,Basal,49.9
+7,3,0.5,uninfected,nhbe,dapt,2,Triple Negative,0.59
+7,3,0.5,uninfected,nhbe,dapt,2,CD66c+ Other,0.43
+7,3,0.5,uninfected,nhbe,dapt,2,CD66c- Other,0.35
+7,3,0.5,uninfected,nhbe,dapt,2,Goblet,0.02
+7,3,0.5,uninfected,nhbe,dapt,2,CD271+ Ciliated,0.51
+7,3,0.5,uninfected,nhbe,dapt,2,CD66c+ Basal,1.63
+7,3,0.5,uninfected,nhbe,dapt,3,Ciliated,38.8
+7,3,0.5,uninfected,nhbe,dapt,3,Secretory,0.58
+7,3,0.5,uninfected,nhbe,dapt,3,Basal,55.6
+7,3,0.5,uninfected,nhbe,dapt,3,Triple Negative,0.95
+7,3,0.5,uninfected,nhbe,dapt,3,CD66c+ Other,0.44
+7,3,0.5,uninfected,nhbe,dapt,3,CD66c- Other,0.45
+7,3,0.5,uninfected,nhbe,dapt,3,Goblet,0.03
+7,3,0.5,uninfected,nhbe,dapt,3,CD271+ Ciliated,0.39
+7,3,0.5,uninfected,nhbe,dapt,3,CD66c+ Basal,1.96
+7,3,0.5,uninfected,nhbe,lonza,1,Ciliated,3
+7,3,0.5,uninfected,nhbe,lonza,1,Secretory,23.5
+7,3,0.5,uninfected,nhbe,lonza,1,Basal,46.1
+7,3,0.5,uninfected,nhbe,lonza,1,Triple Negative,1.56
+7,3,0.5,uninfected,nhbe,lonza,1,CD66c+ Other,7.85
+7,3,0.5,uninfected,nhbe,lonza,1,CD66c- Other,4.51
+7,3,0.5,uninfected,nhbe,lonza,1,Goblet,0.01
+7,3,0.5,uninfected,nhbe,lonza,1,CD271+ Ciliated,0.13
+7,3,0.5,uninfected,nhbe,lonza,1,CD66c+ Basal,5.77
+7,3,0.5,uninfected,nhbe,lonza,2,Ciliated,4.3
+7,3,0.5,uninfected,nhbe,lonza,2,Secretory,19.7
+7,3,0.5,uninfected,nhbe,lonza,2,Basal,46.7
+7,3,0.5,uninfected,nhbe,lonza,2,Triple Negative,1.41
+7,3,0.5,uninfected,nhbe,lonza,2,CD66c+ Other,9.17
+7,3,0.5,uninfected,nhbe,lonza,2,CD66c- Other,4.16
+7,3,0.5,uninfected,nhbe,lonza,2,Goblet,0
+7,3,0.5,uninfected,nhbe,lonza,2,CD271+ Ciliated,0.16
+7,3,0.5,uninfected,nhbe,lonza,2,CD66c+ Basal,6.02
+7,3,0.5,uninfected,nhbe,lonza,3,Ciliated,4.04
+7,3,0.5,uninfected,nhbe,lonza,3,Secretory,20.6
+7,3,0.5,uninfected,nhbe,lonza,3,Basal,48.7
+7,3,0.5,uninfected,nhbe,lonza,3,Triple Negative,1.27
+7,3,0.5,uninfected,nhbe,lonza,3,CD66c+ Other,8.44
+7,3,0.5,uninfected,nhbe,lonza,3,CD66c- Other,4.99
+7,3,0.5,uninfected,nhbe,lonza,3,Goblet,0
+7,3,0.5,uninfected,nhbe,lonza,3,CD271+ Ciliated,0.21
+7,3,0.5,uninfected,nhbe,lonza,3,CD66c+ Basal,4.03
+7,3,0.5,uninfected,nhne,pneumacult,1,Ciliated,24.6
+7,3,0.5,uninfected,nhne,pneumacult,1,Secretory,41.3
+7,3,0.5,uninfected,nhne,pneumacult,1,Basal,6.76
+7,3,0.5,uninfected,nhne,pneumacult,1,Triple Negative,6.23
+7,3,0.5,uninfected,nhne,pneumacult,1,CD66c+ Other,2.9
+7,3,0.5,uninfected,nhne,pneumacult,1,CD66c- Other,11.6
+7,3,0.5,uninfected,nhne,pneumacult,1,Goblet,0.07
+7,3,0.5,uninfected,nhne,pneumacult,1,CD271+ Ciliated,0.26
+7,3,0.5,uninfected,nhne,pneumacult,1,CD66c+ Basal,0.48
+7,3,0.5,uninfected,nhne,pneumacult,2,Ciliated,16
+7,3,0.5,uninfected,nhne,pneumacult,2,Secretory,43.7
+7,3,0.5,uninfected,nhne,pneumacult,2,Basal,8.85
+7,3,0.5,uninfected,nhne,pneumacult,2,Triple Negative,7.44
+7,3,0.5,uninfected,nhne,pneumacult,2,CD66c+ Other,2.11
+7,3,0.5,uninfected,nhne,pneumacult,2,CD66c- Other,14.5
+7,3,0.5,uninfected,nhne,pneumacult,2,Goblet,0.03
+7,3,0.5,uninfected,nhne,pneumacult,2,CD271+ Ciliated,0.18
+7,3,0.5,uninfected,nhne,pneumacult,2,CD66c+ Basal,0.65
+7,3,0.5,uninfected,nhne,pneumacult,3,Ciliated,21.3
+7,3,0.5,uninfected,nhne,pneumacult,3,Secretory,50.7
+7,3,0.5,uninfected,nhne,pneumacult,3,Basal,9.34
+7,3,0.5,uninfected,nhne,pneumacult,3,Triple Negative,3.57
+7,3,0.5,uninfected,nhne,pneumacult,3,CD66c+ Other,2.14
+7,3,0.5,uninfected,nhne,pneumacult,3,CD66c- Other,7.16
+7,3,0.5,uninfected,nhne,pneumacult,3,Goblet,0.13
+7,3,0.5,uninfected,nhne,pneumacult,3,CD271+ Ciliated,0.22
+7,3,0.5,uninfected,nhne,pneumacult,3,CD66c+ Basal,0.52
+6,0,0.5,uninfected,nhbe,pneumacult,1,Ciliated,13.6
+6,0,0.5,uninfected,nhbe,pneumacult,1,Secretory,0.13
+6,0,0.5,uninfected,nhbe,pneumacult,1,Basal,7.9
+6,0,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.27
+6,0,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,2.18
+6,0,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,0.26
+6,0,0.5,uninfected,nhbe,pneumacult,1,Goblet,0
+6,0,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,55.2
+6,0,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,12.9
+6,0,0.5,uninfected,nhbe,pneumacult,2,Ciliated,13.9
+6,0,0.5,uninfected,nhbe,pneumacult,2,Secretory,0.16
+6,0,0.5,uninfected,nhbe,pneumacult,2,Basal,7.95
+6,0,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.31
+6,0,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,2.38
+6,0,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,0.45
+6,0,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.02
+6,0,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,54.2
+6,0,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,12.8
+6,0,0.5,uninfected,nhbe,pneumacult,3,Ciliated,21.3
+6,0,0.5,uninfected,nhbe,pneumacult,3,Secretory,4.56
+6,0,0.5,uninfected,nhbe,pneumacult,3,Basal,5.64
+6,0,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,4.76
+6,0,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,2.48
+6,0,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,0.73
+6,0,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.31
+6,0,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,43.8
+6,0,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,8.43
+6,0,0.5,uninfected,nhne,pneumacult,1,Ciliated,16.2
+6,0,0.5,uninfected,nhne,pneumacult,1,Secretory,2.47
+6,0,0.5,uninfected,nhne,pneumacult,1,Basal,24.3
+6,0,0.5,uninfected,nhne,pneumacult,1,Triple Negative,6.54
+6,0,0.5,uninfected,nhne,pneumacult,1,CD66c+ Other,3.13
+6,0,0.5,uninfected,nhne,pneumacult,1,CD66c- Other,0.86
+6,0,0.5,uninfected,nhne,pneumacult,1,Goblet,0.23
+6,0,0.5,uninfected,nhne,pneumacult,1,CD271+ Ciliated,31.8
+6,0,0.5,uninfected,nhne,pneumacult,1,CD66c+ Basal,7.65
+6,0,0.5,uninfected,nhne,pneumacult,2,Ciliated,14.9
+6,0,0.5,uninfected,nhne,pneumacult,2,Secretory,0.51
+6,0,0.5,uninfected,nhne,pneumacult,2,Basal,25.9
+6,0,0.5,uninfected,nhne,pneumacult,2,Triple Negative,0.53
+6,0,0.5,uninfected,nhne,pneumacult,2,CD66c+ Other,2.88
+6,0,0.5,uninfected,nhne,pneumacult,2,CD66c- Other,0.48
+6,0,0.5,uninfected,nhne,pneumacult,2,Goblet,0.08
+6,0,0.5,uninfected,nhne,pneumacult,2,CD271+ Ciliated,38.2
+6,0,0.5,uninfected,nhne,pneumacult,2,CD66c+ Basal,9.08
+6,0,0.5,uninfected,nhne,pneumacult,3,Ciliated,14.8
+6,0,0.5,uninfected,nhne,pneumacult,3,Secretory,0.48
+6,0,0.5,uninfected,nhne,pneumacult,3,Basal,26.7
+6,0,0.5,uninfected,nhne,pneumacult,3,Triple Negative,0.5
+6,0,0.5,uninfected,nhne,pneumacult,3,CD66c+ Other,2.96
+6,0,0.5,uninfected,nhne,pneumacult,3,CD66c- Other,0.38
+6,0,0.5,uninfected,nhne,pneumacult,3,Goblet,0.08
+6,0,0.5,uninfected,nhne,pneumacult,3,CD271+ Ciliated,38
+6,0,0.5,uninfected,nhne,pneumacult,3,CD66c+ Basal,8.88
+6,1,0.5,uninfected,nhbe,pneumacult,1,Ciliated,8.91
+6,1,0.5,uninfected,nhbe,pneumacult,1,Secretory,6.59
+6,1,0.5,uninfected,nhbe,pneumacult,1,Basal,17.3
+6,1,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,1.22
+6,1,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,34.7
+6,1,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,16.4
+6,1,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.12
+6,1,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.08
+6,1,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,6.45
+6,1,0.5,uninfected,nhbe,pneumacult,2,Ciliated,6.95
+6,1,0.5,uninfected,nhbe,pneumacult,2,Secretory,4.63
+6,1,0.5,uninfected,nhbe,pneumacult,2,Basal,24.1
+6,1,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.46
+6,1,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,32.2
+6,1,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,15.5
+6,1,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.04
+6,1,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.06
+6,1,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,7.91
+6,1,0.5,uninfected,nhbe,pneumacult,3,Ciliated,7.43
+6,1,0.5,uninfected,nhbe,pneumacult,3,Secretory,5.13
+6,1,0.5,uninfected,nhbe,pneumacult,3,Basal,24.6
+6,1,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.44
+6,1,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,30.8
+6,1,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,17.1
+6,1,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.02
+6,1,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.14
+6,1,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,6.39
+6,1,0.5,uninfected,nhne,pneumacult,1,Ciliated,9.81
+6,1,0.5,uninfected,nhne,pneumacult,1,Secretory,6.97
+6,1,0.5,uninfected,nhne,pneumacult,1,Basal,41.6
+6,1,0.5,uninfected,nhne,pneumacult,1,Triple Negative,1.1
+6,1,0.5,uninfected,nhne,pneumacult,1,CD66c+ Other,10.8
+6,1,0.5,uninfected,nhne,pneumacult,1,CD66c- Other,21.4
+6,1,0.5,uninfected,nhne,pneumacult,1,Goblet,0.1
+6,1,0.5,uninfected,nhne,pneumacult,1,CD271+ Ciliated,1.13
+6,1,0.5,uninfected,nhne,pneumacult,1,CD66c+ Basal,0.37
+6,1,0.5,uninfected,nhne,pneumacult,2,Ciliated,12.6
+6,1,0.5,uninfected,nhne,pneumacult,2,Secretory,7.59
+6,1,0.5,uninfected,nhne,pneumacult,2,Basal,39.7
+6,1,0.5,uninfected,nhne,pneumacult,2,Triple Negative,0.9
+6,1,0.5,uninfected,nhne,pneumacult,2,CD66c+ Other,12.2
+6,1,0.5,uninfected,nhne,pneumacult,2,CD66c- Other,18.8
+6,1,0.5,uninfected,nhne,pneumacult,2,Goblet,0.02
+6,1,0.5,uninfected,nhne,pneumacult,2,CD271+ Ciliated,0.88
+6,1,0.5,uninfected,nhne,pneumacult,2,CD66c+ Basal,0.54
+6,1,0.5,uninfected,nhne,pneumacult,3,Ciliated,9.33
+6,1,0.5,uninfected,nhne,pneumacult,3,Secretory,6.66
+6,1,0.5,uninfected,nhne,pneumacult,3,Basal,44.3
+6,1,0.5,uninfected,nhne,pneumacult,3,Triple Negative,0.63
+6,1,0.5,uninfected,nhne,pneumacult,3,CD66c+ Other,11.9
+6,1,0.5,uninfected,nhne,pneumacult,3,CD66c- Other,19.8
+6,1,0.5,uninfected,nhne,pneumacult,3,Goblet,0.07
+6,1,0.5,uninfected,nhne,pneumacult,3,CD271+ Ciliated,0.86
+6,1,0.5,uninfected,nhne,pneumacult,3,CD66c+ Basal,0.39
+6,2,0.5,uninfected,nhbe,pneumacult,1,Ciliated,7.41
+6,2,0.5,uninfected,nhbe,pneumacult,1,Secretory,9.61
+6,2,0.5,uninfected,nhbe,pneumacult,1,Basal,22.9
+6,2,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,1.68
+6,2,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,17.2
+6,2,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,34.1
+6,2,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.02
+6,2,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.13
+6,2,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,0.64
+6,2,0.5,uninfected,nhbe,pneumacult,2,Ciliated,7.99
+6,2,0.5,uninfected,nhbe,pneumacult,2,Secretory,11.3
+6,2,0.5,uninfected,nhbe,pneumacult,2,Basal,18.8
+6,2,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,4.61
+6,2,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,20.4
+6,2,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,29.8
+6,2,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.03
+6,2,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.11
+6,2,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,0.83
+6,2,0.5,uninfected,nhbe,pneumacult,3,Ciliated,9.31
+6,2,0.5,uninfected,nhbe,pneumacult,3,Secretory,11.9
+6,2,0.5,uninfected,nhbe,pneumacult,3,Basal,16.3
+6,2,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,7.13
+6,2,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,19.6
+6,2,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,28.1
+6,2,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.09
+6,2,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.12
+6,2,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,0.77
+6,2,0.5,uninfected,nhbe,il13_low,1,Ciliated,21.6
+6,2,0.5,uninfected,nhbe,il13_low,1,Secretory,15.8
+6,2,0.5,uninfected,nhbe,il13_low,1,Basal,6.31
+6,2,0.5,uninfected,nhbe,il13_low,1,Triple Negative,5.12
+6,2,0.5,uninfected,nhbe,il13_low,1,CD66c+ Other,12.8
+6,2,0.5,uninfected,nhbe,il13_low,1,CD66c- Other,29.5
+6,2,0.5,uninfected,nhbe,il13_low,1,Goblet,0.31
+6,2,0.5,uninfected,nhbe,il13_low,1,CD271+ Ciliated,0.08
+6,2,0.5,uninfected,nhbe,il13_low,1,CD66c+ Basal,0.17
+6,2,0.5,uninfected,nhbe,il13_low,2,Ciliated,27.4
+6,2,0.5,uninfected,nhbe,il13_low,2,Secretory,16.8
+6,2,0.5,uninfected,nhbe,il13_low,2,Basal,4.02
+6,2,0.5,uninfected,nhbe,il13_low,2,Triple Negative,3.17
+6,2,0.5,uninfected,nhbe,il13_low,2,CD66c+ Other,15.8
+6,2,0.5,uninfected,nhbe,il13_low,2,CD66c- Other,23.9
+6,2,0.5,uninfected,nhbe,il13_low,2,Goblet,0.35
+6,2,0.5,uninfected,nhbe,il13_low,2,CD271+ Ciliated,0.12
+6,2,0.5,uninfected,nhbe,il13_low,2,CD66c+ Basal,0.35
+6,2,0.5,uninfected,nhbe,il13_low,3,Ciliated,25.5
+6,2,0.5,uninfected,nhbe,il13_low,3,Secretory,17.5
+6,2,0.5,uninfected,nhbe,il13_low,3,Basal,4.44
+6,2,0.5,uninfected,nhbe,il13_low,3,Triple Negative,2.89
+6,2,0.5,uninfected,nhbe,il13_low,3,CD66c+ Other,16.7
+6,2,0.5,uninfected,nhbe,il13_low,3,CD66c- Other,24.2
+6,2,0.5,uninfected,nhbe,il13_low,3,Goblet,0.37
+6,2,0.5,uninfected,nhbe,il13_low,3,CD271+ Ciliated,0.08
+6,2,0.5,uninfected,nhbe,il13_low,3,CD66c+ Basal,0.31
+6,2,0.5,uninfected,nhbe,il13_high,1,Ciliated,1.14
+6,2,0.5,uninfected,nhbe,il13_high,1,Secretory,0.62
+6,2,0.5,uninfected,nhbe,il13_high,1,Basal,42.3
+6,2,0.5,uninfected,nhbe,il13_high,1,Triple Negative,0.71
+6,2,0.5,uninfected,nhbe,il13_high,1,CD66c+ Other,3.81
+6,2,0.5,uninfected,nhbe,il13_high,1,CD66c- Other,40.2
+6,2,0.5,uninfected,nhbe,il13_high,1,Goblet,0.01
+6,2,0.5,uninfected,nhbe,il13_high,1,CD271+ Ciliated,0.22
+6,2,0.5,uninfected,nhbe,il13_high,1,CD66c+ Basal,1.78
+6,2,0.5,uninfected,nhbe,il13_high,2,Ciliated,1.21
+6,2,0.5,uninfected,nhbe,il13_high,2,Secretory,0.5
+6,2,0.5,uninfected,nhbe,il13_high,2,Basal,23.5
+6,2,0.5,uninfected,nhbe,il13_high,2,Triple Negative,28.3
+6,2,0.5,uninfected,nhbe,il13_high,2,CD66c+ Other,2.1
+6,2,0.5,uninfected,nhbe,il13_high,2,CD66c- Other,36.8
+6,2,0.5,uninfected,nhbe,il13_high,2,Goblet,0.03
+6,2,0.5,uninfected,nhbe,il13_high,2,CD271+ Ciliated,0.07
+6,2,0.5,uninfected,nhbe,il13_high,2,CD66c+ Basal,0.65
+6,2,0.5,uninfected,nhbe,il13_high,3,Ciliated,0.97
+6,2,0.5,uninfected,nhbe,il13_high,3,Secretory,0.33
+6,2,0.5,uninfected,nhbe,il13_high,3,Basal,38.1
+6,2,0.5,uninfected,nhbe,il13_high,3,Triple Negative,0.72
+6,2,0.5,uninfected,nhbe,il13_high,3,CD66c+ Other,3.78
+6,2,0.5,uninfected,nhbe,il13_high,3,CD66c- Other,45.6
+6,2,0.5,uninfected,nhbe,il13_high,3,Goblet,0.02
+6,2,0.5,uninfected,nhbe,il13_high,3,CD271+ Ciliated,0.14
+6,2,0.5,uninfected,nhbe,il13_high,3,CD66c+ Basal,1.02
+6,2,0.5,uninfected,nhbe,dapt,1,Ciliated,15.5
+6,2,0.5,uninfected,nhbe,dapt,1,Secretory,5.24
+6,2,0.5,uninfected,nhbe,dapt,1,Basal,44.7
+6,2,0.5,uninfected,nhbe,dapt,1,Triple Negative,1.83
+6,2,0.5,uninfected,nhbe,dapt,1,CD66c+ Other,20
+6,2,0.5,uninfected,nhbe,dapt,1,CD66c- Other,6.37
+6,2,0.5,uninfected,nhbe,dapt,1,Goblet,0.04
+6,2,0.5,uninfected,nhbe,dapt,1,CD271+ Ciliated,0.23
+6,2,0.5,uninfected,nhbe,dapt,1,CD66c+ Basal,2.07
+6,2,0.5,uninfected,nhbe,dapt,2,Ciliated,17.1
+6,2,0.5,uninfected,nhbe,dapt,2,Secretory,4.77
+6,2,0.5,uninfected,nhbe,dapt,2,Basal,41.8
+6,2,0.5,uninfected,nhbe,dapt,2,Triple Negative,1.22
+6,2,0.5,uninfected,nhbe,dapt,2,CD66c+ Other,23.6
+6,2,0.5,uninfected,nhbe,dapt,2,CD66c- Other,4.46
+6,2,0.5,uninfected,nhbe,dapt,2,Goblet,0.01
+6,2,0.5,uninfected,nhbe,dapt,2,CD271+ Ciliated,0.16
+6,2,0.5,uninfected,nhbe,dapt,2,CD66c+ Basal,2.79
+6,2,0.5,uninfected,nhbe,dapt,3,Ciliated,15.8
+6,2,0.5,uninfected,nhbe,dapt,3,Secretory,4.78
+6,2,0.5,uninfected,nhbe,dapt,3,Basal,40.2
+6,2,0.5,uninfected,nhbe,dapt,3,Triple Negative,1.53
+6,2,0.5,uninfected,nhbe,dapt,3,CD66c+ Other,24.5
+6,2,0.5,uninfected,nhbe,dapt,3,CD66c- Other,5.81
+6,2,0.5,uninfected,nhbe,dapt,3,Goblet,0.01
+6,2,0.5,uninfected,nhbe,dapt,3,CD271+ Ciliated,0.1
+6,2,0.5,uninfected,nhbe,dapt,3,CD66c+ Basal,2.84
+6,2,0.5,uninfected,nhne,pneumacult,1,Ciliated,7.11
+6,2,0.5,uninfected,nhne,pneumacult,1,Secretory,20.9
+6,2,0.5,uninfected,nhne,pneumacult,1,Basal,31.7
+6,2,0.5,uninfected,nhne,pneumacult,1,Triple Negative,1.29
+6,2,0.5,uninfected,nhne,pneumacult,1,CD66c+ Other,17.2
+6,2,0.5,uninfected,nhne,pneumacult,1,CD66c- Other,13.3
+6,2,0.5,uninfected,nhne,pneumacult,1,Goblet,0.03
+6,2,0.5,uninfected,nhne,pneumacult,1,CD271+ Ciliated,0.22
+6,2,0.5,uninfected,nhne,pneumacult,1,CD66c+ Basal,0.77
+6,2,0.5,uninfected,nhne,pneumacult,2,Ciliated,13
+6,2,0.5,uninfected,nhne,pneumacult,2,Secretory,20.6
+6,2,0.5,uninfected,nhne,pneumacult,2,Basal,33.4
+6,2,0.5,uninfected,nhne,pneumacult,2,Triple Negative,0.55
+6,2,0.5,uninfected,nhne,pneumacult,2,CD66c+ Other,20.3
+6,2,0.5,uninfected,nhne,pneumacult,2,CD66c- Other,3.47
+6,2,0.5,uninfected,nhne,pneumacult,2,Goblet,0.02
+6,2,0.5,uninfected,nhne,pneumacult,2,CD271+ Ciliated,0.53
+6,2,0.5,uninfected,nhne,pneumacult,2,CD66c+ Basal,0.98
+6,2,0.5,uninfected,nhne,pneumacult,3,Ciliated,8.82
+6,2,0.5,uninfected,nhne,pneumacult,3,Secretory,16.8
+6,2,0.5,uninfected,nhne,pneumacult,3,Basal,34.8
+6,2,0.5,uninfected,nhne,pneumacult,3,Triple Negative,0.81
+6,2,0.5,uninfected,nhne,pneumacult,3,CD66c+ Other,18.9
+6,2,0.5,uninfected,nhne,pneumacult,3,CD66c- Other,11.6
+6,2,0.5,uninfected,nhne,pneumacult,3,Goblet,0
+6,2,0.5,uninfected,nhne,pneumacult,3,CD271+ Ciliated,0.34
+6,2,0.5,uninfected,nhne,pneumacult,3,CD66c+ Basal,0.83
+7,0,0.5,uninfected,nhbe,pneumacult,1,Ciliated,4.3
+7,0,0.5,uninfected,nhbe,pneumacult,1,Secretory,8.46
+7,0,0.5,uninfected,nhbe,pneumacult,1,Basal,16.1
+7,0,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.72
+7,0,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,8.14
+7,0,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,0.5
+7,0,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.04
+7,0,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,6.47
+7,0,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,48.5
+7,0,0.5,uninfected,nhbe,pneumacult,2,Ciliated,6.13
+7,0,0.5,uninfected,nhbe,pneumacult,2,Secretory,6.95
+7,0,0.5,uninfected,nhbe,pneumacult,2,Basal,15.6
+7,0,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.5
+7,0,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,6.28
+7,0,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,0.36
+7,0,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.06
+7,0,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,11.4
+7,0,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,46
+7,0,0.5,uninfected,nhbe,pneumacult,3,Ciliated,4.46
+7,0,0.5,uninfected,nhbe,pneumacult,3,Secretory,8.84
+7,0,0.5,uninfected,nhbe,pneumacult,3,Basal,15.6
+7,0,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.89
+7,0,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,7.02
+7,0,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,0.39
+7,0,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.05
+7,0,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,7.9
+7,0,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,48
+7,0,0.5,uninfected,nhbe,lonza,1,Ciliated,0.12
+7,0,0.5,uninfected,nhbe,lonza,1,Secretory,1.11
+7,0,0.5,uninfected,nhbe,lonza,1,Basal,51.9
+7,0,0.5,uninfected,nhbe,lonza,1,Triple Negative,2.62
+7,0,0.5,uninfected,nhbe,lonza,1,CD66c+ Other,1.23
+7,0,0.5,uninfected,nhbe,lonza,1,CD66c- Other,4.39
+7,0,0.5,uninfected,nhbe,lonza,1,Goblet,0
+7,0,0.5,uninfected,nhbe,lonza,1,CD271+ Ciliated,6.67
+7,0,0.5,uninfected,nhbe,lonza,1,CD66c+ Basal,22.9
+7,0,0.5,uninfected,nhbe,lonza,2,Ciliated,0.11
+7,0,0.5,uninfected,nhbe,lonza,2,Secretory,1.05
+7,0,0.5,uninfected,nhbe,lonza,2,Basal,51.1
+7,0,0.5,uninfected,nhbe,lonza,2,Triple Negative,2.03
+7,0,0.5,uninfected,nhbe,lonza,2,CD66c+ Other,1.26
+7,0,0.5,uninfected,nhbe,lonza,2,CD66c- Other,3.05
+7,0,0.5,uninfected,nhbe,lonza,2,Goblet,0
+7,0,0.5,uninfected,nhbe,lonza,2,CD271+ Ciliated,6.17
+7,0,0.5,uninfected,nhbe,lonza,2,CD66c+ Basal,26.9
+7,0,0.5,uninfected,nhbe,lonza,3,Ciliated,0.03
+7,0,0.5,uninfected,nhbe,lonza,3,Secretory,0.89
+7,0,0.5,uninfected,nhbe,lonza,3,Basal,51.9
+7,0,0.5,uninfected,nhbe,lonza,3,Triple Negative,0.6
+7,0,0.5,uninfected,nhbe,lonza,3,CD66c+ Other,1.12
+7,0,0.5,uninfected,nhbe,lonza,3,CD66c- Other,1.03
+7,0,0.5,uninfected,nhbe,lonza,3,Goblet,0.02
+7,0,0.5,uninfected,nhbe,lonza,3,CD271+ Ciliated,5.87
+7,0,0.5,uninfected,nhbe,lonza,3,CD66c+ Basal,30.8
+7,1,0.5,uninfected,nhbe,pneumacult,1,Ciliated,2.61
+7,1,0.5,uninfected,nhbe,pneumacult,1,Secretory,22.8
+7,1,0.5,uninfected,nhbe,pneumacult,1,Basal,21.4
+7,1,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.75
+7,1,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,26.7
+7,1,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,15.8
+7,1,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.01
+7,1,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.17
+7,1,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,3.1
+7,1,0.5,uninfected,nhbe,pneumacult,2,Ciliated,1.59
+7,1,0.5,uninfected,nhbe,pneumacult,2,Secretory,19.1
+7,1,0.5,uninfected,nhbe,pneumacult,2,Basal,23.7
+7,1,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.71
+7,1,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,27.9
+7,1,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,16.1
+7,1,0.5,uninfected,nhbe,pneumacult,2,Goblet,0
+7,1,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.22
+7,1,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,3.99
+7,1,0.5,uninfected,nhbe,pneumacult,3,Ciliated,1.8
+7,1,0.5,uninfected,nhbe,pneumacult,3,Secretory,19.2
+7,1,0.5,uninfected,nhbe,pneumacult,3,Basal,26.7
+7,1,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.71
+7,1,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,25.3
+7,1,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,16
+7,1,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.01
+7,1,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.2
+7,1,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,3.77
+7,1,0.5,uninfected,nhbe,lonza,1,Ciliated,1.53
+7,1,0.5,uninfected,nhbe,lonza,1,Secretory,9.7
+7,1,0.5,uninfected,nhbe,lonza,1,Basal,49.6
+7,1,0.5,uninfected,nhbe,lonza,1,Triple Negative,1.18
+7,1,0.5,uninfected,nhbe,lonza,1,CD66c+ Other,13.7
+7,1,0.5,uninfected,nhbe,lonza,1,CD66c- Other,4.44
+7,1,0.5,uninfected,nhbe,lonza,1,Goblet,0.01
+7,1,0.5,uninfected,nhbe,lonza,1,CD271+ Ciliated,0.08
+7,1,0.5,uninfected,nhbe,lonza,1,CD66c+ Basal,12.3
+7,1,0.5,uninfected,nhbe,lonza,2,Ciliated,1.67
+7,1,0.5,uninfected,nhbe,lonza,2,Secretory,8.68
+7,1,0.5,uninfected,nhbe,lonza,2,Basal,52.8
+7,1,0.5,uninfected,nhbe,lonza,2,Triple Negative,0.99
+7,1,0.5,uninfected,nhbe,lonza,2,CD66c+ Other,12.6
+7,1,0.5,uninfected,nhbe,lonza,2,CD66c- Other,4.32
+7,1,0.5,uninfected,nhbe,lonza,2,Goblet,0.01
+7,1,0.5,uninfected,nhbe,lonza,2,CD271+ Ciliated,0.13
+7,1,0.5,uninfected,nhbe,lonza,2,CD66c+ Basal,11.3
+7,1,0.5,uninfected,nhbe,lonza,3,Ciliated,1.87
+7,1,0.5,uninfected,nhbe,lonza,3,Secretory,13.4
+7,1,0.5,uninfected,nhbe,lonza,3,Basal,40.1
+7,1,0.5,uninfected,nhbe,lonza,3,Triple Negative,10.8
+7,1,0.5,uninfected,nhbe,lonza,3,CD66c+ Other,10.8
+7,1,0.5,uninfected,nhbe,lonza,3,CD66c- Other,4.63
+7,1,0.5,uninfected,nhbe,lonza,3,Goblet,0.02
+7,1,0.5,uninfected,nhbe,lonza,3,CD271+ Ciliated,0.14
+7,1,0.5,uninfected,nhbe,lonza,3,CD66c+ Basal,11.1
+3,3,0.5,infected,nhbe,pneumacult,1,Ciliated,65.3
+3,3,0.5,infected,nhbe,pneumacult,1,Secretory,6.87
+3,3,0.5,infected,nhbe,pneumacult,1,Basal,1.88
+3,3,0.5,infected,nhbe,pneumacult,1,Triple Negative,4.71
+3,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Other,5.79
+3,3,0.5,infected,nhbe,pneumacult,1,CD66c- Other,2.22
+3,3,0.5,infected,nhbe,pneumacult,1,Goblet,0
+3,3,0.5,infected,nhbe,pneumacult,1,CD271+ Ciliated,7.61
+3,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Basal,0.49
+3,3,0.5,infected,nhbe,pneumacult,2,Ciliated,70.6
+3,3,0.5,infected,nhbe,pneumacult,2,Secretory,5.68
+3,3,0.5,infected,nhbe,pneumacult,2,Basal,0.97
+3,3,0.5,infected,nhbe,pneumacult,2,Triple Negative,4.54
+3,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Other,3.3
+3,3,0.5,infected,nhbe,pneumacult,2,CD66c- Other,1.75
+3,3,0.5,infected,nhbe,pneumacult,2,Goblet,0.02
+3,3,0.5,infected,nhbe,pneumacult,2,CD271+ Ciliated,7.74
+3,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Basal,0.52
+3,3,0.5,infected,nhbe,il13_low,1,Ciliated,48.5
+3,3,0.5,infected,nhbe,il13_low,1,Secretory,15.5
+3,3,0.5,infected,nhbe,il13_low,1,Basal,0.16
+3,3,0.5,infected,nhbe,il13_low,1,Triple Negative,4.81
+3,3,0.5,infected,nhbe,il13_low,1,CD66c+ Other,17.3
+3,3,0.5,infected,nhbe,il13_low,1,CD66c- Other,2.12
+3,3,0.5,infected,nhbe,il13_low,1,Goblet,0.93
+3,3,0.5,infected,nhbe,il13_low,1,CD271+ Ciliated,2.53
+3,3,0.5,infected,nhbe,il13_low,1,CD66c+ Basal,0.16
+3,3,0.5,infected,nhbe,il13_low,2,Ciliated,46.3
+3,3,0.5,infected,nhbe,il13_low,2,Secretory,20.5
+3,3,0.5,infected,nhbe,il13_low,2,Basal,0.34
+3,3,0.5,infected,nhbe,il13_low,2,Triple Negative,4.16
+3,3,0.5,infected,nhbe,il13_low,2,CD66c+ Other,16.5
+3,3,0.5,infected,nhbe,il13_low,2,CD66c- Other,2.15
+3,3,0.5,infected,nhbe,il13_low,2,Goblet,0.4
+3,3,0.5,infected,nhbe,il13_low,2,CD271+ Ciliated,1.95
+3,3,0.5,infected,nhbe,il13_low,2,CD66c+ Basal,0.34
+3,3,0.5,infected,nhbe,il13_high,1,Ciliated,34.8
+3,3,0.5,infected,nhbe,il13_high,1,Secretory,21.3
+3,3,0.5,infected,nhbe,il13_high,1,Basal,0.65
+3,3,0.5,infected,nhbe,il13_high,1,Triple Negative,7.35
+3,3,0.5,infected,nhbe,il13_high,1,CD66c+ Other,18
+3,3,0.5,infected,nhbe,il13_high,1,CD66c- Other,3
+3,3,0.5,infected,nhbe,il13_high,1,Goblet,1.94
+3,3,0.5,infected,nhbe,il13_high,1,CD271+ Ciliated,1.85
+3,3,0.5,infected,nhbe,il13_high,1,CD66c+ Basal,0.14
+3,3,0.5,infected,nhbe,il13_high,2,Ciliated,38.3
+3,3,0.5,infected,nhbe,il13_high,2,Secretory,17.2
+3,3,0.5,infected,nhbe,il13_high,2,Basal,0.69
+3,3,0.5,infected,nhbe,il13_high,2,Triple Negative,7.32
+3,3,0.5,infected,nhbe,il13_high,2,CD66c+ Other,20.1
+3,3,0.5,infected,nhbe,il13_high,2,CD66c- Other,1.91
+3,3,0.5,infected,nhbe,il13_high,2,Goblet,1.98
+3,3,0.5,infected,nhbe,il13_high,2,CD271+ Ciliated,1.07
+3,3,0.5,infected,nhbe,il13_high,2,CD66c+ Basal,0.08
+4,3,0.5,infected,nhbe,pneumacult,1,Ciliated,52.4
+4,3,0.5,infected,nhbe,pneumacult,1,Secretory,16.9
+4,3,0.5,infected,nhbe,pneumacult,1,Basal,5.87
+4,3,0.5,infected,nhbe,pneumacult,1,Triple Negative,10.9
+4,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Other,4.32
+4,3,0.5,infected,nhbe,pneumacult,1,CD66c- Other,1.26
+4,3,0.5,infected,nhbe,pneumacult,1,Goblet,0.08
+4,3,0.5,infected,nhbe,pneumacult,1,CD271+ Ciliated,2.55
+4,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Basal,1.63
+4,3,0.5,infected,nhbe,pneumacult,2,Ciliated,58
+4,3,0.5,infected,nhbe,pneumacult,2,Secretory,15.1
+4,3,0.5,infected,nhbe,pneumacult,2,Basal,4.81
+4,3,0.5,infected,nhbe,pneumacult,2,Triple Negative,9.52
+4,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Other,3.61
+4,3,0.5,infected,nhbe,pneumacult,2,CD66c- Other,0.67
+4,3,0.5,infected,nhbe,pneumacult,2,Goblet,0.03
+4,3,0.5,infected,nhbe,pneumacult,2,CD271+ Ciliated,2.69
+4,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Basal,1.42
+4,3,0.5,infected,nhbe,pneumacult,3,Ciliated,52.2
+4,3,0.5,infected,nhbe,pneumacult,3,Secretory,14
+4,3,0.5,infected,nhbe,pneumacult,3,Basal,9.57
+4,3,0.5,infected,nhbe,pneumacult,3,Triple Negative,10.2
+4,3,0.5,infected,nhbe,pneumacult,3,CD66c+ Other,3.46
+4,3,0.5,infected,nhbe,pneumacult,3,CD66c- Other,1.07
+4,3,0.5,infected,nhbe,pneumacult,3,Goblet,0.01
+4,3,0.5,infected,nhbe,pneumacult,3,CD271+ Ciliated,3.25
+4,3,0.5,infected,nhbe,pneumacult,3,CD66c+ Basal,1.63
+4,3,0.5,infected,nhbe,il13_low,1,Ciliated,19.8
+4,3,0.5,infected,nhbe,il13_low,1,Secretory,22.3
+4,3,0.5,infected,nhbe,il13_low,1,Basal,13.9
+4,3,0.5,infected,nhbe,il13_low,1,Triple Negative,8.86
+4,3,0.5,infected,nhbe,il13_low,1,CD66c+ Other,9.32
+4,3,0.5,infected,nhbe,il13_low,1,CD66c- Other,3.64
+4,3,0.5,infected,nhbe,il13_low,1,Goblet,1.14
+4,3,0.5,infected,nhbe,il13_low,1,CD271+ Ciliated,5.23
+4,3,0.5,infected,nhbe,il13_low,1,CD66c+ Basal,6.36
+4,3,0.5,infected,nhbe,il13_low,2,Ciliated,10.6
+4,3,0.5,infected,nhbe,il13_low,2,Secretory,25.2
+4,3,0.5,infected,nhbe,il13_low,2,Basal,12
+4,3,0.5,infected,nhbe,il13_low,2,Triple Negative,9.3
+4,3,0.5,infected,nhbe,il13_low,2,CD66c+ Other,13
+4,3,0.5,infected,nhbe,il13_low,2,CD66c- Other,5.32
+4,3,0.5,infected,nhbe,il13_low,2,Goblet,2.99
+4,3,0.5,infected,nhbe,il13_low,2,CD271+ Ciliated,4.98
+4,3,0.5,infected,nhbe,il13_low,2,CD66c+ Basal,6.31
+4,3,0.5,infected,nhbe,il13_low,3,Ciliated,20.4
+4,3,0.5,infected,nhbe,il13_low,3,Secretory,28.8
+4,3,0.5,infected,nhbe,il13_low,3,Basal,8.23
+4,3,0.5,infected,nhbe,il13_low,3,Triple Negative,12.1
+4,3,0.5,infected,nhbe,il13_low,3,CD66c+ Other,9.14
+4,3,0.5,infected,nhbe,il13_low,3,CD66c- Other,4.07
+4,3,0.5,infected,nhbe,il13_low,3,Goblet,1.66
+4,3,0.5,infected,nhbe,il13_low,3,CD271+ Ciliated,5.24
+4,3,0.5,infected,nhbe,il13_low,3,CD66c+ Basal,2.91
+4,3,0.5,infected,nhbe,il13_high,1,Ciliated,20.2
+4,3,0.5,infected,nhbe,il13_high,1,Secretory,48.3
+4,3,0.5,infected,nhbe,il13_high,1,Basal,1.19
+4,3,0.5,infected,nhbe,il13_high,1,Triple Negative,9.69
+4,3,0.5,infected,nhbe,il13_high,1,CD66c+ Other,3.06
+4,3,0.5,infected,nhbe,il13_high,1,CD66c- Other,1.36
+4,3,0.5,infected,nhbe,il13_high,1,Goblet,6.46
+4,3,0.5,infected,nhbe,il13_high,1,CD271+ Ciliated,1.53
+4,3,0.5,infected,nhbe,il13_high,1,CD66c+ Basal,1.19
+4,3,0.5,infected,nhbe,il13_high,2,Ciliated,12.3
+4,3,0.5,infected,nhbe,il13_high,2,Secretory,47.6
+4,3,0.5,infected,nhbe,il13_high,2,Basal,2.84
+4,3,0.5,infected,nhbe,il13_high,2,Triple Negative,7.41
+4,3,0.5,infected,nhbe,il13_high,2,CD66c+ Other,9.31
+4,3,0.5,infected,nhbe,il13_high,2,CD66c- Other,0.63
+4,3,0.5,infected,nhbe,il13_high,2,Goblet,7.73
+4,3,0.5,infected,nhbe,il13_high,2,CD271+ Ciliated,1.74
+4,3,0.5,infected,nhbe,il13_high,2,CD66c+ Basal,2.21
+7,3,0.5,infected,nhbe,pneumacult,1,Ciliated,59.7
+7,3,0.5,infected,nhbe,pneumacult,1,Secretory,17.7
+7,3,0.5,infected,nhbe,pneumacult,1,Basal,1.2
+7,3,0.5,infected,nhbe,pneumacult,1,Triple Negative,5.66
+7,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Other,6.56
+7,3,0.5,infected,nhbe,pneumacult,1,CD66c- Other,0.21
+7,3,0.5,infected,nhbe,pneumacult,1,Goblet,0.24
+7,3,0.5,infected,nhbe,pneumacult,1,CD271+ Ciliated,4.62
+7,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Basal,0.61
+7,3,0.5,infected,nhbe,pneumacult,2,Ciliated,37.1
+7,3,0.5,infected,nhbe,pneumacult,2,Secretory,36.6
+7,3,0.5,infected,nhbe,pneumacult,2,Basal,0.46
+7,3,0.5,infected,nhbe,pneumacult,2,Triple Negative,2.6
+7,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Other,14
+7,3,0.5,infected,nhbe,pneumacult,2,CD66c- Other,0.36
+7,3,0.5,infected,nhbe,pneumacult,2,Goblet,0.82
+7,3,0.5,infected,nhbe,pneumacult,2,CD271+ Ciliated,2.62
+7,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Basal,1.11
+7,3,0.5,infected,nhbe,pneumacult,3,Ciliated,46.6
+7,3,0.5,infected,nhbe,pneumacult,3,Secretory,25.4
+7,3,0.5,infected,nhbe,pneumacult,3,Basal,0.57
+7,3,0.5,infected,nhbe,pneumacult,3,Triple Negative,6.54
+7,3,0.5,infected,nhbe,pneumacult,3,CD66c+ Other,10.9
+7,3,0.5,infected,nhbe,pneumacult,3,CD66c- Other,0.17
+7,3,0.5,infected,nhbe,pneumacult,3,Goblet,0.32
+7,3,0.5,infected,nhbe,pneumacult,3,CD271+ Ciliated,4.19
+7,3,0.5,infected,nhbe,pneumacult,3,CD66c+ Basal,0.76
+7,3,0.5,infected,nhbe,il13_low,1,Ciliated,61.2
+7,3,0.5,infected,nhbe,il13_low,1,Secretory,22.6
+7,3,0.5,infected,nhbe,il13_low,1,Basal,0
+7,3,0.5,infected,nhbe,il13_low,1,Triple Negative,3.67
+7,3,0.5,infected,nhbe,il13_low,1,CD66c+ Other,2.4
+7,3,0.5,infected,nhbe,il13_low,1,CD66c- Other,0.14
+7,3,0.5,infected,nhbe,il13_low,1,Goblet,4.94
+7,3,0.5,infected,nhbe,il13_low,1,CD271+ Ciliated,0.71
+7,3,0.5,infected,nhbe,il13_low,1,CD66c+ Basal,0.14
+7,3,0.5,infected,nhbe,il13_low,2,Ciliated,49.7
+7,3,0.5,infected,nhbe,il13_low,2,Secretory,30
+7,3,0.5,infected,nhbe,il13_low,2,Basal,0.21
+7,3,0.5,infected,nhbe,il13_low,2,Triple Negative,6.89
+7,3,0.5,infected,nhbe,il13_low,2,CD66c+ Other,2.12
+7,3,0.5,infected,nhbe,il13_low,2,CD66c- Other,0.11
+7,3,0.5,infected,nhbe,il13_low,2,Goblet,3.29
+7,3,0.5,infected,nhbe,il13_low,2,CD271+ Ciliated,2.01
+7,3,0.5,infected,nhbe,il13_low,2,CD66c+ Basal,0.64
+7,3,0.5,infected,nhbe,il13_low,3,Ciliated,52.1
+7,3,0.5,infected,nhbe,il13_low,3,Secretory,22.5
+7,3,0.5,infected,nhbe,il13_low,3,Basal,0
+7,3,0.5,infected,nhbe,il13_low,3,Triple Negative,11.2
+7,3,0.5,infected,nhbe,il13_low,3,CD66c+ Other,2.59
+7,3,0.5,infected,nhbe,il13_low,3,CD66c- Other,0
+7,3,0.5,infected,nhbe,il13_low,3,Goblet,5.62
+7,3,0.5,infected,nhbe,il13_low,3,CD271+ Ciliated,1.3
+7,3,0.5,infected,nhbe,il13_low,3,CD66c+ Basal,0.43
+7,3,0.5,infected,nhbe,il13_high,1,Ciliated,64.2
+7,3,0.5,infected,nhbe,il13_high,1,Secretory,14.7
+7,3,0.5,infected,nhbe,il13_high,1,Basal,0
+7,3,0.5,infected,nhbe,il13_high,1,Triple Negative,10.3
+7,3,0.5,infected,nhbe,il13_high,1,CD66c+ Other,1.47
+7,3,0.5,infected,nhbe,il13_high,1,CD66c- Other,0
+7,3,0.5,infected,nhbe,il13_high,1,Goblet,3.92
+7,3,0.5,infected,nhbe,il13_high,1,CD271+ Ciliated,1.47
+7,3,0.5,infected,nhbe,il13_high,1,CD66c+ Basal,0.49
+7,3,0.5,infected,nhbe,il13_high,2,Ciliated,66.7
+7,3,0.5,infected,nhbe,il13_high,2,Secretory,9.09
+7,3,0.5,infected,nhbe,il13_high,2,Basal,0
+7,3,0.5,infected,nhbe,il13_high,2,Triple Negative,6.06
+7,3,0.5,infected,nhbe,il13_high,2,CD66c+ Other,0
+7,3,0.5,infected,nhbe,il13_high,2,CD66c- Other,0
+7,3,0.5,infected,nhbe,il13_high,2,Goblet,3.03
+7,3,0.5,infected,nhbe,il13_high,2,CD271+ Ciliated,0
+7,3,0.5,infected,nhbe,il13_high,2,CD66c+ Basal,3.03
+7,3,0.5,infected,nhbe,il13_high,3,Ciliated,66
+7,3,0.5,infected,nhbe,il13_high,3,Secretory,15.6
+7,3,0.5,infected,nhbe,il13_high,3,Basal,0.71
+7,3,0.5,infected,nhbe,il13_high,3,Triple Negative,6.38
+7,3,0.5,infected,nhbe,il13_high,3,CD66c+ Other,0
+7,3,0.5,infected,nhbe,il13_high,3,CD66c- Other,0.71
+7,3,0.5,infected,nhbe,il13_high,3,Goblet,2.13
+7,3,0.5,infected,nhbe,il13_high,3,CD271+ Ciliated,5.67
+7,3,0.5,infected,nhbe,il13_high,3,CD66c+ Basal,0.71
+7,3,0.5,infected,nhbe,dapt,1,Ciliated,63.4
+7,3,0.5,infected,nhbe,dapt,1,Secretory,0.56
+7,3,0.5,infected,nhbe,dapt,1,Basal,0.92
+7,3,0.5,infected,nhbe,dapt,1,Triple Negative,3.59
+7,3,0.5,infected,nhbe,dapt,1,CD66c+ Other,0.39
+7,3,0.5,infected,nhbe,dapt,1,CD66c- Other,0.39
+7,3,0.5,infected,nhbe,dapt,1,Goblet,0
+7,3,0.5,infected,nhbe,dapt,1,CD271+ Ciliated,27.2
+7,3,0.5,infected,nhbe,dapt,1,CD66c+ Basal,0.07
+7,3,0.5,infected,nhbe,dapt,2,Ciliated,62.1
+7,3,0.5,infected,nhbe,dapt,2,Secretory,0.84
+7,3,0.5,infected,nhbe,dapt,2,Basal,0.46
+7,3,0.5,infected,nhbe,dapt,2,Triple Negative,3.95
+7,3,0.5,infected,nhbe,dapt,2,CD66c+ Other,0.29
+7,3,0.5,infected,nhbe,dapt,2,CD66c- Other,0.5
+7,3,0.5,infected,nhbe,dapt,2,Goblet,0.04
+7,3,0.5,infected,nhbe,dapt,2,CD271+ Ciliated,27.8
+7,3,0.5,infected,nhbe,dapt,2,CD66c+ Basal,0.04
+7,3,0.5,infected,nhbe,dapt,3,Ciliated,60.6
+7,3,0.5,infected,nhbe,dapt,3,Secretory,0.89
+7,3,0.5,infected,nhbe,dapt,3,Basal,1.05
+7,3,0.5,infected,nhbe,dapt,3,Triple Negative,2.62
+7,3,0.5,infected,nhbe,dapt,3,CD66c+ Other,0.3
+7,3,0.5,infected,nhbe,dapt,3,CD66c- Other,0.59
+7,3,0.5,infected,nhbe,dapt,3,Goblet,0
+7,3,0.5,infected,nhbe,dapt,3,CD271+ Ciliated,29.7
+7,3,0.5,infected,nhbe,dapt,3,CD66c+ Basal,0.19
+7,3,0.5,infected,nhbe,lonza,1,Ciliated,19.6
+7,3,0.5,infected,nhbe,lonza,1,Secretory,56.9
+7,3,0.5,infected,nhbe,lonza,1,Basal,2.57
+7,3,0.5,infected,nhbe,lonza,1,Triple Negative,0.86
+7,3,0.5,infected,nhbe,lonza,1,CD66c+ Other,7.43
+7,3,0.5,infected,nhbe,lonza,1,CD66c- Other,0.86
+7,3,0.5,infected,nhbe,lonza,1,Goblet,0
+7,3,0.5,infected,nhbe,lonza,1,CD271+ Ciliated,0.17
+7,3,0.5,infected,nhbe,lonza,1,CD66c+ Basal,1.77
+7,3,0.5,infected,nhbe,lonza,2,Ciliated,15.1
+7,3,0.5,infected,nhbe,lonza,2,Secretory,61.7
+7,3,0.5,infected,nhbe,lonza,2,Basal,3.08
+7,3,0.5,infected,nhbe,lonza,2,Triple Negative,1.85
+7,3,0.5,infected,nhbe,lonza,2,CD66c+ Other,6.55
+7,3,0.5,infected,nhbe,lonza,2,CD66c- Other,1.3
+7,3,0.5,infected,nhbe,lonza,2,Goblet,0
+7,3,0.5,infected,nhbe,lonza,2,CD271+ Ciliated,0.07
+7,3,0.5,infected,nhbe,lonza,2,CD66c+ Basal,1.85
+7,3,0.5,infected,nhbe,lonza,3,Ciliated,10.4
+7,3,0.5,infected,nhbe,lonza,3,Secretory,62.3
+7,3,0.5,infected,nhbe,lonza,3,Basal,3.53
+7,3,0.5,infected,nhbe,lonza,3,Triple Negative,1.85
+7,3,0.5,infected,nhbe,lonza,3,CD66c+ Other,8.01
+7,3,0.5,infected,nhbe,lonza,3,CD66c- Other,1.2
+7,3,0.5,infected,nhbe,lonza,3,Goblet,0.06
+7,3,0.5,infected,nhbe,lonza,3,CD271+ Ciliated,0.24
+7,3,0.5,infected,nhbe,lonza,3,CD66c+ Basal,2.69
+7,3,0.5,infected,nhne,pneumacult,1,Ciliated,49.6
+7,3,0.5,infected,nhne,pneumacult,1,Secretory,21.7
+7,3,0.5,infected,nhne,pneumacult,1,Basal,0
+7,3,0.5,infected,nhne,pneumacult,1,Triple Negative,4.4
+7,3,0.5,infected,nhne,pneumacult,1,CD66c+ Other,5.69
+7,3,0.5,infected,nhne,pneumacult,1,CD66c- Other,3.62
+7,3,0.5,infected,nhne,pneumacult,1,Goblet,0.43
+7,3,0.5,infected,nhne,pneumacult,1,CD271+ Ciliated,0.6
+7,3,0.5,infected,nhne,pneumacult,1,CD66c+ Basal,0.26
+7,3,0.5,infected,nhne,pneumacult,2,Ciliated,47.2
+7,3,0.5,infected,nhne,pneumacult,2,Secretory,21.7
+7,3,0.5,infected,nhne,pneumacult,2,Basal,1.46
+7,3,0.5,infected,nhne,pneumacult,2,Triple Negative,3.72
+7,3,0.5,infected,nhne,pneumacult,2,CD66c+ Other,8.67
+7,3,0.5,infected,nhne,pneumacult,2,CD66c- Other,3.3
+7,3,0.5,infected,nhne,pneumacult,2,Goblet,0.07
+7,3,0.5,infected,nhne,pneumacult,2,CD271+ Ciliated,1.97
+7,3,0.5,infected,nhne,pneumacult,2,CD66c+ Basal,0.71
+7,3,0.5,infected,nhne,pneumacult,3,Ciliated,57.1
+7,3,0.5,infected,nhne,pneumacult,3,Secretory,19.7
+7,3,0.5,infected,nhne,pneumacult,3,Basal,0.36
+7,3,0.5,infected,nhne,pneumacult,3,Triple Negative,3.2
+7,3,0.5,infected,nhne,pneumacult,3,CD66c+ Other,6.76
+7,3,0.5,infected,nhne,pneumacult,3,CD66c- Other,1.96
+7,3,0.5,infected,nhne,pneumacult,3,Goblet,0
+7,3,0.5,infected,nhne,pneumacult,3,CD271+ Ciliated,1.33
+7,3,0.5,infected,nhne,pneumacult,3,CD66c+ Basal,0.27
+8,3,0.5,uninfected,nhbe,pneumacult,1,Ciliated,12.2
+8,3,0.5,uninfected,nhbe,pneumacult,1,Secretory,11.5
+8,3,0.5,uninfected,nhbe,pneumacult,1,Basal,23.4
+8,3,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,2.79
+8,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,6.77
+8,3,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,27
+8,3,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.06
+8,3,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,3.33
+8,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,1.18
+8,3,0.5,uninfected,nhbe,pneumacult,2,Ciliated,9.91
+8,3,0.5,uninfected,nhbe,pneumacult,2,Secretory,11.5
+8,3,0.5,uninfected,nhbe,pneumacult,2,Basal,25.4
+8,3,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,1.22
+8,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,10.4
+8,3,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,24
+8,3,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.08
+8,3,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,2.9
+8,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,2.79
+8,3,0.5,uninfected,nhbe,pneumacult,3,Ciliated,14.8
+8,3,0.5,uninfected,nhbe,pneumacult,3,Secretory,13.4
+8,3,0.5,uninfected,nhbe,pneumacult,3,Basal,21.1
+8,3,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.86
+8,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,9.77
+8,3,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,26.1
+8,3,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.08
+8,3,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,1.31
+8,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,1.56
+8,3,0.5,uninfected,nhbe,pneumacult,4,Ciliated,13.9
+8,3,0.5,uninfected,nhbe,pneumacult,4,Secretory,12.4
+8,3,0.5,uninfected,nhbe,pneumacult,4,Basal,22.9
+8,3,0.5,uninfected,nhbe,pneumacult,4,Triple Negative,1.01
+8,3,0.5,uninfected,nhbe,pneumacult,4,CD66c+ Other,9.78
+8,3,0.5,uninfected,nhbe,pneumacult,4,CD66c- Other,24.2
+8,3,0.5,uninfected,nhbe,pneumacult,4,Goblet,0.062
+8,3,0.5,uninfected,nhbe,pneumacult,4,CD271+ Ciliated,2.42
+8,3,0.5,uninfected,nhbe,pneumacult,4,CD66c+ Basal,2.27
+8,3,0.5,uninfected,nhbe,pneumacult,5,Ciliated,12.6
+8,3,0.5,uninfected,nhbe,pneumacult,5,Secretory,10.9
+8,3,0.5,uninfected,nhbe,pneumacult,5,Basal,25.1
+8,3,0.5,uninfected,nhbe,pneumacult,5,Triple Negative,1.47
+8,3,0.5,uninfected,nhbe,pneumacult,5,CD66c+ Other,6.78
+8,3,0.5,uninfected,nhbe,pneumacult,5,CD66c- Other,27.4
+8,3,0.5,uninfected,nhbe,pneumacult,5,Goblet,0.081
+8,3,0.5,uninfected,nhbe,pneumacult,5,CD271+ Ciliated,2.83
+8,3,0.5,uninfected,nhbe,pneumacult,5,CD66c+ Basal,1.71
+8,3,0.5,uninfected,nhbe,pneumacult,6,Ciliated,15.8
+8,3,0.5,uninfected,nhbe,pneumacult,6,Secretory,12
+8,3,0.5,uninfected,nhbe,pneumacult,6,Basal,23.3
+8,3,0.5,uninfected,nhbe,pneumacult,6,Triple Negative,1.22
+8,3,0.5,uninfected,nhbe,pneumacult,6,CD66c+ Other,6.58
+8,3,0.5,uninfected,nhbe,pneumacult,6,CD66c- Other,27.4
+8,3,0.5,uninfected,nhbe,pneumacult,6,Goblet,0.11
+8,3,0.5,uninfected,nhbe,pneumacult,6,CD271+ Ciliated,2.16
+8,3,0.5,uninfected,nhbe,pneumacult,6,CD66c+ Basal,1.14
+8,3,0.5,uninfected,nhbe,pneumacult,7,Ciliated,19
+8,3,0.5,uninfected,nhbe,pneumacult,7,Secretory,11.7
+8,3,0.5,uninfected,nhbe,pneumacult,7,Basal,20.4
+8,3,0.5,uninfected,nhbe,pneumacult,7,Triple Negative,2.21
+8,3,0.5,uninfected,nhbe,pneumacult,7,CD66c+ Other,6.66
+8,3,0.5,uninfected,nhbe,pneumacult,7,CD66c- Other,25.4
+8,3,0.5,uninfected,nhbe,pneumacult,7,Goblet,0.041
+8,3,0.5,uninfected,nhbe,pneumacult,7,CD271+ Ciliated,3.14
+8,3,0.5,uninfected,nhbe,pneumacult,7,CD66c+ Basal,1.26
+8,3,0.5,uninfected,nhbe,pneumacult,8,Ciliated,15.4
+8,3,0.5,uninfected,nhbe,pneumacult,8,Secretory,11.2
+8,3,0.5,uninfected,nhbe,pneumacult,8,Basal,22.2
+8,3,0.5,uninfected,nhbe,pneumacult,8,Triple Negative,1.9
+8,3,0.5,uninfected,nhbe,pneumacult,8,CD66c+ Other,7.65
+8,3,0.5,uninfected,nhbe,pneumacult,8,CD66c- Other,25.6
+8,3,0.5,uninfected,nhbe,pneumacult,8,Goblet,0.00643
+8,3,0.5,uninfected,nhbe,pneumacult,8,CD271+ Ciliated,2.8
+8,3,0.5,uninfected,nhbe,pneumacult,8,CD66c+ Basal,2.14
+8,3,0.5,uninfected,nhbe,pneumacult,9,Ciliated,12
+8,3,0.5,uninfected,nhbe,pneumacult,9,Secretory,10.4
+8,3,0.5,uninfected,nhbe,pneumacult,9,Basal,25.7
+8,3,0.5,uninfected,nhbe,pneumacult,9,Triple Negative,1.65
+8,3,0.5,uninfected,nhbe,pneumacult,9,CD66c+ Other,7.3
+8,3,0.5,uninfected,nhbe,pneumacult,9,CD66c- Other,26.2
+8,3,0.5,uninfected,nhbe,pneumacult,9,Goblet,0.012
+8,3,0.5,uninfected,nhbe,pneumacult,9,CD271+ Ciliated,3.17
+8,3,0.5,uninfected,nhbe,pneumacult,9,CD66c+ Basal,2.42
+9,3,0.5,uninfected,nhbe,pneumacult,1,Ciliated,13.9
+9,3,0.5,uninfected,nhbe,pneumacult,1,Secretory,14
+9,3,0.5,uninfected,nhbe,pneumacult,1,Basal,32.2
+9,3,0.5,uninfected,nhbe,pneumacult,1,Triple Negative,0.37
+9,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Other,8.95
+9,3,0.5,uninfected,nhbe,pneumacult,1,CD66c- Other,24.3
+9,3,0.5,uninfected,nhbe,pneumacult,1,Goblet,0.11
+9,3,0.5,uninfected,nhbe,pneumacult,1,CD271+ Ciliated,0.59
+9,3,0.5,uninfected,nhbe,pneumacult,1,CD66c+ Basal,0.8
+9,3,0.5,uninfected,nhbe,pneumacult,2,Ciliated,15.3
+9,3,0.5,uninfected,nhbe,pneumacult,2,Secretory,13.8
+9,3,0.5,uninfected,nhbe,pneumacult,2,Basal,30.5
+9,3,0.5,uninfected,nhbe,pneumacult,2,Triple Negative,0.38
+9,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Other,8.26
+9,3,0.5,uninfected,nhbe,pneumacult,2,CD66c- Other,24.9
+9,3,0.5,uninfected,nhbe,pneumacult,2,Goblet,0.09
+9,3,0.5,uninfected,nhbe,pneumacult,2,CD271+ Ciliated,0.5
+9,3,0.5,uninfected,nhbe,pneumacult,2,CD66c+ Basal,0.78
+9,3,0.5,uninfected,nhbe,pneumacult,3,Ciliated,12
+9,3,0.5,uninfected,nhbe,pneumacult,3,Secretory,13
+9,3,0.5,uninfected,nhbe,pneumacult,3,Basal,34.7
+9,3,0.5,uninfected,nhbe,pneumacult,3,Triple Negative,0.4
+9,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Other,9.61
+9,3,0.5,uninfected,nhbe,pneumacult,3,CD66c- Other,23.5
+9,3,0.5,uninfected,nhbe,pneumacult,3,Goblet,0.09
+9,3,0.5,uninfected,nhbe,pneumacult,3,CD271+ Ciliated,0.52
+9,3,0.5,uninfected,nhbe,pneumacult,3,CD66c+ Basal,0.89
+9,3,0.5,infected,nhbe,pneumacult,1,Ciliated,61
+9,3,0.5,infected,nhbe,pneumacult,1,Secretory,9.51
+9,3,0.5,infected,nhbe,pneumacult,1,Basal,3.37
+9,3,0.5,infected,nhbe,pneumacult,1,Triple Negative,1.98
+9,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Other,4.8
+9,3,0.5,infected,nhbe,pneumacult,1,CD66c- Other,1.3
+9,3,0.5,infected,nhbe,pneumacult,1,Goblet,0.25
+9,3,0.5,infected,nhbe,pneumacult,1,CD271+ Ciliated,12.2
+9,3,0.5,infected,nhbe,pneumacult,1,CD66c+ Basal,1.47
+9,3,0.5,infected,nhbe,pneumacult,2,Ciliated,64.6
+9,3,0.5,infected,nhbe,pneumacult,2,Secretory,10.1
+9,3,0.5,infected,nhbe,pneumacult,2,Basal,2.2
+9,3,0.5,infected,nhbe,pneumacult,2,Triple Negative,2.45
+9,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Other,3.51
+9,3,0.5,infected,nhbe,pneumacult,2,CD66c- Other,0.77
+9,3,0.5,infected,nhbe,pneumacult,2,Goblet,0.11
+9,3,0.5,infected,nhbe,pneumacult,2,CD271+ Ciliated,11.7
+9,3,0.5,infected,nhbe,pneumacult,2,CD66c+ Basal,1.02
+9,3,0.5,infected,nhbe,pneumacult,3,Ciliated,65.9
+9,3,0.5,infected,nhbe,pneumacult,3,Secretory,9.62
+9,3,0.5,infected,nhbe,pneumacult,3,Basal,1.95
+9,3,0.5,infected,nhbe,pneumacult,3,Triple Negative,3.21
+9,3,0.5,infected,nhbe,pneumacult,3,CD66c+ Other,3.08
+9,3,0.5,infected,nhbe,pneumacult,3,CD66c- Other,0.95
+9,3,0.5,infected,nhbe,pneumacult,3,Goblet,0.09
+9,3,0.5,infected,nhbe,pneumacult,3,CD271+ Ciliated,11
+9,3,0.5,infected,nhbe,pneumacult,3,CD66c+ Basal,0.52
+9,3,0.5,uninfected,nhbe,il13_low,1,Ciliated,5.25
+9,3,0.5,uninfected,nhbe,il13_low,1,Secretory,26
+9,3,0.5,uninfected,nhbe,il13_low,1,Basal,23.2
+9,3,0.5,uninfected,nhbe,il13_low,1,Triple Negative,1.76
+9,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Other,8.8
+9,3,0.5,uninfected,nhbe,il13_low,1,CD66c- Other,20
+9,3,0.5,uninfected,nhbe,il13_low,1,Goblet,1.04
+9,3,0.5,uninfected,nhbe,il13_low,1,CD271+ Ciliated,2.21
+9,3,0.5,uninfected,nhbe,il13_low,1,CD66c+ Basal,3.72
+9,3,0.5,uninfected,nhbe,il13_low,2,Ciliated,3.77
+9,3,0.5,uninfected,nhbe,il13_low,2,Secretory,21.1
+9,3,0.5,uninfected,nhbe,il13_low,2,Basal,35.6
+9,3,0.5,uninfected,nhbe,il13_low,2,Triple Negative,0.68
+9,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Other,9.65
+9,3,0.5,uninfected,nhbe,il13_low,2,CD66c- Other,16.6
+9,3,0.5,uninfected,nhbe,il13_low,2,Goblet,0.61
+9,3,0.5,uninfected,nhbe,il13_low,2,CD271+ Ciliated,2.12
+9,3,0.5,uninfected,nhbe,il13_low,2,CD66c+ Basal,3.56
+9,3,0.5,infected,nhbe,il13_low,1,Ciliated,15.6
+9,3,0.5,infected,nhbe,il13_low,1,Secretory,37.3
+9,3,0.5,infected,nhbe,il13_low,1,Basal,2.63
+9,3,0.5,infected,nhbe,il13_low,1,Triple Negative,2.77
+9,3,0.5,infected,nhbe,il13_low,1,CD66c+ Other,15.9
+9,3,0.5,infected,nhbe,il13_low,1,CD66c- Other,1.68
+9,3,0.5,infected,nhbe,il13_low,1,Goblet,1.88
+9,3,0.5,infected,nhbe,il13_low,1,CD271+ Ciliated,7.95
+9,3,0.5,infected,nhbe,il13_low,1,CD66c+ Basal,7.97
+9,3,0.5,infected,nhbe,il13_low,2,Ciliated,22.7
+9,3,0.5,infected,nhbe,il13_low,2,Secretory,35.7
+9,3,0.5,infected,nhbe,il13_low,2,Basal,2.03
+9,3,0.5,infected,nhbe,il13_low,2,Triple Negative,3.8
+9,3,0.5,infected,nhbe,il13_low,2,CD66c+ Other,11.4
+9,3,0.5,infected,nhbe,il13_low,2,CD66c- Other,1.12
+9,3,0.5,infected,nhbe,il13_low,2,Goblet,2.28
+9,3,0.5,infected,nhbe,il13_low,2,CD271+ Ciliated,8.36
+9,3,0.5,infected,nhbe,il13_low,2,CD66c+ Basal,6.82
+9,3,0.5,infected,nhbe,il13_low,3,Ciliated,28.8
+9,3,0.5,infected,nhbe,il13_low,3,Secretory,35.1
+9,3,0.5,infected,nhbe,il13_low,3,Basal,1.37
+9,3,0.5,infected,nhbe,il13_low,3,Triple Negative,3.32
+9,3,0.5,infected,nhbe,il13_low,3,CD66c+ Other,8.61
+9,3,0.5,infected,nhbe,il13_low,3,CD66c- Other,1.4
+9,3,0.5,infected,nhbe,il13_low,3,Goblet,0.78
+9,3,0.5,infected,nhbe,il13_low,3,CD271+ Ciliated,8.91
+9,3,0.5,infected,nhbe,il13_low,3,CD66c+ Basal,4.54
+9,3,0.5,uninfected,nhbe,il13_high,1,Ciliated,17.4
+9,3,0.5,uninfected,nhbe,il13_high,1,Secretory,44
+9,3,0.5,uninfected,nhbe,il13_high,1,Basal,0.52
+9,3,0.5,uninfected,nhbe,il13_high,1,Triple Negative,3.78
+9,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Other,8.33
+9,3,0.5,uninfected,nhbe,il13_high,1,CD66c- Other,10.5
+9,3,0.5,uninfected,nhbe,il13_high,1,Goblet,6.68
+9,3,0.5,uninfected,nhbe,il13_high,1,CD271+ Ciliated,0.04
+9,3,0.5,uninfected,nhbe,il13_high,1,CD66c+ Basal,0.1
+9,3,0.5,uninfected,nhbe,il13_high,2,Ciliated,11.7
+9,3,0.5,uninfected,nhbe,il13_high,2,Secretory,32.5
+9,3,0.5,uninfected,nhbe,il13_high,2,Basal,1.76
+9,3,0.5,uninfected,nhbe,il13_high,2,Triple Negative,4.94
+9,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Other,4.26
+9,3,0.5,uninfected,nhbe,il13_high,2,CD66c- Other,28.8
+9,3,0.5,uninfected,nhbe,il13_high,2,Goblet,4.02
+9,3,0.5,uninfected,nhbe,il13_high,2,CD271+ Ciliated,0.08
+9,3,0.5,uninfected,nhbe,il13_high,2,CD66c+ Basal,0.17
+9,3,0.5,uninfected,nhbe,il13_high,3,Ciliated,11.5
+9,3,0.5,uninfected,nhbe,il13_high,3,Secretory,30.3
+9,3,0.5,uninfected,nhbe,il13_high,3,Basal,2.04
+9,3,0.5,uninfected,nhbe,il13_high,3,Triple Negative,6.69
+9,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Other,4.1
+9,3,0.5,uninfected,nhbe,il13_high,3,CD66c- Other,29.3
+9,3,0.5,uninfected,nhbe,il13_high,3,Goblet,3.74
+9,3,0.5,uninfected,nhbe,il13_high,3,CD271+ Ciliated,0.11
+9,3,0.5,uninfected,nhbe,il13_high,3,CD66c+ Basal,0.18
+9,3,0.5,infected,nhbe,il13_high,1,Ciliated,48.2
+9,3,0.5,infected,nhbe,il13_high,1,Secretory,28.8
+9,3,0.5,infected,nhbe,il13_high,1,Basal,0.17
+9,3,0.5,infected,nhbe,il13_high,1,Triple Negative,4.56
+9,3,0.5,infected,nhbe,il13_high,1,CD66c+ Other,6.92
+9,3,0.5,infected,nhbe,il13_high,1,CD66c- Other,0.43
+9,3,0.5,infected,nhbe,il13_high,1,Goblet,3.17
+9,3,0.5,infected,nhbe,il13_high,1,CD271+ Ciliated,0.85
+9,3,0.5,infected,nhbe,il13_high,1,CD66c+ Basal,0.57
+9,3,0.5,infected,nhbe,il13_high,2,Ciliated,52.8
+9,3,0.5,infected,nhbe,il13_high,2,Secretory,27.6
+9,3,0.5,infected,nhbe,il13_high,2,Basal,0.1
+9,3,0.5,infected,nhbe,il13_high,2,Triple Negative,3.45
+9,3,0.5,infected,nhbe,il13_high,2,CD66c+ Other,5.9
+9,3,0.5,infected,nhbe,il13_high,2,CD66c- Other,0.43
+9,3,0.5,infected,nhbe,il13_high,2,Goblet,3.2
+9,3,0.5,infected,nhbe,il13_high,2,CD271+ Ciliated,0.57
+9,3,0.5,infected,nhbe,il13_high,2,CD66c+ Basal,0.2
+9,3,0.5,infected,nhbe,il13_high,3,Ciliated,54.3
+9,3,0.5,infected,nhbe,il13_high,3,Secretory,29.3
+9,3,0.5,infected,nhbe,il13_high,3,Basal,0.1
+9,3,0.5,infected,nhbe,il13_high,3,Triple Negative,2.28
+9,3,0.5,infected,nhbe,il13_high,3,CD66c+ Other,4.6
+9,3,0.5,infected,nhbe,il13_high,3,CD66c- Other,0.36
+9,3,0.5,infected,nhbe,il13_high,3,Goblet,3.86
+9,3,0.5,infected,nhbe,il13_high,3,CD271+ Ciliated,0.34
+9,3,0.5,infected,nhbe,il13_high,3,CD66c+ Basal,0.22
+9,3,0.5,uninfected,nhbe,dapt,1,Ciliated,15.9
+9,3,0.5,uninfected,nhbe,dapt,1,Secretory,1.68
+9,3,0.5,uninfected,nhbe,dapt,1,Basal,72.5
+9,3,0.5,uninfected,nhbe,dapt,1,Triple Negative,0.29
+9,3,0.5,uninfected,nhbe,dapt,1,CD66c+ Other,1.74
+9,3,0.5,uninfected,nhbe,dapt,1,CD66c- Other,2.37
+9,3,0.5,uninfected,nhbe,dapt,1,Goblet,0.1
+9,3,0.5,uninfected,nhbe,dapt,1,CD271+ Ciliated,0.54
+9,3,0.5,uninfected,nhbe,dapt,1,CD66c+ Basal,2.94
+9,3,0.5,uninfected,nhbe,dapt,2,Ciliated,12
+9,3,0.5,uninfected,nhbe,dapt,2,Secretory,1.78
+9,3,0.5,uninfected,nhbe,dapt,2,Basal,77.8
+9,3,0.5,uninfected,nhbe,dapt,2,Triple Negative,0.25
+9,3,0.5,uninfected,nhbe,dapt,2,CD66c+ Other,1.44
+9,3,0.5,uninfected,nhbe,dapt,2,CD66c- Other,2.02
+9,3,0.5,uninfected,nhbe,dapt,2,Goblet,0.08
+9,3,0.5,uninfected,nhbe,dapt,2,CD271+ Ciliated,0.6
+9,3,0.5,uninfected,nhbe,dapt,2,CD66c+ Basal,2.45
+9,3,0.5,uninfected,nhbe,dapt,3,Ciliated,17.2
+9,3,0.5,uninfected,nhbe,dapt,3,Secretory,1.28
+9,3,0.5,uninfected,nhbe,dapt,3,Basal,72.6
+9,3,0.5,uninfected,nhbe,dapt,3,Triple Negative,0.26
+9,3,0.5,uninfected,nhbe,dapt,3,CD66c+ Other,1.38
+9,3,0.5,uninfected,nhbe,dapt,3,CD66c- Other,2.34
+9,3,0.5,uninfected,nhbe,dapt,3,Goblet,0.07
+9,3,0.5,uninfected,nhbe,dapt,3,CD271+ Ciliated,0.61
+9,3,0.5,uninfected,nhbe,dapt,3,CD66c+ Basal,2.48
+9,3,0.5,infected,nhbe,dapt,1,Ciliated,70
+9,3,0.5,infected,nhbe,dapt,1,Secretory,3.13
+9,3,0.5,infected,nhbe,dapt,1,Basal,1.83
+9,3,0.5,infected,nhbe,dapt,1,Triple Negative,2.06
+9,3,0.5,infected,nhbe,dapt,1,CD66c+ Other,2.02
+9,3,0.5,infected,nhbe,dapt,1,CD66c- Other,1.11
+9,3,0.5,infected,nhbe,dapt,1,Goblet,0.02
+9,3,0.5,infected,nhbe,dapt,1,CD271+ Ciliated,16.6
+9,3,0.5,infected,nhbe,dapt,1,CD66c+ Basal,0.78
+9,3,0.5,infected,nhbe,dapt,2,Ciliated,73.7
+9,3,0.5,infected,nhbe,dapt,2,Secretory,3.04
+9,3,0.5,infected,nhbe,dapt,2,Basal,1.05
+9,3,0.5,infected,nhbe,dapt,2,Triple Negative,1.96
+9,3,0.5,infected,nhbe,dapt,2,CD66c+ Other,1.14
+9,3,0.5,infected,nhbe,dapt,2,CD66c- Other,0.7
+9,3,0.5,infected,nhbe,dapt,2,Goblet,0.09
+9,3,0.5,infected,nhbe,dapt,2,CD271+ Ciliated,15.4
+9,3,0.5,infected,nhbe,dapt,2,CD66c+ Basal,0.71
+9,3,0.5,infected,nhbe,dapt,3,Ciliated,67.1
+9,3,0.5,infected,nhbe,dapt,3,Secretory,2.89
+9,3,0.5,infected,nhbe,dapt,3,Basal,1.63
+9,3,0.5,infected,nhbe,dapt,3,Triple Negative,1.89
+9,3,0.5,infected,nhbe,dapt,3,CD66c+ Other,0.76
+9,3,0.5,infected,nhbe,dapt,3,CD66c- Other,0.66
+9,3,0.5,infected,nhbe,dapt,3,Goblet,0.13
+9,3,0.5,infected,nhbe,dapt,3,CD271+ Ciliated,22.4
+9,3,0.5,infected,nhbe,dapt,3,CD66c+ Basal,0.4
+9,3,0.5,uninfected,nhbe,lonza,1,Ciliated,7.83
+9,3,0.5,uninfected,nhbe,lonza,1,Secretory,42.4
+9,3,0.5,uninfected,nhbe,lonza,1,Basal,19.1
+9,3,0.5,uninfected,nhbe,lonza,1,Triple Negative,4.56
+9,3,0.5,uninfected,nhbe,lonza,1,CD66c+ Other,3.9
+9,3,0.5,uninfected,nhbe,lonza,1,CD66c- Other,12.7
+9,3,0.5,uninfected,nhbe,lonza,1,Goblet,0.15
+9,3,0.5,uninfected,nhbe,lonza,1,CD271+ Ciliated,0.04
+9,3,0.5,uninfected,nhbe,lonza,1,CD66c+ Basal,0.18
+9,3,0.5,uninfected,nhbe,lonza,2,Ciliated,12
+9,3,0.5,uninfected,nhbe,lonza,2,Secretory,42.4
+9,3,0.5,uninfected,nhbe,lonza,2,Basal,17.5
+9,3,0.5,uninfected,nhbe,lonza,2,Triple Negative,3.2
+9,3,0.5,uninfected,nhbe,lonza,2,CD66c+ Other,3.33
+9,3,0.5,uninfected,nhbe,lonza,2,CD66c- Other,11.8
+9,3,0.5,uninfected,nhbe,lonza,2,Goblet,0.1
+9,3,0.5,uninfected,nhbe,lonza,2,CD271+ Ciliated,0.07
+9,3,0.5,uninfected,nhbe,lonza,2,CD66c+ Basal,0.18
+9,3,0.5,uninfected,nhbe,lonza,3,Ciliated,12.6
+9,3,0.5,uninfected,nhbe,lonza,3,Secretory,40.8
+9,3,0.5,uninfected,nhbe,lonza,3,Basal,17.1
+9,3,0.5,uninfected,nhbe,lonza,3,Triple Negative,3.85
+9,3,0.5,uninfected,nhbe,lonza,3,CD66c+ Other,3.35
+9,3,0.5,uninfected,nhbe,lonza,3,CD66c- Other,12.4
+9,3,0.5,uninfected,nhbe,lonza,3,Goblet,0.1
+9,3,0.5,uninfected,nhbe,lonza,3,CD271+ Ciliated,0.09
+9,3,0.5,uninfected,nhbe,lonza,3,CD66c+ Basal,0.11
+9,3,0.5,infected,nhbe,lonza,1,Ciliated,3.61
+9,3,0.5,infected,nhbe,lonza,1,Secretory,23.3
+9,3,0.5,infected,nhbe,lonza,1,Basal,11.4
+9,3,0.5,infected,nhbe,lonza,1,Triple Negative,1.32
+9,3,0.5,infected,nhbe,lonza,1,CD66c+ Other,23
+9,3,0.5,infected,nhbe,lonza,1,CD66c- Other,10.2
+9,3,0.5,infected,nhbe,lonza,1,Goblet,0.57
+9,3,0.5,infected,nhbe,lonza,1,CD271+ Ciliated,0.8
+9,3,0.5,infected,nhbe,lonza,1,CD66c+ Basal,13.3
+9,3,0.5,infected,nhbe,lonza,2,Ciliated,5.69
+9,3,0.5,infected,nhbe,lonza,2,Secretory,20.3
+9,3,0.5,infected,nhbe,lonza,2,Basal,11
+9,3,0.5,infected,nhbe,lonza,2,Triple Negative,0.29
+9,3,0.5,infected,nhbe,lonza,2,CD66c+ Other,24.3
+9,3,0.5,infected,nhbe,lonza,2,CD66c- Other,6.96
+9,3,0.5,infected,nhbe,lonza,2,Goblet,0.1
+9,3,0.5,infected,nhbe,lonza,2,CD271+ Ciliated,1.86
+9,3,0.5,infected,nhbe,lonza,2,CD66c+ Basal,17.1
+9,3,0.5,infected,nhbe,lonza,3,Ciliated,5.23
+9,3,0.5,infected,nhbe,lonza,3,Secretory,22.7
+9,3,0.5,infected,nhbe,lonza,3,Basal,4.72
+9,3,0.5,infected,nhbe,lonza,3,Triple Negative,1.53
+9,3,0.5,infected,nhbe,lonza,3,CD66c+ Other,28.4
+9,3,0.5,infected,nhbe,lonza,3,CD66c- Other,7.91
+9,3,0.5,infected,nhbe,lonza,3,Goblet,0.38
+9,3,0.5,infected,nhbe,lonza,3,CD271+ Ciliated,2.55
+9,3,0.5,infected,nhbe,lonza,3,CD66c+ Basal,11.9
+3,3,1,infected,nhbe,pneumacult,1,Ciliated,67.2
+3,3,1,infected,nhbe,pneumacult,1,Secretory,5.43
+3,3,1,infected,nhbe,pneumacult,1,Basal,1.23
+3,3,1,infected,nhbe,pneumacult,1,Triple Negative,3.67
+3,3,1,infected,nhbe,pneumacult,1,CD66c+ Other,6.44
+3,3,1,infected,nhbe,pneumacult,1,CD66c- Other,2.26
+3,3,1,infected,nhbe,pneumacult,1,Goblet,0.028
+3,3,1,infected,nhbe,pneumacult,1,CD271+ Ciliated,8.31
+3,3,1,infected,nhbe,pneumacult,1,CD66c+ Basal,0.59

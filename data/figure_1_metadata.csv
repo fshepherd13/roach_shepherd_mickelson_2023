@@ -1,0 +1,7 @@
+FileName,sample,round,treatment,replicate,condition
+Round_7_Pneumacult_1.csv,1_PC,7,PC,1,uninfected
+Round_7_Pneumacult_2.csv,2_PC,7,PC,2,uninfected
+Round_7_Pneumacult_3.csv,3_PC,7,PC,3,uninfected
+Round_7_Pneumacult_Cal_4.csv,4_PC,7,PC,1,infected
+Round_7_Pneumacult_Cal_5.csv,5_PC,7,PC,2,infected
+Round_7_Pneumacult_Cal_6.csv,6_PC,7,PC,3,infected
