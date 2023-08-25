@@ -9,7 +9,7 @@ Additionally, the directory `invert/` contains the code needed to analyze Influe
 
 #### Figure 1 data:
 - 1A bar plot, 1C-1H: Data is located under `data/pre_and_post_infection_phenotyping_data.csv`. 
-- 1B: Flow cytometry channel value files need to be downloaded from FigShare at [10.6084/m9.figshare.23999880](10.6084/m9.figshare.23999880) into the `data/round_7_channel_value_files` folder. Metadata is located at `figure_1_metadata.csv`.
+- 1B: Flow cytometry channel value files need to be downloaded from FigShare at [https://figshare.com/s/b19b3165426c795fddd3](https://figshare.com/s/b19b3165426c795fddd3) into the `data/round_7_channel_value_files` folder. Metadata is located at `figure_1_metadata.csv`.
 
 #### Figure 2 data:
 - 2A UMAP: The data for this is the same as figure 2B. 
@@ -20,8 +20,8 @@ Additionally, the directory `invert/` contains the code needed to analyze Influe
 
 #### Figure 3 data:
 - 3A,B: Data available by request.
-- 3C: FI values need to be downloaded from FigShare at [10.6084/m9.figshare.23992776](10.6084/m9.figshare.23992776) into the `data/round_7_influenza_fluorescence_intensity` folder. Metadata is located at `data/figure_3c_metadata`.
-- 3D: Raw fastq files for re-running InVERT are available on SRA at XXXX. The main results to generate the graphs need to be downloaded from FigShare at [10.6084/m9.figshare.23992476](10.6084/m9.figshare.23992476) into the `data/invert_data` folder. Metadata is located at `data/figure_3d_metadata.csv`.
+- 3C: FI values need to be downloaded from FigShare at [https://figshare.com/s/7f48cb8873f0259eab12](https://figshare.com/s/7f48cb8873f0259eab12) into the `data/round_7_influenza_fluorescence_intensity` folder. Metadata is located at `data/figure_3c_metadata`.
+- 3D: Raw fastq files for re-running InVERT are available on SRA at XXXX. The main results to generate the graphs need to be downloaded from FigShare at [https://figshare.com/s/17e09862b1c23c0a6631](https://figshare.com/s/17e09862b1c23c0a6631) into the `data/invert_data` folder. Metadata is located at `data/figure_3d_metadata.csv`.
 
 #### Figure 4 data:
 - 4A: Data available by request.
