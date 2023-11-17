@@ -1,0 +1,482 @@
+---
+title: "Figure 5 code"
+author: "Frances Shepherd"
+output: html_document
+date: "2023-11-14"
+---
+
+```{r}
+#if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+
+#remotes::install_version("Seurat", version = "4.3.0", lib = "~/bin/seurat_4.3.0")
+#install.packages("ggplot2")
+#install.packages("dplyr")
+#BiocManager::install("glmGamPoi")
+#install.packages("sctransform")
+#install.packages("purrr")
+#install.packages("HGNChelper")
+#install.packages("openxlsx")
+
+
+library(Seurat, lib.loc = "~/bin/seurat_4.3.0")
+library(sctransform)
+library(ggplot2)
+library(dplyr)
+library(HGNChelper)
+library(openxlsx)
+library(stringr)
+library(data.table)
+library(purrr)
+```
+
+
+```{r}
+#Load control and Cal09 infected gene expression matrices (output by CellRanger)
+mock.data <- Read10X(data.dir = "")
+cal.data <- Read10X(data.dir = "")
+```
+
+```{r Create Seurat object and generate QC metrics}
+mock <- CreateSeuratObject(counts = mock.data,
+                           min.features = 200,
+                           project = "mock")
+
+cal <- CreateSeuratObject(counts = cal.data,
+                           min.features = 200,
+                           project = "cal")
+
+#Add a column which describes the experimental condition for each dataset 
+mock[["condition"]] <- "mock"
+cal[["condition"]] <- "cal"
+
+
+#Merge two Seurat objects
+merged_seurat <- merge(x = mock, 
+                       y = cal, 
+                       add.cell.id = c("mock", "cal"))
+
+#Calculate mitochondrial genes
+merged_seurat[["percent.mt"]] <- PercentageFeatureSet(merged_seurat, pattern = "^MT-")
+
+#Calculate number of genes detected per UMI (give a sense of data complexity)
+merged_seurat[["log10GenesPerUMI"]] <- log10(merged_seurat$nFeature_RNA) / log10(merged_seurat$nCount_RNA)
+
+#Create column that replicates the rownames
+merged_seurat[["cells"]] <- rownames(merged_seurat@meta.data)
+```
+
+### QC
+
+Cells captured per condition:
+
+```{r}
+merged_seurat@meta.data %>%
+  ggplot(aes(x=condition, fill=condition)) + 
+  	geom_bar() +
+  	theme_classic() +
+  	theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  	theme(plot.title = element_text(hjust=0.5, face="bold")) +
+  	ggtitle("Number of cells per condition")
+```
+
+UMI counts per cell:
+
+```{r}
+merged_seurat@meta.data %>% 
+  	ggplot(aes(color=condition, x=nCount_RNA, fill= condition)) + 
+  	geom_density(alpha = 0.2) + 
+  	scale_x_log10() + 
+  	theme_classic() +
+  	ylab("Cell density") +
+    geom_vline(xintercept = 500, linetype = "dotted") +
+    geom_vline(xintercept = 100000, linetype = "dotted") +
+    ggtitle("Number of UMIs per cell")
+```
+
+Number of genes per cell:
+
+```{r}
+merged_seurat@meta.data %>% 
+  	ggplot(aes(color=condition, x=nFeature_RNA, fill= condition)) + 
+  	geom_density(alpha = 0.2) + 
+  	theme_classic() +
+  	scale_x_log10() + 
+    ggtitle("Genes detected per cell") +
+  	geom_vline(xintercept = 600, linetype = "dotted")
+```
+
+Bimodal distribution is typical of NHBE cells.
+
+Number of genes per UMI:
+
+```{r}
+merged_seurat@meta.data %>% 
+  	ggplot(aes(color=condition, x=log10GenesPerUMI, fill= condition)) + 
+  	geom_density(alpha = 0.2) + 
+  	theme_classic() +
+  	scale_x_log10() +
+    geom_vline(xintercept = 0.8, linetype = "dotted") +
+  ggtitle("Average genes per UMI\n(Complexity metric)")
+```
+
+Histogram of the mitochondrial gene counts:
+
+```{r}
+merged_seurat@meta.data %>% 
+  	ggplot(aes(color=condition, x=percent.mt, fill=condition)) + 
+  	geom_density(alpha = 0.2) + 
+  	scale_x_log10() + 
+  	theme_classic() +
+  	geom_vline(xintercept = 40, linetype = "dotted") +
+    ggtitle("Percent mitochondrial gene counts")
+```
+
+Higher mitochondrial gene percentages is also typical of NHBE cells.
+Assess cutoffs of UMIs between 500 and 100,000 and number of unique features/transcripts at 700:
+
+```{r}
+merged_seurat@meta.data %>% 
+ggplot(aes(x=nCount_RNA, y=nFeature_RNA, color=percent.mt)) + 
+  geom_point() + 
+  scale_colour_gradient(low = "gray90", high = "black") +
+  #scale_colour_gradientn(colours = "white", "white", "gray", "black",
+  #                       breaks = c(0, ))
+	stat_smooth(method=lm) +
+	scale_x_log10() + 
+	scale_y_log10() + 
+	theme_classic() +
+	geom_vline(xintercept = 500, linetype = "dotted") +
+  geom_vline(xintercept = 100000, linetype = "dotted") +
+	geom_hline(yintercept = 600, linetype = "dotted") +
+	facet_wrap(~condition)
+```
+
+After applying above filters, plus a filter for MT% greater than 40%. Look at violin plots of the main QC metrics after filtering:
+
+```{r}
+filtered_merged_seurat <- subset(merged_seurat,
+                                 subset = (nCount_RNA > 500) & 
+                                   (nCount_RNA < 100000) &
+                                   (nFeature_RNA > 600) &
+                                   (log10GenesPerUMI > 0.8) &
+                                   (percent.mt < 40))
+
+VlnPlot(filtered_merged_seurat, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3, group.by = "condition")
+```
+
+### Check for cell cycle gene expression
+
+```{r}
+s.genes <- cc.genes$s.genes
+g2m.genes <- cc.genes$g2m.genes
+seurat_phase <- NormalizeData(filtered_merged_seurat) #Normalize the data
+seurat_phase <- FindVariableFeatures(seurat_phase, selection.method = "vst") #Find variable genes
+seurat_phase <- ScaleData(seurat_phase) #Scale the data
+seurat_phase <- RunPCA(seurat_phase) # Perform PCA on the variable genes
+
+seurat_phase <- CellCycleScoring(seurat_phase, 
+                                 g2m.features = g2m.genes, 
+                                 s.features = s.genes)
+```
+
+PCA colored by cell cycle phase:
+
+```{r}
+DimPlot(seurat_phase,
+        reduction = "pca",
+        group.by= "Phase")
+```
+
+The left side of the graph is dominated by G1 and G2M cells. I will regress out variation due to cell cycle genes in the next step.
+
+### Check for MT gene expression
+
+Do the same PCA for mitochondrial gene expression
+
+```{r}
+#Get distribution of MT gene expression:
+summary(seurat_phase@meta.data$percent.mt)
+
+#Based on these values, create a new variable to  bin cells based on level of MT gene expression
+seurat_phase@meta.data$mitoFr <- cut(seurat_phase@meta.data$percent.mt, 
+                   breaks=c(-Inf, 8.4534, 14.0768, 18.8004, Inf), 
+                   labels=c("Low","Medium","Medium high", "High"))
+```
+
+Plot PCA and color according to their MT gene expression "bin".
+
+```{r}
+DimPlot(seurat_phase,
+        size=10,
+        reduction = "pca",
+        group.by = "mitoFr")
+```
+
+There are differences on the PC_1, especially in low MT-expressing cells, so I will regress this variation out as well.
+
+### Normalization with scTransform
+
+```{r}
+#Split the object into mock and cal conditions
+split_seurat <- SplitObject(seurat_phase, split.by = "condition")
+
+#Perform SCtransformation for the mock dataset first
+mock <- SCTransform(split_seurat[["mock"]],
+                    vst.flavor = "v2",
+                    vars.to.regress = c("percent.mt", "S.Score", "G2M.Score"))
+
+#Then for the cal-infected dataset
+cal <- SCTransform(split_seurat[["cal"]],
+                    vst.flavor = "v2",
+                    vars.to.regress = c("percent.mt", "S.Score", "G2M.Score"))
+```
+
+### Integration
+
+```{r}
+mock_cal <- list(mock = mock, cal = cal)
+integ_features <- SelectIntegrationFeatures(object.list = mock_cal, 
+                                            nfeatures = 3000) 
+
+# Prepare the SCT list object for integration
+mock_cal <- PrepSCTIntegration(object.list = mock_cal,
+                                  anchor.features = integ_features)
+
+#Finally perform the actual integration (uses what's called canonical correlation analysis)
+integ_anchors <- FindIntegrationAnchors(object.list = mock_cal, 
+                                        normalization.method = "SCT", 
+                                        anchor.features = integ_features)
+
+seurat_integrated <- IntegrateData(anchorset = integ_anchors, 
+                                   normalization.method = "SCT")
+
+#Perform PCA
+seurat_integrated <- RunPCA(object = seurat_integrated)
+
+# Run UMAP
+seurat_integrated <- RunUMAP(seurat_integrated, 
+                             dims = 1:40,
+			     reduction = "pca")
+
+# Plot UMAP                             
+DimPlot(seurat_integrated, group.by = "condition")   
+```
+
+### Clustering cells
+
+```{r}
+seurat_integrated <- FindNeighbors(object = seurat_integrated, 
+                                dims = 1:40)
+
+seurat_integrated <- FindClusters(object = seurat_integrated,
+                               resolution = 0.2)
+
+#Change factor levels of seurat integrated conditions:
+seurat_integrated@meta.data$condition <- factor(seurat_integrated@meta.data$condition, levels = c("mock", "cal"))
+
+DimPlot(seurat_integrated,
+        reduction = "umap",
+        label = TRUE,
+        label.size = 6,
+        split.by = "condition") &
+  ggtitle("UMAP of integrated data-by cluster") &
+  labs(caption = "Resolution = 0.2")
+```
+
+### Graphing flu infection
+```{r}
+#Reset default assay 
+DefaultAssay(seurat_integrated) <- "RNA"
+
+#Calculate percent flu genes
+seurat_integrated[["percent.flu"]] <- PercentageFeatureSet(seurat_integrated, pattern = "Cal-")
+
+summary(seurat_integrated@meta.data$percent.flu)
+```
+
+
+```{r}
+#Create bins for low, medium, or highly flu-infected cells.
+seurat_integrated@meta.data$flu_fraction <- cut(seurat_integrated@meta.data$percent.flu, 
+                   breaks=c(-Inf, 0.07, 1, 10, Inf), 
+                   labels=c("Uninfected","Low","Medium", "High"))
+mycols <- c("lightgray", "#FFFF99", "orange", "red")
+
+DimPlot(seurat_integrated,
+        size=10,
+        reduction = "umap",
+        group.by = "flu_fraction",
+        split.by = "condition",
+        cols = alpha(mycols,0.66)) &
+  ggtitle("Fraction of flu reads per cell\nCombined analysis") &
+  labs(caption = "Uninfected: < 0.07% flu\nLow: 0.07-1% flu\nMedium: 1-10% flu\nHigh: >10% flu")
+```
+
+### Identifying cell types
+
+Find conserved markers in each cluster:
+
+```{r}
+# Create function to get conserved markers for any given cluster. This works similarly to FindAllMarkers but uses the correct analysis with the integrated dataset.
+get_conserved <- function(cluster){
+  FindConservedMarkers(seurat_integrated,
+                       assay = "RNA",
+                       ident.1 = cluster,
+                       grouping.var = "condition",
+                       only.pos = TRUE) %>%
+    tibble::rownames_to_column(var = "gene") %>%
+    cbind(cluster_id = cluster, .)
+  }
+
+#Get markers for all 12 clusters in the integrated dataset
+conserved_markers <- map_dfr(c(0:11), get_conserved)
+```
+
+```{r}
+cluster_marker_list <- conserved_markers %>%
+  filter(minimump_p_val < 0.05) %>%
+  group_by(cluster_id) %>%
+  arrange(desc(mock_avg_log2FC), .by_group = TRUE)
+```
+
+
+```{r}
+#Load scripts from SCType github
+
+source("https://raw.githubusercontent.com/IanevskiAleksandr/sc-type/master/R/gene_sets_prepare.R"); source("https://raw.githubusercontent.com/IanevskiAleksandr/sc-type/master/R/sctype_score_.R")
+# load auto-detection function
+source("https://raw.githubusercontent.com/IanevskiAleksandr/sc-type/master/R/auto_detect_tissue_type.R")
+db_ = "https://raw.githubusercontent.com/IanevskiAleksandr/sc-type/master/ScTypeDB_full.xlsx";
+
+#Prepare cell type marker database from scType
+tissue = "Lung" # e.g. Immune system,Pancreas,Liver,Eye,Kidney,Brain,Lung,Adrenal,Heart,Intestine,Muscle,Placenta,Spleen,Stomach,Thymus 
+
+# prepare gene sets
+gs_list = gene_sets_prepare(db_, tissue)
+
+# get cell-type by cell matrix
+es.max = sctype_score(scRNAseqData = seurat_integrated[["integrated"]]@scale.data, 
+                      scaled = TRUE,
+                      gs = gs_list$gs_positive,
+                      gs2 = gs_list$gs_negative)
+
+
+# merge by cluster
+cL_resutls = do.call("rbind", lapply(unique(seurat_integrated@meta.data$seurat_clusters), function(cl){
+    es.max.cl = sort(rowSums(es.max[ ,rownames(seurat_integrated@meta.data[seurat_integrated@meta.data$seurat_clusters==cl, ])]), decreasing = !0)
+    head(data.frame(cluster = cl, type = names(es.max.cl), scores = es.max.cl, ncells = sum(seurat_integrated@meta.data$seurat_clusters==cl)), 10)
+}))
+sctype_scores = cL_resutls %>% group_by(cluster) %>% top_n(n = 1, wt = scores)  
+
+# set low-confident (low ScType score) clusters to "unknown"
+sctype_scores$type[as.numeric(as.character(sctype_scores$scores)) < sctype_scores$ncells/4] = "Unknown"
+sctype_scores[,1:3]
+```
+
+
+```{r}
+#Merge cell types with cluster IDs on UMAP
+
+seurat_integrated@meta.data$customclassif = ""
+for(j in unique(sctype_scores$cluster)){
+  cl_type = sctype_scores[sctype_scores$cluster==j,]; 
+  seurat_integrated@meta.data$customclassif[seurat_integrated@meta.data$seurat_clusters == j] = as.character(cl_type$type[1])
+}
+
+#Rename club cells
+seurat_integrated@meta.data <- seurat_integrated@meta.data %>%
+  dplyr::mutate(across('customclassif', str_replace, 'Clara cells', 'Club cells'),
+                across('customclassif', str_replace, 'Airway goblet cells', 'Secretory and goblet cells'),
+                across('customclassif', str_replace, 'Basal cells (Airway progenitor cells)', 'Basal cells'))
+
+Idents(seurat_integrated) <- "customclassif"
+
+
+#Reorder factor levels
+
+DimPlot(seurat_integrated, reduction = "umap", label = FALSE, repel = TRUE, group.by = 'customclassif', order = rev(c("Ciliated cells", "Secretory and goblet cells", "Basal cells (Airway progenitor cells)",  "Airway epithelial cells", "Club cells", "Ionocytes"))) &
+  ggtitle("Integrated UMAP by cell type") &
+  scale_color_manual(values = c("#1080FF", "#8000FF", "#FB02FF", "#00C13B", "#48EFDA", "#CC9ECB")) &
+  NoLegend()
+```
+
+UMAP of the flow markers (except for SiR-Tubulin because there is no specific gene for microtubule production):
+```{r}
+FeaturePlot(seurat_integrated, features = c("NGFR", "CEACAM6", "TSPAN8"))
+```
+
+### Finding variable features between infected and uninfected cell types
+
+#### Ciliated cells
+
+Compare infected to uninfected condition:
+
+```{r}
+#Read in ISG list
+human.isgs <- read.csv("Human ISG list.csv", header = TRUE)
+
+#Filter ISGs to those present in the seurat dataset
+human.isgs$present_in_seurat <- human.isgs$isg_name %in% rownames(seurat_integrated)
+
+present_isgs <- subset(human.isgs, present_in_seurat == "TRUE")
+
+ciliated_flu_markers <- FindMarkers(seurat_integrated, ident.1 = "cal", ident.2 = "mock", group.by = "condition", subset.ident = "Ciliated cells")
+
+#Filter by ISGs
+ciliated_flu_isgs <- ciliated_flu_markers %>%
+  filter(row.names(ciliated_flu_markers) %in% c(human.isgs$isg_name) & p_val_adj < 0.05)
+```
+
+#### Secretory cells
+
+Compare infected vs uninfected:
+
+```{r}
+secretory_flu_markers <- FindMarkers(seurat_integrated, ident.1 = "cal", ident.2 = "mock", group.by = "condition", subset.ident = "Secretory and goblet cells")
+
+#Filter by ISGs
+secretory_flu_isgs <- secretory_flu_markers %>%
+  filter(row.names(secretory_flu_markers) %in% c(human.isgs$isg_name) & p_val_adj < 0.05)
+```
+
+### Heatmap of ISG expression in mock condition
+
+```{r}
+#Set identities of integrated object to the condition
+Idents(seurat_integrated) <- "condition"
+#Pull out mock dataset
+mock_integrated <- subset(seurat_integrated, idents = c("mock"))
+
+#Scale data in the RNA assays
+mock_integrated <- ScaleData(mock_integrated, features = present_isgs$isg_name)
+
+#Set identities to cell type
+Idents(mock_integrated) <- "customclassif"
+
+#Find markers for each cell type
+mock_markers <- FindAllMarkers(mock_integrated)
+
+#Filter markers down to ISGs, and filter to only padj < 0.05
+mock_isg_markers_all <- mock_markers %>%
+  filter(rownames(.) %in% present_isgs$isg_name & p_val_adj < 0.05) %>%
+  group_by(cluster) %>%
+  arrange(-avg_log2FC, .by_group = TRUE)
+
+#Top 50 only (use for graphing)
+mock_isg_markers <- mock_markers %>%
+  filter(rownames(.) %in% present_isgs$isg_name & p_val_adj < 0.05) %>%
+  group_by(cluster) %>%
+  slice_max(n = 50, order_by = avg_log2FC) %>%
+  arrange(-avg_log2FC, .by_group = TRUE)
+
+#Reorder the cell type levels so that they will be the same between heat maps
+levels(mock_integrated) <- c("Ciliated cells", "Secretory and goblet cells", "Basal cells (Airway progenitor cells)",  "Airway epithelial cells", "Club cells", "Ionocytes")
+
+#Heatmap of mock condition, cell type specific ISGs
+DoHeatmap(mock_integrated, features = mock_isg_markers$gene, assay = "RNA", group.colors = c("#1080FF", "#8000FF", "#FB02FF", "#00C13B", "#48EFDA", "#CC9ECB")) &
+  ggtitle("ISG Heatmap of Mock-infected cells\nCombined analysis") &
+  labs(caption = "Cell type identities were determined with full gene set.\nThe most variable genes per cluster were found with FindAllMarkers.\nCell type specific markers were filtered to ISGs and padj < 0.05.\n50 ISGs per cluster are plotted (or as many as are there if less than 50).")
+```
+
+```{r}
+sessionInfo()

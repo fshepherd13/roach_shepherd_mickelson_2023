@@ -1,0 +1,8 @@
+Cal_PB2	Langlois_lab	exon	1	2341	.	+	.	gene_biotype "vRNA"; gene_id "Cal_PB2"; gene_name "Cal_PB2"; label "Cal_PB2"; transcript_id "Cal_PB2"
+Cal_PB1	Langlois_lab	exon	1	2341	.	+	.	gene_biotype "vRNA"; gene_id "Cal_PB1"; gene_name "Cal_PB1"; label "Cal_PB1"; transcript_id "Cal_PB1"
+Cal_PA	Langlois_lab	exon	1	2233	.	+	.	gene_biotype "vRNA"; gene_id "Cal_PA"; gene_name "Cal_PA"; label "Cal_PA"; transcript_id "Cal_PA"
+Cal_HA	Langlois_lab	exon	1	1777	.	+	.	gene_biotype "vRNA"; gene_id "Cal_HA"; gene_name "Cal_HA"; label "Cal_HA"; transcript_id "Cal_HA"
+Cal_NP	Langlois_lab	exon	1	1565	.	+	.	gene_biotype "vRNA"; gene_id "Cal_NP"; gene_name "Cal_NP"; label "Cal_NP"; transcript_id "Cal_NP"
+Cal_NA	Langlois_lab	exon	1	1458	.	+	.	gene_biotype "vRNA"; gene_id "Cal_NA"; gene_name "Cal_NA"; label "Cal_NA"; transcript_id "Cal_NA"
+Cal_M	Langlois_lab	exon	1	1027	.	+	.	gene_biotype "vRNA"; gene_id "Cal_M"; gene_name "Cal_M"; label "Cal_M"; transcript_id "Cal_M"
+Cal_NS	Langlois_lab	exon	1	890	.	+	.	gene_biotype "vRNA"; gene_id "Cal_NS"; gene_name "Cal_NS"; label "Cal_NS"; transcript_id "Cal_NS"
