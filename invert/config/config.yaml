@@ -1,18 +1,18 @@
 #Config file to accompany invert snakemake pipeline
 
-in_dir: /home/langlois/shared/UI_data_release/UMN_project6 #Directory containing raw fastq files from RNAseq
-sample_file: ../config/samples.csv
+in_dir: /path/to/raw/fastq #Directory containing raw fastq files from RNAseq
+sample_file: ../config/samples_experiment_1.csv
 
 trimmomatic: #Trimmomatic parameters
     threads: 32
     other: ILLUMINACLIP:../ref_files/all_illumina_adapters.fa:2:30:10  LEADING:10 TRAILING:10 SLIDINGWINDOW:4:20 MINLEN:38
 
 annotations:
-  combined: /home/langlois/shared/ref_genomes/star_indices/cal09_human/GRCh38.103_Cal09.gtf #GTF file of concatenated virus + host genomes annotation
-  iav_only: ../ref_files/IAV_Cal09.gtf #GTF file of virus ONLY annotation
+  combined: /path/to/combined/annotation.gtf #GTF file of concatenated virus + host genomes annotation, created with ../scripts/compile_genome.srun
+  iav_only: ../ref_files/IAV_Cal09.gtf #GTF file of virus ONLY annotation, included in repo
   
 ref_genome:
-  combined: /home/langlois/shared/ref_genomes/star_indices/cal09_human/GRCh38.103_Cal09.fa # reference genome of combined host + virus
-  iav_only: ../ref_files/IAV_Cal09.fa
+  combined: /path/to/combined/reference.fa # FASTA file of reference genome of combined host + virus, created with ../scripts/compile_genome.srun
+  iav_only: ../ref_files/IAV_Cal09.fa #FASTA file of virus ONLY annotation, included in repo
 
-genome_index: "/home/langlois/shared/ref_genomes/star_indices/cal09_human" #directory containin concatenated human+virus genome, indexed by STAR
+genome_index: "/path/to/genome/index" #directory containing concatenated human+virus genome, indexed by STAR. Created with ../scripts/compile_genome.srun
