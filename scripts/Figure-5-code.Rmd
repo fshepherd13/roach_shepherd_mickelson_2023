@@ -27,11 +27,13 @@ library(openxlsx)
 library(stringr)
 library(data.table)
 library(purrr)
+library(forcats)
 ```
 
 
-```{r}
+```{r eval=FALSE}
 #Load control and Cal09 infected gene expression matrices (output by CellRanger)
+#Data can be downloaded from GEO under accession number GSE247979.
 mock.data <- Read10X(data.dir = "")
 cal.data <- Read10X(data.dir = "")
 ```
@@ -70,6 +72,7 @@ merged_seurat[["cells"]] <- rownames(merged_seurat@meta.data)
 Cells captured per condition:
 
 ```{r}
+#pdf("final/results/Cells per condition bar graph.pdf")
 merged_seurat@meta.data %>%
   ggplot(aes(x=condition, fill=condition)) + 
   	geom_bar() +
@@ -77,11 +80,13 @@ merged_seurat@meta.data %>%
   	theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
   	theme(plot.title = element_text(hjust=0.5, face="bold")) +
   	ggtitle("Number of cells per condition")
+#dev.off()
 ```
 
 UMI counts per cell:
 
 ```{r}
+#pdf("final/results/UMI counts per cell density plot.pdf")
 merged_seurat@meta.data %>% 
   	ggplot(aes(color=condition, x=nCount_RNA, fill= condition)) + 
   	geom_density(alpha = 0.2) + 
@@ -91,11 +96,13 @@ merged_seurat@meta.data %>%
     geom_vline(xintercept = 500, linetype = "dotted") +
     geom_vline(xintercept = 100000, linetype = "dotted") +
     ggtitle("Number of UMIs per cell")
+#dev.off()
 ```
 
 Number of genes per cell:
 
 ```{r}
+#pdf("final/results/Genes per cell density plot.pdf")
 merged_seurat@meta.data %>% 
   	ggplot(aes(color=condition, x=nFeature_RNA, fill= condition)) + 
   	geom_density(alpha = 0.2) + 
@@ -103,6 +110,7 @@ merged_seurat@meta.data %>%
   	scale_x_log10() + 
     ggtitle("Genes detected per cell") +
   	geom_vline(xintercept = 600, linetype = "dotted")
+#dev.off()
 ```
 
 Bimodal distribution is typical of NHBE cells.
@@ -110,6 +118,7 @@ Bimodal distribution is typical of NHBE cells.
 Number of genes per UMI:
 
 ```{r}
+#pdf("final/results/Genes per UMI density plot.pdf")
 merged_seurat@meta.data %>% 
   	ggplot(aes(color=condition, x=log10GenesPerUMI, fill= condition)) + 
   	geom_density(alpha = 0.2) + 
@@ -117,11 +126,13 @@ merged_seurat@meta.data %>%
   	scale_x_log10() +
     geom_vline(xintercept = 0.8, linetype = "dotted") +
   ggtitle("Average genes per UMI\n(Complexity metric)")
+#dev.off()
 ```
 
 Histogram of the mitochondrial gene counts:
 
 ```{r}
+#pdf("final/results/MT percentages density plot.pdf")
 merged_seurat@meta.data %>% 
   	ggplot(aes(color=condition, x=percent.mt, fill=condition)) + 
   	geom_density(alpha = 0.2) + 
@@ -129,12 +140,14 @@ merged_seurat@meta.data %>%
   	theme_classic() +
   	geom_vline(xintercept = 40, linetype = "dotted") +
     ggtitle("Percent mitochondrial gene counts")
+#dev.off()
 ```
 
 Higher mitochondrial gene percentages is also typical of NHBE cells.
 Assess cutoffs of UMIs between 500 and 100,000 and number of unique features/transcripts at 700:
 
 ```{r}
+#pdf("final/results/Combined QC metrics plot.pdf")
 merged_seurat@meta.data %>% 
 ggplot(aes(x=nCount_RNA, y=nFeature_RNA, color=percent.mt)) + 
   geom_point() + 
@@ -149,19 +162,22 @@ ggplot(aes(x=nCount_RNA, y=nFeature_RNA, color=percent.mt)) +
   geom_vline(xintercept = 100000, linetype = "dotted") +
 	geom_hline(yintercept = 600, linetype = "dotted") +
 	facet_wrap(~condition)
+#dev.off()
 ```
 
 After applying above filters, plus a filter for MT% greater than 40%. Look at violin plots of the main QC metrics after filtering:
 
 ```{r}
-filtered_merged_seurat <- subset(merged_seurat,
+merged_seurat <- subset(merged_seurat,
                                  subset = (nCount_RNA > 500) & 
                                    (nCount_RNA < 100000) &
                                    (nFeature_RNA > 600) &
                                    (log10GenesPerUMI > 0.8) &
                                    (percent.mt < 40))
 
-VlnPlot(filtered_merged_seurat, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3, group.by = "condition")
+#pdf("final/results/QC violin plots after filtering.pdf")
+VlnPlot(merged_seurat, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3, group.by = "condition")
+#dev.off()
 ```
 
 ### Check for cell cycle gene expression
@@ -169,12 +185,12 @@ VlnPlot(filtered_merged_seurat, features = c("nFeature_RNA", "nCount_RNA", "perc
 ```{r}
 s.genes <- cc.genes$s.genes
 g2m.genes <- cc.genes$g2m.genes
-seurat_phase <- NormalizeData(filtered_merged_seurat) #Normalize the data
-seurat_phase <- FindVariableFeatures(seurat_phase, selection.method = "vst") #Find variable genes
-seurat_phase <- ScaleData(seurat_phase) #Scale the data
-seurat_phase <- RunPCA(seurat_phase) # Perform PCA on the variable genes
+merged_seurat <- NormalizeData(merged_seurat) #Normalize the data
+merged_seurat <- FindVariableFeatures(merged_seurat, selection.method = "vst") #Find variable genes
+merged_seurat <- ScaleData(merged_seurat) #Scale the data
+merged_seurat <- RunPCA(merged_seurat) # Perform PCA on the variable genes
 
-seurat_phase <- CellCycleScoring(seurat_phase, 
+merged_seurat <- CellCycleScoring(merged_seurat, 
                                  g2m.features = g2m.genes, 
                                  s.features = s.genes)
 ```
@@ -182,9 +198,11 @@ seurat_phase <- CellCycleScoring(seurat_phase,
 PCA colored by cell cycle phase:
 
 ```{r}
-DimPlot(seurat_phase,
+#pdf("final/results/Cell cycle PCA plot.pdf")
+DimPlot(merged_seurat,
         reduction = "pca",
         group.by= "Phase")
+#dev.off()
 ```
 
 The left side of the graph is dominated by G1 and G2M cells. I will regress out variation due to cell cycle genes in the next step.
@@ -195,10 +213,10 @@ Do the same PCA for mitochondrial gene expression
 
 ```{r}
 #Get distribution of MT gene expression:
-summary(seurat_phase@meta.data$percent.mt)
+summary(merged_seurat@meta.data$percent.mt)
 
 #Based on these values, create a new variable to  bin cells based on level of MT gene expression
-seurat_phase@meta.data$mitoFr <- cut(seurat_phase@meta.data$percent.mt, 
+merged_seurat@meta.data$mitoFr <- cut(merged_seurat@meta.data$percent.mt, 
                    breaks=c(-Inf, 8.4534, 14.0768, 18.8004, Inf), 
                    labels=c("Low","Medium","Medium high", "High"))
 ```
@@ -206,10 +224,12 @@ seurat_phase@meta.data$mitoFr <- cut(seurat_phase@meta.data$percent.mt,
 Plot PCA and color according to their MT gene expression "bin".
 
 ```{r}
-DimPlot(seurat_phase,
+#pdf("final/results/MT fraction PCA plot.pdf")
+DimPlot(merged_seurat,
         size=10,
         reduction = "pca",
         group.by = "mitoFr")
+#dev.off()
 ```
 
 There are differences on the PC_1, especially in low MT-expressing cells, so I will regress this variation out as well.
@@ -218,7 +238,7 @@ There are differences on the PC_1, especially in low MT-expressing cells, so I w
 
 ```{r}
 #Split the object into mock and cal conditions
-split_seurat <- SplitObject(seurat_phase, split.by = "condition")
+split_seurat <- SplitObject(merged_seurat, split.by = "condition")
 
 #Perform SCtransformation for the mock dataset first
 mock <- SCTransform(split_seurat[["mock"]],
@@ -234,9 +254,12 @@ cal <- SCTransform(split_seurat[["cal"]],
 ### Integration
 
 ```{r}
+rm(split_seurat)
 mock_cal <- list(mock = mock, cal = cal)
 integ_features <- SelectIntegrationFeatures(object.list = mock_cal, 
                                             nfeatures = 3000) 
+rm(mock)
+rm(cal)
 
 # Prepare the SCT list object for integration
 mock_cal <- PrepSCTIntegration(object.list = mock_cal,
@@ -246,7 +269,7 @@ mock_cal <- PrepSCTIntegration(object.list = mock_cal,
 integ_anchors <- FindIntegrationAnchors(object.list = mock_cal, 
                                         normalization.method = "SCT", 
                                         anchor.features = integ_features)
-
+rm(mock_cal)
 seurat_integrated <- IntegrateData(anchorset = integ_anchors, 
                                    normalization.method = "SCT")
 
@@ -258,8 +281,10 @@ seurat_integrated <- RunUMAP(seurat_integrated,
                              dims = 1:40,
 			     reduction = "pca")
 
-# Plot UMAP                             
+# Plot UMAP     
+#pdf("final/results/Integrated UMAP-by condition.pdf")
 DimPlot(seurat_integrated, group.by = "condition")   
+#dev.off()
 ```
 
 ### Clustering cells
@@ -274,6 +299,7 @@ seurat_integrated <- FindClusters(object = seurat_integrated,
 #Change factor levels of seurat integrated conditions:
 seurat_integrated@meta.data$condition <- factor(seurat_integrated@meta.data$condition, levels = c("mock", "cal"))
 
+#pdf("final/results/Integrated UMAP-by cluster.pdf")
 DimPlot(seurat_integrated,
         reduction = "umap",
         label = TRUE,
@@ -281,9 +307,11 @@ DimPlot(seurat_integrated,
         split.by = "condition") &
   ggtitle("UMAP of integrated data-by cluster") &
   labs(caption = "Resolution = 0.2")
+#dev.off()
 ```
 
-### Graphing flu infection
+### Graphing percent flu infection
+
 ```{r}
 #Reset default assay 
 DefaultAssay(seurat_integrated) <- "RNA"
@@ -294,6 +322,25 @@ seurat_integrated[["percent.flu"]] <- PercentageFeatureSet(seurat_integrated, pa
 summary(seurat_integrated@meta.data$percent.flu)
 ```
 
+Make violin plot of percent flu read distribution, showing all percentages:
+
+```{r}
+#pdf("final/results/Percent flu per condition.pdf")
+VlnPlot(seurat_integrated, features = c("percent.flu"), group.by = "condition")
+#dev.off()
+```
+
+There are some high percentages that make the violin plot hard to read. Also made a violin plot of percent flu for everything below 1 percent:
+
+```{r}
+#pdf("final/results/Percent flu per condition-below 1 percent.pdf")
+VlnPlot(subset(seurat_integrated,
+               subset = percent.flu < 1), features = c("percent.flu"), group.by = "condition") &
+  ggtitle("percent.flu for only cells with < 1% flu") &
+  geom_hline(yintercept = 0.07, linetype = "dotted")
+#dev.off()
+```
+
 
 ```{r}
 #Create bins for low, medium, or highly flu-infected cells.
@@ -302,6 +349,7 @@ seurat_integrated@meta.data$flu_fraction <- cut(seurat_integrated@meta.data$perc
                    labels=c("Uninfected","Low","Medium", "High"))
 mycols <- c("lightgray", "#FFFF99", "orange", "red")
 
+#pdf("final/results/Fraction flu reads per cell-UMAP.pdf)
 DimPlot(seurat_integrated,
         size=10,
         reduction = "umap",
@@ -310,6 +358,7 @@ DimPlot(seurat_integrated,
         cols = alpha(mycols,0.66)) &
   ggtitle("Fraction of flu reads per cell\nCombined analysis") &
   labs(caption = "Uninfected: < 0.07% flu\nLow: 0.07-1% flu\nMedium: 1-10% flu\nHigh: >10% flu")
+#dev.off()
 ```
 
 ### Identifying cell types
@@ -337,6 +386,8 @@ cluster_marker_list <- conserved_markers %>%
   filter(minimump_p_val < 0.05) %>%
   group_by(cluster_id) %>%
   arrange(desc(mock_avg_log2FC), .by_group = TRUE)
+
+#write.csv(cluster_marker_list, "final/results/cluster_markers.csv", row.names = FALSE)
 ```
 
 
@@ -383,33 +434,48 @@ for(j in unique(sctype_scores$cluster)){
   seurat_integrated@meta.data$customclassif[seurat_integrated@meta.data$seurat_clusters == j] = as.character(cl_type$type[1])
 }
 
-#Rename club cells
+seurat_integrated@meta.data$customclassif <- as.factor(seurat_integrated@meta.data$customclassif)
+
+#Rename cell types
+
 seurat_integrated@meta.data <- seurat_integrated@meta.data %>%
-  dplyr::mutate(across('customclassif', str_replace, 'Clara cells', 'Club cells'),
-                across('customclassif', str_replace, 'Airway goblet cells', 'Secretory and goblet cells'),
-                across('customclassif', str_replace, 'Basal cells (Airway progenitor cells)', 'Basal cells'))
+  mutate(., customclassif = fct_recode(customclassif, 
+                                       "Club cells" = "Clara cells",
+                                       "Secretory and goblet cells" = "Airway goblet cells",
+                                       "Basal cells"= "Basal cells (Airway progenitor cells)"))
 
 Idents(seurat_integrated) <- "customclassif"
 
-
-#Reorder factor levels
-
-DimPlot(seurat_integrated, reduction = "umap", label = FALSE, repel = TRUE, group.by = 'customclassif', order = rev(c("Ciliated cells", "Secretory and goblet cells", "Basal cells (Airway progenitor cells)",  "Airway epithelial cells", "Club cells", "Ionocytes"))) &
+#pdf("final/results/Integrated UMAP-by sctype annotation.pdf")
+DimPlot(seurat_integrated, reduction = "umap", label = FALSE, repel = TRUE, group.by = 'customclassif', order = rev(c("Ciliated cells", "Secretory and goblet cells", "Basal cells",  "Airway epithelial cells", "Club cells", "Ionocytes"))) &
   ggtitle("Integrated UMAP by cell type") &
-  scale_color_manual(values = c("#1080FF", "#8000FF", "#FB02FF", "#00C13B", "#48EFDA", "#CC9ECB")) &
-  NoLegend()
+  scale_color_manual(values = c("#1080FF", "#8000FF", "#FB02FF", "#00C13B", "#48EFDA", "#CC9ECB"))
+#dev.off()
 ```
 
 UMAP of the flow markers (except for SiR-Tubulin because there is no specific gene for microtubule production):
 ```{r}
+#pdf("final/results/Flow marker feature plots.pdf")
 FeaturePlot(seurat_integrated, features = c("NGFR", "CEACAM6", "TSPAN8"))
+#dev.off()
 ```
 
-### Finding variable features between infected and uninfected cell types
+Here's a violin plot that shows percent flu reads per cell type:
+
+```{r}
+#pdf("final/results/Percent flu per cell type-below 1 percent.pdf")
+VlnPlot(subset(seurat_integrated,
+               subset = percent.flu < 1), features = c("percent.flu"), group.by = "customclassif", split.by = "condition") &
+  ggtitle("Percent.flu per cell, excluding cells > 1% flu") &
+  geom_hline(yintercept = 0.07, linetype = "dotted")
+#dev.off()
+```
+
+### Finding variable features between mock and Cal-infected conditions
 
 #### Ciliated cells
 
-Compare infected to uninfected condition:
+Compare Cal condition to mock condition:
 
 ```{r}
 #Read in ISG list
@@ -420,11 +486,30 @@ human.isgs$present_in_seurat <- human.isgs$isg_name %in% rownames(seurat_integra
 
 present_isgs <- subset(human.isgs, present_in_seurat == "TRUE")
 
-ciliated_flu_markers <- FindMarkers(seurat_integrated, ident.1 = "cal", ident.2 = "mock", group.by = "condition", subset.ident = "Ciliated cells")
+#Get list of non-flu genes
+non_flu_genes <- rownames(seurat_integrated)[!grepl("Cal-", rownames(seurat_integrated))]
 
+ciliated_flu_markers <- FindMarkers(seurat_integrated,
+                                    ident.1 = "cal",
+                                    ident.2 = "mock",
+                                    group.by = "condition",
+                                    subset.ident = "Ciliated cells",
+                                    features = non_flu_genes,
+                                    only.pos = TRUE) %>%
+  arrange(-avg_log2FC)
+
+head(ciliated_flu_markers)
+```
+
+Filter down to just those genes in the ISG list:
+
+```{r}
 #Filter by ISGs
 ciliated_flu_isgs <- ciliated_flu_markers %>%
-  filter(row.names(ciliated_flu_markers) %in% c(human.isgs$isg_name) & p_val_adj < 0.05)
+  filter(row.names(ciliated_flu_markers) %in% c(human.isgs$isg_name) & p_val_adj < 0.05) %>%
+  arrange(-avg_log2FC)
+
+ciliated_flu_isgs
 ```
 
 #### Secretory cells
@@ -432,12 +517,172 @@ ciliated_flu_isgs <- ciliated_flu_markers %>%
 Compare infected vs uninfected:
 
 ```{r}
-secretory_flu_markers <- FindMarkers(seurat_integrated, ident.1 = "cal", ident.2 = "mock", group.by = "condition", subset.ident = "Secretory and goblet cells")
+secretory_flu_markers <- FindMarkers(seurat_integrated,
+                                     ident.1 = "cal",
+                                     ident.2 = "mock",
+                                     group.by = "condition",
+                                     subset.ident = "Secretory and goblet cells",
+                                     features = non_flu_genes,
+                                     only.pos = TRUE) %>%
+  arrange(-avg_log2FC)
 
+head(secretory_flu_markers)
+```
+Filter down to just those genes in the ISG list:
+
+```{r}
 #Filter by ISGs
 secretory_flu_isgs <- secretory_flu_markers %>%
   filter(row.names(secretory_flu_markers) %in% c(human.isgs$isg_name) & p_val_adj < 0.05)
+
+secretory_flu_isgs
 ```
+
+#### Dot plot of Cal vs Mock ISGs
+
+```{r}
+rbind(ciliated_flu_isgs %>%
+        tibble::rownames_to_column(var = "gene") %>%
+        mutate(cell_type = "ciliated"), 
+      secretory_flu_isgs %>%
+        tibble::rownames_to_column(var = "gene") %>%
+        mutate(cell_type = "secretory")) %>%
+  group_by(cell_type) %>%
+  mutate(gene = fct_reorder(gene, avg_log2FC)) %>%
+  ggplot(aes(x = avg_log2FC, y = gene, fill = cell_type)) +
+  geom_dotplot(binaxis = "y", binwidth = 1, position = "identity") +
+  labs(x = "Average log2 fold change",
+       y = "Gene ID") +
+  ggtitle("ISGs upregulated in Cal vs Mock\nCiliated and secretory cells") +
+  theme_bw()
+```
+#### Expression of common ISGs in ciliated and secretory cells
+
+Find which ISGs are upregulated in Cal vs mock-infected conditions in both ciliated and secretory/goblet cell populations:
+
+```{r}
+common_isgs <- intersect(rownames(ciliated_flu_isgs), rownames(secretory_flu_isgs)) %>%
+  sort()
+
+Idents(seurat_integrated) <- "customclassif"
+
+#Reorder the cell type levels so that they will be the same between heat maps
+seurat_integrated@meta.data$customclassif <- factor(seurat_integrated@meta.data$customclassif, levels = c("Ciliated cells", "Secretory and goblet cells", "Basal cells",  "Airway epithelial cells", "Club cells", "Ionocytes"))
+```
+
+```{r echo=FALSE, eval=FALSE}
+#pdf("final/results/Ciliated and secretory ISG violin plots.pdf", height = 50, width = 50)
+VlnPlot(seurat_integrated, features = common_isgs, group.by = "customclassif", split.by = "condition", ncol = 6)
+#dev.off()
+```
+
+
+
+
+```{r echo=FALSE, eval=FALSE}
+#LY6E is found upregulated in Cal-infected ciliated cell populations, but not secretory/goblet, so I looked at a violin plot of this as well:
+#pdf("final/results/LY6E violin plot.pdf")
+VlnPlot(seurat_integrated, features = "LY6E", group.by = "customclassif", split.by = "condition")
+#dev.off()
+```
+
+### Markers of ciliated infected vs secretory infected
+
+Are there any genes or pathways that could explain why ciliated cells are seemingly better at producing more flu than secretory cells? 
+
+```{r}
+#Created a bin for infected vs uninfected cells, to be used later. Infected cells have flu percentage > 0.07% of all reads
+seurat_integrated@meta.data$inf_vs_uninf <- cut(seurat_integrated@meta.data$percent.flu, 
+                   breaks=c(-Inf, 0.07, Inf), 
+                   labels=c("Uninfected","Infected"))
+
+Idents(seurat_integrated) <- "inf_vs_uninf"
+
+#Markers in Secretory/goblet cells uninfected vs high infection
+cal_infected_cil_vs_infected_sec_markers <- FindMarkers(subset(seurat_integrated,
+                                                               condition == "cal"),
+                                                  ident.1 = "Ciliated cells",
+                                                  ident.2 = "Secretory and goblet cells",
+                                                  group.by = "customclassif",
+                                                  subset.ident = "Infected",
+                                                  features = non_flu_genes,
+                                                  only.pos = TRUE) %>%
+  arrange(-avg_log2FC) %>%
+  filter(p_val_adj < 0.05)
+
+cal_infected_cil_vs_infected_sec_markers
+
+#write.csv(cal_infected_cil_vs_infected_sec_markers, "final/results/cal_infected_cil_vs_infected_sec_markers.csv")
+```
+
+Filter the markers found in infected ciliated vs infected secretory to show just ISGs:
+
+```{r}
+#Filter by ISGs
+cal_infected_cil_vs_infected_sec_isgs <- cal_infected_cil_vs_infected_sec_markers %>%
+  filter(row.names(cal_infected_cil_vs_infected_sec_markers) %in% c(human.isgs$isg_name)) %>%
+  mutate(gene = rownames(.),
+         comparison = "ciliated_vs_secretory")
+
+cal_infected_cil_vs_infected_sec_isgs
+#write.csv(cal_infected_cil_vs_infected_sec_isgs, "final/results/cal_infected_cil_vs_infected_sec_isgs.csv")
+```
+
+Compared to the infected secretory vs ciliated cells (below), there are not many upregulated ISGs in infected ciliated cells.
+
+### Markers of secretory/goblet infected vs ciliated infected
+
+I tried the opposite comparison looking at secretory cells versus ciliated cells:
+
+```{r}
+Idents(seurat_integrated) <- "inf_vs_uninf"
+
+#Markers in Secretory/goblet cells uninfected vs high infection
+cal_infected_sec_vs_infected_cil_markers <- FindMarkers(subset(seurat_integrated,
+                                                               condition == "cal"),
+                                                  ident.1 = "Secretory and goblet cells",
+                                                  ident.2 = "Ciliated cells",
+                                                  group.by = "customclassif",
+                                                  subset.ident = "Infected",
+                                                  features = non_flu_genes,
+                                                  only.pos = TRUE) %>%
+  arrange(-avg_log2FC) %>%
+  filter(p_val_adj < 0.05)
+
+cal_infected_sec_vs_infected_cil_markers
+
+#write.csv(cal_infected_sec_vs_infected_cil_markers, "final/results/cal_infected_sec_vs_infected_cil_markers.csv")
+```
+
+```{r}
+#Filter by ISGs
+cal_infected_sec_vs_infected_cil_isgs <- cal_infected_sec_vs_infected_cil_markers %>%
+  filter(row.names(cal_infected_sec_vs_infected_cil_markers) %in% c(human.isgs$isg_name)) %>%
+  mutate(gene = rownames(.),
+         comparison = "secretory_vs_ciliated")
+
+cal_infected_sec_vs_infected_cil_isgs
+#write.csv(cal_infected_sec_vs_infected_cil_isgs, "final/results/cal_infected_sec_vs_infected_cil_isgs.csv")
+```
+
+I tried to make a combined bubble plot of infected sec/goblet vs cil and infected cil vs sec/goblet:
+
+```{r}
+#pdf("final/results/Comparison of infected ciliated vs secretory ISG bubble plot.pdf")
+rbind(cal_infected_sec_vs_infected_cil_isgs, cal_infected_cil_vs_infected_sec_isgs) %>%
+  group_by(comparison) %>%
+  mutate(gene = fct_reorder(gene, avg_log2FC)) %>%
+  ggplot(aes(x = avg_log2FC, y = gene, fill = comparison)) +
+  geom_dotplot(binaxis = "y", binwidth = 1, position = "identity") +
+  labs(x = "Average log2 fold change",
+       y = "Gene ID") +
+  ggtitle("ISGs upregulated in secretory/goblet vs Ciliated cells or vice versa\nCal infection condition") +
+  theme_bw()
+
+#dev.off()
+```
+
+
 
 ### Heatmap of ISG expression in mock condition
 
@@ -461,6 +706,8 @@ mock_isg_markers_all <- mock_markers %>%
   filter(rownames(.) %in% present_isgs$isg_name & p_val_adj < 0.05) %>%
   group_by(cluster) %>%
   arrange(-avg_log2FC, .by_group = TRUE)
+#write.csv(mock_isg_markers_all, "final/results/mock_isg_markers-all.csv")
+
 
 #Top 50 only (use for graphing)
 mock_isg_markers <- mock_markers %>%
@@ -468,15 +715,46 @@ mock_isg_markers <- mock_markers %>%
   group_by(cluster) %>%
   slice_max(n = 50, order_by = avg_log2FC) %>%
   arrange(-avg_log2FC, .by_group = TRUE)
-
-#Reorder the cell type levels so that they will be the same between heat maps
-levels(mock_integrated) <- c("Ciliated cells", "Secretory and goblet cells", "Basal cells (Airway progenitor cells)",  "Airway epithelial cells", "Club cells", "Ionocytes")
+#write.csv(mock_isg_markers, "final/results/mock_isg_markers-top 50.csv")
 
 #Heatmap of mock condition, cell type specific ISGs
+#pdf("final/results/mock_isg_heatmap.pdf")
 DoHeatmap(mock_integrated, features = mock_isg_markers$gene, assay = "RNA", group.colors = c("#1080FF", "#8000FF", "#FB02FF", "#00C13B", "#48EFDA", "#CC9ECB")) &
   ggtitle("ISG Heatmap of Mock-infected cells\nCombined analysis") &
   labs(caption = "Cell type identities were determined with full gene set.\nThe most variable genes per cluster were found with FindAllMarkers.\nCell type specific markers were filtered to ISGs and padj < 0.05.\n50 ISGs per cluster are plotted (or as many as are there if less than 50).")
+#dev.off()
 ```
+
+## Heatmap of proviral host factors across cell types
+
+I used a list of 101 host factors for influenza identified in Tripathi et al., 2015 (PMID 26651948) and created a heatmap of how these markers were varying in the different cell types in the mock condition.
+
+The paper identified common host factors identified across multiple siRNA screens for IAV. I used only host factors that were confirmed in multiple studies. The list is saved at `iav_host_factors_tripathi.csv`.
+
+```{r}
+#Find markers between uninfected and infected cell types 
+host_factors <- read.csv("iav_host_factors_tripathi.csv", header = TRUE)
+
+#pdf("final/results/IAV host factor heatmap- mock condition.pdf", height = 20, width = 15)
+DoHeatmap(mock_integrated, features = host_factors$host_factor, assay = "RNA", slot = "data", group.colors = c("#1080FF", "#8000FF", "#FB02FF", "#00C13B", "#48EFDA", "#CC9ECB")) &
+  ggtitle("IAV host factor heatmap\nMock condition only") &
+  theme(axis.text = element_text(size = 10))
+#dev.off()
+```
+
+Seems like most host factors are not expressed highly at baseline, except for some in the middle. 
+
+If I make a heatmap of proviral genes but use the features in the Seurat object that are highly variable (those that are in the `scale.data` slot of the RNA assay), only 6 genes are available to use. This means the majority of these host factors are not variable from cell to cell:
+
+```{r}
+#pdf("final/results/IAV host factor heatmap- mock condition variable features only.pdf")
+DoHeatmap(mock_integrated, features = host_factors$host_factor, assay = "RNA", group.colors = c("#1080FF", "#8000FF", "#FB02FF", "#00C13B", "#48EFDA", "#CC9ECB")) &
+  ggtitle("IAV host factor heatmap\nMock condition only\nVariable features only") &
+  theme(axis.text = element_text(size = 10))
+#dev.off()
+```
+
 
 ```{r}
 sessionInfo()
+```
